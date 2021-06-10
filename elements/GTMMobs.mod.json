@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "GTM Mobs",
+    "icon": {
+      "value": "Blocks.MOB_SPAWNER"
+    },
+    "showSearch": true
+  }
+}

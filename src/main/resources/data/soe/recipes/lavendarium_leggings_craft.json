@@ -1,0 +1,36 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:lavendarium_mesh"
+    },
+    "1": {
+      "item": "soe:lavendarium_mesh"
+    },
+    "2": {
+      "item": "soe:lavendarium_mesh"
+    },
+    "3": {
+      "item": "soe:lavendarium_ingot"
+    },
+    "5": {
+      "item": "soe:lavendarium_ingot"
+    },
+    "6": {
+      "item": "soe:lavendarium_nugget"
+    },
+    "8": {
+      "item": "soe:lavendarium_nugget"
+    }
+  },
+  "result": {
+    "item": "soe:lavendarium_armor_leggings",
+    "count": 1
+  }
+}

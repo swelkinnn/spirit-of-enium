@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "soe:blocks/gingerbread_block",
+    "top": "soe:blocks/gingerbread_block",
+    "side": "soe:blocks/gingerbread_block"
+  }
+}

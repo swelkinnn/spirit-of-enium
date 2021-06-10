@@ -1,0 +1,39 @@
+{
+  "_fv": 18,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "wendigopendant_on",
+    "customModelName": "Normal",
+    "name": "Wendigo Pendant",
+    "rarity": "EPIC",
+    "creativeTab": {
+      "value": "CUSTOM:SoECharms"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "§7So very lonely... Won't you join me?",
+      "§7When in Inventory: Grants Wendigo Pyschosis"
+    ],
+    "hasGlow": true,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onItemInInventoryTick": {
+      "name": "WendigoPendantItemInInventoryTick"
+    }
+  }
+}

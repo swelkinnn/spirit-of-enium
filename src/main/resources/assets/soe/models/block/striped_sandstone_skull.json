@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soe:blocks/striped_skull",
+    "up": "soe:blocks/striped_skull",
+    "north": "soe:blocks/striped_skull",
+    "east": "soe:blocks/striped_skull",
+    "south": "soe:blocks/striped_skull",
+    "west": "soe:blocks/striped_skull",
+    "particle": "soe:blocks/striped_skull"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:crystalized_honey"
+    },
+    "1": {
+      "item": "soe:crystalized_honey"
+    },
+    "2": {
+      "item": "soe:crystalized_honey"
+    },
+    "3": {
+      "item": "soe:crystalized_honey"
+    }
+  },
+  "result": {
+    "item": "soe:wax",
+    "count": 1
+  }
+}

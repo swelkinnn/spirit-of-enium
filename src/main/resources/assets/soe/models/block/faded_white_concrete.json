@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soe:blocks/faded_white_concrete",
+    "up": "soe:blocks/faded_white_concrete",
+    "north": "soe:blocks/faded_white_concrete",
+    "east": "soe:blocks/faded_white_concrete",
+    "south": "soe:blocks/faded_white_concrete",
+    "west": "soe:blocks/faded_white_concrete",
+    "particle": "soe:blocks/faded_white_concrete"
+  }
+}

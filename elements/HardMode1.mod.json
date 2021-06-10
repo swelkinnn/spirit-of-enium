@@ -1,0 +1,7 @@
+{
+  "_fv": 18,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">player_completes_advancement</field><next><block type=\"controls_if\"><value name=\"IF0\"><block type=\"logic_binary_ops\"><field name=\"OP\">AND</field><value name=\"A\"><block type=\"advancement_isequalto\"><field name=\"achievement\">story/enter_the_nether</field></block></value><value name=\"B\"><block type=\"logic_binary_ops\"><field name=\"OP\">EQ</field><value name=\"A\"><block type=\"variables_get_logic\"><field name=\"VAR\">global:HardMode</field></block></value><value name=\"B\"><block type=\"logic_boolean\"><field name=\"BOOL\">FALSE</field></block></value></block></value></block></value><statement name=\"DO0\"><block type=\"variables_set_logic\"><field name=\"VAR\">global:HardMode</field><value name=\"VAL\"><block type=\"logic_boolean\"><field name=\"BOOL\">TRUE</field></block></value><next><block type=\"world_send_chat\"><value name=\"text\"><block type=\"text\"><field name=\"TEXT\">§cThe Gate to Nether has been opened, and with it so has its influence...</field></block></value></block></next></block></statement></block></next></block></xml>"
+  }
+}

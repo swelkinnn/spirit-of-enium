@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "soe:throwing_spade"
+    },
+    "title": {
+      "translate": "advancements.lucky_shot.title"
+    },
+    "description": {
+      "translate": "advancements.lucky_shot.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "lucky_shot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "soe:spade_shotgun",
+            "count": {
+              "min": 1,
+              "max": 1000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "soe:violet_sage"
+}

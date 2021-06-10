@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soe:blocks/green_ingot",
+    "up": "soe:blocks/green_ingot",
+    "north": "soe:blocks/green_ingot",
+    "east": "soe:blocks/green_ingot",
+    "south": "soe:blocks/green_ingot",
+    "west": "soe:blocks/green_ingot",
+    "particle": "soe:blocks/green_ingot"
+  }
+}

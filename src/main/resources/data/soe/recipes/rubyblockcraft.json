@@ -1,0 +1,42 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:ruby"
+    },
+    "1": {
+      "item": "soe:ruby"
+    },
+    "2": {
+      "item": "soe:ruby"
+    },
+    "3": {
+      "item": "soe:ruby"
+    },
+    "4": {
+      "item": "soe:ruby"
+    },
+    "5": {
+      "item": "soe:ruby"
+    },
+    "6": {
+      "item": "soe:ruby"
+    },
+    "7": {
+      "item": "soe:ruby"
+    },
+    "8": {
+      "item": "soe:ruby"
+    }
+  },
+  "result": {
+    "item": "soe:ruby_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "lavendariumpickaxe",
+    "customModelName": "Normal",
+    "name": "Lavendarium Pickaxe",
+    "specialInfo": [
+      "§7Lightweight mining"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:GMTToolsAndWeapons"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 2,
+    "efficiency": 7.5,
+    "attackSpeed": 1.4000000000000001,
+    "enchantability": 14,
+    "damageVsEntity": 5.5,
+    "usageCount": 300,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:LavendariumMesh"
+      },
+      {
+        "value": "CUSTOM:LavendariumNugget"
+      },
+      {
+        "value": "CUSTOM:LavendariumIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

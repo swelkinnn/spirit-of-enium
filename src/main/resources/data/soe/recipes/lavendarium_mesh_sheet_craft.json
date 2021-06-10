@@ -1,0 +1,22 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:lavendarium_mesh"
+    },
+    "1": {
+      "item": "soe:lavendarium_mesh"
+    },
+    "2": {
+      "item": "soe:lavendarium_mesh"
+    }
+  },
+  "result": {
+    "item": "soe:lavendarium_mesh_sheet",
+    "count": 1
+  }
+}

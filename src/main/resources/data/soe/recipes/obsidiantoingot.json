@@ -1,0 +1,12 @@
+{
+  "group": "soe",
+  "type": "minecraft:blasting",
+  "experience": 10,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "minecraft:obsidian"
+  },
+  "result": {
+    "item": "soe:obsidian_ingot"
+  }
+}

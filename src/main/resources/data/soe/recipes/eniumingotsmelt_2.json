@@ -1,0 +1,12 @@
+{
+  "group": "soe",
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 50,
+  "ingredient": {
+    "item": "soe:enium_gem"
+  },
+  "result": {
+    "item": "soe:enium_ingot"
+  }
+}

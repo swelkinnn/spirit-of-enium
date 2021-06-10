@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soe:blocks/ember_wall",
+    "up": "soe:blocks/ember_wall",
+    "north": "soe:blocks/ember_wall",
+    "east": "soe:blocks/ember_wall",
+    "south": "soe:blocks/ember_wall",
+    "west": "soe:blocks/ember_wall",
+    "particle": "soe:blocks/ember_wall"
+  }
+}

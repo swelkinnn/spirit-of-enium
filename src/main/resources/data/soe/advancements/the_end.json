@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "soe:nowhere"
+    },
+    "title": {
+      "translate": "advancements.the_end.title"
+    },
+    "description": {
+      "translate": "advancements.the_end.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_end": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "soe:nowhere"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "soe:genuinely_too_many_advancements"
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soe:blocks/crumbling_oak_log_top",
+    "up": "soe:blocks/crumbling_oak_log_top",
+    "north": "soe:blocks/crumbling_oak_log",
+    "east": "soe:blocks/crumbling_oak_log",
+    "south": "soe:blocks/crumbling_oak_log",
+    "west": "soe:blocks/crumbling_oak_log",
+    "particle": "soe:blocks/crumbling_oak_log_top"
+  }
+}

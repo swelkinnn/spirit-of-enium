@@ -1,0 +1,23 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Rose"
+      },
+      {
+        "value": "CUSTOM:CyanFlowe"
+      },
+      {
+        "value": "CUSTOM:SmallPeonie"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "small_flowers",
+    "namespace": "minecraft"
+  }
+}

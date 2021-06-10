@@ -1,0 +1,13 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cactus"
+    }
+  ],
+  "result": {
+    "item": "soe:cactus_planks",
+    "count": 4
+  }
+}

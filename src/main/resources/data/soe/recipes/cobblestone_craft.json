@@ -1,0 +1,26 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:pebbles"
+    },
+    "1": {
+      "item": "soe:pebbles"
+    },
+    "2": {
+      "item": "soe:pebbles"
+    },
+    "3": {
+      "item": "soe:pebbles"
+    }
+  },
+  "result": {
+    "item": "minecraft:cobblestone",
+    "count": 1
+  }
+}

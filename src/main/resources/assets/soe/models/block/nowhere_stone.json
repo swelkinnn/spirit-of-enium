@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soe:blocks/nowhere_stone",
+    "up": "soe:blocks/nowhere_stone",
+    "north": "soe:blocks/nowhere_stone",
+    "east": "soe:blocks/nowhere_stone",
+    "south": "soe:blocks/nowhere_stone",
+    "west": "soe:blocks/nowhere_stone",
+    "particle": "soe:blocks/nowhere_stone"
+  }
+}

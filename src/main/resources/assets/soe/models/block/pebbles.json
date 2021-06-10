@@ -1,0 +1,8 @@
+{
+  "parent": "soe:custom/pebbles1",
+  "textures": {
+    "all": "soe:blocks/pebbles_hand",
+    "particle": "soe:blocks/pebbles_hand",
+    "0": "soe:blocks/pebbles1"
+  }
+}

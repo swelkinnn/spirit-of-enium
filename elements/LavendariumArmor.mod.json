@@ -1,0 +1,67 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "lavendariumhelmet",
+    "enableBody": true,
+    "textureBody": "lavendariumchestplate",
+    "enableLeggings": true,
+    "textureLeggings": "lavendariumleggings",
+    "enableBoots": true,
+    "textureBoots": "lavendariumboots",
+    "onHelmetTick": {
+      "name": "LavendariumArmorHelmetTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:GTMArmors"
+    },
+    "armorTextureFile": "lavendariumarmor",
+    "helmetName": "Lavendarium Helmet",
+    "bodyName": "Lavendarium Body",
+    "leggingsName": "Lavendarium Leggings",
+    "bootsName": "Lavendarium Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 25,
+    "damageValueHelmet": 2,
+    "damageValueBody": 5,
+    "damageValueLeggings": 4,
+    "damageValueBoots": 2,
+    "enchantability": 9,
+    "toughness": 1.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "block.cloth.break"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:LavendariumMesh"
+      },
+      {
+        "value": "CUSTOM:LavendariumIngot"
+      },
+      {
+        "value": "CUSTOM:LavendariumNugget"
+      }
+    ]
+  }
+}

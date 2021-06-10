@@ -1,0 +1,43 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "darksword",
+    "customModelName": "Normal",
+    "name": "§aEnvy's Slasher",
+    "specialInfo": [
+      "§aFetch me my rapier,boy!",
+      "§7Right Click and move to dash"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:GMTToolsAndWeapons"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 4,
+    "efficiency": 10.0,
+    "attackSpeed": 2.5,
+    "enchantability": 20,
+    "damageVsEntity": 4.5,
+    "usageCount": 10000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ObsidianIngot"
+      },
+      {
+        "value": "CUSTOM:EnvyShard"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "AbyssalCrackerRightClickedOnBlock"
+    },
+    "onItemInUseTick": {
+      "name": "EnvysSlasherToolInHandTick"
+    }
+  }
+}

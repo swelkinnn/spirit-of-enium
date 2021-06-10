@@ -1,0 +1,23 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "CUSTOM:MercuryBottle"
+    },
+    "brewingIngredientStack": {
+      "value": "Items.GOLD_INGOT"
+    },
+    "brewingReturnStack": {
+      "value": "CUSTOM:AlchemicalMercury"
+    },
+    "name": "mercury_bottle_alchemisizing",
+    "namespace": "mod"
+  }
+}

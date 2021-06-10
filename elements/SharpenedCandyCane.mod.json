@@ -1,0 +1,32 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "sharpened_candy_cane",
+    "customModelName": "Normal",
+    "name": "Sharpened Candy Cane",
+    "specialInfo": [
+      "§7The end's a bit wet, for added emotional damage."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:GMTToolsAndWeapons"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 2.4,
+    "enchantability": 2,
+    "damageVsEntity": 2.5,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "SharpenedCandyCaneLivingEntityIsHitWithTool"
+    }
+  }
+}

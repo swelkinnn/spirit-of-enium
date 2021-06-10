@@ -1,0 +1,22 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "soe:rice"
+    },
+    {
+      "item": "soe:rice"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "soe:rice"
+    }
+  ],
+  "result": {
+    "item": "soe:rice_bowl",
+    "count": 1
+  }
+}

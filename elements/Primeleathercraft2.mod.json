@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PrimeLeather"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PrimeLeather"
+      },
+      {
+        "value": "CUSTOM:PrimeLeather"
+      },
+      {
+        "value": "CUSTOM:PrimeLeather"
+      },
+      {
+        "value": "CUSTOM:PrimeLeather"
+      },
+      {
+        "value": "CUSTOM:PrimeLeather"
+      },
+      {
+        "value": "CUSTOM:PrimeLeather"
+      },
+      {
+        "value": "CUSTOM:PrimeLeather"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PrimeLeathera.body"
+    },
+    "name": "primeleathercraft_2",
+    "namespace": "mod"
+  }
+}

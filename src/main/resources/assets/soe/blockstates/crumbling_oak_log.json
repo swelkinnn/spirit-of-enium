@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "soe:block/crumbling_oak_log"
+    },
+    "facing=north": {
+      "model": "soe:block/crumbling_oak_log"
+    },
+    "facing=east": {
+      "model": "soe:block/crumbling_oak_log",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "soe:block/crumbling_oak_log",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "soe:block/crumbling_oak_log",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "soe:block/crumbling_oak_log",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

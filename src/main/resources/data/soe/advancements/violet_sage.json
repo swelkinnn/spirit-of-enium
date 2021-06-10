@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "soe:enium_helmet"
+    },
+    "title": {
+      "translate": "advancements.violet_sage.title"
+    },
+    "description": {
+      "translate": "advancements.violet_sage.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "violet_sage": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "soe:bullet",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "soe:genuinely_too_many_advancements"
+}

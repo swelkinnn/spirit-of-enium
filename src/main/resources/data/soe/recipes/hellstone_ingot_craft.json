@@ -1,0 +1,22 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "soe:hellstone_ore"
+    },
+    {
+      "item": "soe:hellstone_ore"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "soe:hellstone_ore"
+    }
+  ],
+  "result": {
+    "item": "soe:hellstone_ingot",
+    "count": 1
+  }
+}

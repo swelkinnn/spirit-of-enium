@@ -1,0 +1,39 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 120,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "violet_tome_gui_cover2.png",
+          "use1Xscale": false,
+          "name": "violet_tome_gui_cover2.png",
+          "x": 141,
+          "y": 35
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "==>",
+          "onClick": {
+            "name": "Vttopigclops"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "==>",
+          "x": 249,
+          "y": 197
+        }
+      }
+    ]
+  }
+}

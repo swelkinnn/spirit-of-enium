@@ -1,0 +1,16 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:quad_fleshblock"
+    }
+  },
+  "result": {
+    "item": "soe:triplefleshblock",
+    "count": 9
+  }
+}

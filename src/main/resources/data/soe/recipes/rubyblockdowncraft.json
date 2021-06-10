@@ -1,0 +1,16 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:ruby_block"
+    }
+  },
+  "result": {
+    "item": "soe:ruby",
+    "count": 9
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "_fv": 18,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "asmodeus_core_v2",
+    "customModelName": "Normal",
+    "name": "§aAsmodeus' Core",
+    "specialInfo": [
+      "§aAnd I shout 'kablasto'..."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:GMTToolsAndWeapons"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 10000,
+    "actionSound": {
+      "value": "entity.firework.shoot"
+    },
+    "hasGlow": false,
+    "animation": "crossbow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.5,
+    "bulletDamage": 0.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:AsmodeusCore"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "AsmodeusCoreBulletHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "AsmodeusCoreBulletHitsLivingEntity"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "soe:lavendarium_ingot"
+    },
+    "1": {
+      "item": "minecraft:stone_pickaxe"
+    },
+    "2": {
+      "item": "soe:lavendarium_ingot"
+    },
+    "4": {
+      "item": "soe:lavendarium_mesh"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "soe:lavendarium_pickaxe",
+    "count": 1
+  }
+}

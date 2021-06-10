@@ -1,0 +1,20 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "cookingTime": 400,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Paleore2"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:PaleIngot"
+    },
+    "name": "paleingotsmelt_2",
+    "namespace": "mod"
+  }
+}

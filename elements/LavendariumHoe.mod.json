@@ -1,0 +1,39 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "lavendariumhoe",
+    "customModelName": "Normal",
+    "name": "Lavendarium Hoe",
+    "specialInfo": [
+      "§7Lightweight farming"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:GMTToolsAndWeapons"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 2,
+    "efficiency": 7.5,
+    "attackSpeed": 1.0,
+    "enchantability": 14,
+    "damageVsEntity": 4.5,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:LavendariumNugget"
+      },
+      {
+        "value": "CUSTOM:LavendariumMesh"
+      },
+      {
+        "value": "CUSTOM:LavendariumIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

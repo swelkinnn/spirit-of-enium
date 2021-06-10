@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "barreltexture",
+        "1": "oak_log",
+        "missing": "blue_stained_glass"
+      },
+      "name": "default"
+    }
+  }
+}

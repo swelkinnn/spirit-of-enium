@@ -1,0 +1,7 @@
+{
+  "parent": "soe:custom/clown_hammer",
+  "textures": {
+    "0": "soe:blocks/clown_hammer",
+    "particle": "soe:items/sasquatch_skin"
+  }
+}

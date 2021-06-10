@@ -1,0 +1,19 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:CactusWood"
+      },
+      {
+        "value": "CUSTOM:CactusLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "cactus_log",
+    "namespace": "forge"
+  }
+}

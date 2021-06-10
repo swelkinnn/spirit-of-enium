@@ -1,0 +1,42 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:rawflesh"
+    },
+    "1": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "2": {
+      "item": "soe:cooked_flesh"
+    },
+    "3": {
+      "item": "soe:wendigo_hide"
+    },
+    "4": {
+      "item": "minecraft:leather"
+    },
+    "5": {
+      "item": "soe:violet_hide"
+    },
+    "6": {
+      "item": "soe:yeti_skin"
+    },
+    "7": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "8": {
+      "item": "soe:sasquatch_fur"
+    }
+  },
+  "result": {
+    "item": "soe:prime_leather",
+    "count": 1
+  }
+}

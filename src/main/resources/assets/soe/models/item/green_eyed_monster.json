@@ -1,0 +1,7 @@
+{
+  "parent": "soe:custom/greeneyedmonster",
+  "textures": {
+    "0": "soe:blocks/greeneyedmonster",
+    "particle": "soe:items/lithiumingot"
+  }
+}

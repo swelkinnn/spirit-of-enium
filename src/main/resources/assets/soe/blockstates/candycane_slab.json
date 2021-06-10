@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "soe:block/candycane_slab"
+    },
+    "type=top": {
+      "model": "soe:block/candycane_slab_top"
+    },
+    "type=double": {
+      "model": "soe:block/candycane_slab_full"
+    }
+  }
+}

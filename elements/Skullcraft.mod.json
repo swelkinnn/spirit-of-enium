@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.BONE_BLOCK"
+      },
+      {
+        "value": "Blocks.BONE_BLOCK"
+      },
+      {
+        "value": "Blocks.BONE_BLOCK"
+      },
+      {
+        "value": "Items.BONE"
+      },
+      {
+        "value": "Items.DYE#15"
+      },
+      {
+        "value": "Items.BONE"
+      },
+      {
+        "value": "Items.BONE"
+      },
+      {
+        "value": "Items.BONE"
+      },
+      {
+        "value": "Items.BONE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.SKULL#0"
+    },
+    "name": "skullcraft",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "_fv": 18,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:NowherePlains"
+      },
+      {
+        "value": "CUSTOM:NowhereForest"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:NowhereStone"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:LiquidAbyss"
+    },
+    "airColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "onPlayerEntersDimension": {
+      "name": "NowherePlayerEntersDimension"
+    },
+    "portalFrame": {
+      "value": "CUSTOM:NowhereFramings"
+    },
+    "portalParticles": {
+      "value": "SQUID_INK"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "entity.skeleton_horse.ambient_water"
+    },
+    "igniterName": "Nowhere Portal Igniter",
+    "igniterTab": {
+      "value": "CUSTOM:GMTToolsAndWeapons"
+    },
+    "texture": "nowhere_igniter",
+    "portalTexture": "nowhere_portal",
+    "enablePortal": true
+  }
+}

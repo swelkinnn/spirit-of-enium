@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "obsidian": "obsidian",
+        "glass_2": "glass_2"
+      },
+      "name": "default"
+    }
+  }
+}

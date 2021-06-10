@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "soe:grimm_badge"
+  },
+  "addition": {
+    "item": "soe:deleted_mod_element"
+  },
+  "result": {
+    "item": "soe:godking_pin"
+  }
+}

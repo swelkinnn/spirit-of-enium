@@ -1,0 +1,7 @@
+{
+  "parent": "soe:custom/phoenix_blaster",
+  "textures": {
+    "0": "soe:blocks/phoenix_blaster",
+    "particle": "soe:items/pheonix_blaster"
+  }
+}

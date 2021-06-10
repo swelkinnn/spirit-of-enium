@@ -1,0 +1,29 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "bruting_cycle_v2",
+    "customModelName": "Normal",
+    "name": "Bruting Cycle",
+    "specialInfo": [
+      "§7Rips, but doesn't tear."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:GMTToolsAndWeapons"
+    },
+    "toolType": "MultiTool",
+    "harvestLevel": 4,
+    "efficiency": 4.0,
+    "attackSpeed": 0.8,
+    "enchantability": 8,
+    "damageVsEntity": 5.0,
+    "usageCount": 350,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

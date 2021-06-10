@@ -1,0 +1,12 @@
+{
+  "group": "soe",
+  "type": "minecraft:smoking",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "minecraft:carrot"
+  },
+  "result": {
+    "item": "soe:roast_carrot"
+  }
+}

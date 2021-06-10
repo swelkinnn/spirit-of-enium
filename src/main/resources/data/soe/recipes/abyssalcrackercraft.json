@@ -1,0 +1,24 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:obsidian_ingot"
+    },
+    "1": {
+      "item": "soe:obsidian_ingot"
+    },
+    "2": {
+      "item": "soe:envy_shard"
+    }
+  },
+  "result": {
+    "item": "soe:abyssal_cracker",
+    "count": 1
+  }
+}

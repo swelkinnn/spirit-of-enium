@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "soe:blocks/cactusplanks",
+    "particle": "soe:blocks/cactusplanks"
+  }
+}

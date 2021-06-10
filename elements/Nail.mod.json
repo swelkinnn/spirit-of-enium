@@ -1,0 +1,36 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "bullet",
+    "customModelName": "nail2.0:default",
+    "name": "Nail",
+    "specialInfo": [
+      "§7Higher being,these words are for for you alone",
+      "§7Right click to launch a Vengeful Spirit for 3 XP Levels"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:GMTToolsAndWeapons"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 3,
+    "efficiency": 4.0,
+    "attackSpeed": 1.5,
+    "enchantability": 5,
+    "damageVsEntity": 5.5,
+    "usageCount": 650,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "NailRightClickedInAir"
+    },
+    "onItemInUseTick": {
+      "name": "NailToolInHandTick"
+    }
+  }
+}

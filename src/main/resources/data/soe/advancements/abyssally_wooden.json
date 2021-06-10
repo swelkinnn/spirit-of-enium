@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "soe:crumbling_oak_log"
+    },
+    "title": {
+      "translate": "advancements.abyssally_wooden.title"
+    },
+    "description": {
+      "translate": "advancements.abyssally_wooden.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "abyssally_wooden": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "soe:crumbling_oak_log",
+            "count": {
+              "min": 1,
+              "max": 100000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "soe:the_end"
+}

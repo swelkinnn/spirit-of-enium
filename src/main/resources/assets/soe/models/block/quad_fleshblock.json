@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soe:blocks/quadfleshblock",
+    "up": "soe:blocks/quadfleshblock",
+    "north": "soe:blocks/quadfleshblock",
+    "east": "soe:blocks/quadfleshblock",
+    "south": "soe:blocks/quadfleshblock",
+    "west": "soe:blocks/quadfleshblock",
+    "particle": "soe:blocks/quadfleshblock"
+  }
+}

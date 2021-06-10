@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "soe:deactivated_enium_chestplate"
+  },
+  "addition": {
+    "item": "soe:enium_core"
+  },
+  "result": {
+    "item": "soe:enium_chestplate"
+  }
+}

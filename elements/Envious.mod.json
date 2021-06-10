@@ -1,0 +1,61 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "envious_helm",
+    "enableBody": true,
+    "textureBody": "envious_chest",
+    "enableLeggings": true,
+    "textureLeggings": "envious_legs",
+    "enableBoots": true,
+    "textureBoots": "envious_boots",
+    "creativeTab": {
+      "value": "CUSTOM:GTMArmors"
+    },
+    "armorTextureFile": "envious_",
+    "helmetName": "§aEnvious Helmet",
+    "bodyName": "§aEnvious Body",
+    "leggingsName": "§aEnvious Leggings",
+    "bootsName": "§aEnvious Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 65,
+    "damageValueHelmet": 5,
+    "damageValueBody": 9,
+    "damageValueLeggings": 8,
+    "damageValueBoots": 5,
+    "enchantability": 9,
+    "toughness": 1.0,
+    "knockbackResistance": 0.1,
+    "equipSound": {
+      "value": "item.armor.equip_netherite"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:ObsidianIngot"
+      },
+      {
+        "value": "CUSTOM:EnvyShard"
+      }
+    ]
+  }
+}

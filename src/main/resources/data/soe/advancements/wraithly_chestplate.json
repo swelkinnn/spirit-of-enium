@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "soe:wraithly_armor_helmet"
+    },
+    "title": {
+      "translate": "advancements.wraithly_chestplate.title"
+    },
+    "description": {
+      "translate": "advancements.wraithly_chestplate.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "wraithly_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "soe:bullet",
+            "count": {
+              "min": 9999,
+              "max": 9999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "soe:genuinely_too_many_advancements"
+}

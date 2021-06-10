@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soe:blocks/cinder_wall",
+    "up": "soe:blocks/cinder_wall",
+    "north": "soe:blocks/cinder_wall",
+    "east": "soe:blocks/cinder_wall",
+    "south": "soe:blocks/cinder_wall",
+    "west": "soe:blocks/cinder_wall",
+    "particle": "soe:blocks/cinder_wall"
+  }
+}

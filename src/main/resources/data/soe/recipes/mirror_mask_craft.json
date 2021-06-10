@@ -1,0 +1,42 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gray_wool"
+    },
+    "1": {
+      "item": "minecraft:gray_wool"
+    },
+    "2": {
+      "item": "minecraft:gray_wool"
+    },
+    "3": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "4": {
+      "item": "minecraft:gold_ingot"
+    },
+    "5": {
+      "item": "minecraft:gold_ingot"
+    },
+    "6": {
+      "item": "soe:cheese"
+    },
+    "7": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "8": {
+      "item": "soe:rice"
+    }
+  },
+  "result": {
+    "item": "soe:mirror_mask_helmet",
+    "count": 1
+  }
+}

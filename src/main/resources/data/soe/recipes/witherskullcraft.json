@@ -1,0 +1,39 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:withered_bone"
+    },
+    "1": {
+      "item": "soe:withered_bone"
+    },
+    "2": {
+      "item": "soe:withered_bone"
+    },
+    "3": {
+      "item": "soe:withered_bone"
+    },
+    "5": {
+      "item": "soe:withered_bone"
+    },
+    "6": {
+      "item": "soe:withered_bone"
+    },
+    "7": {
+      "item": "soe:withered_bone"
+    },
+    "8": {
+      "item": "soe:withered_bone"
+    }
+  },
+  "result": {
+    "item": "minecraft:wither_skeleton_skull",
+    "count": 1
+  }
+}

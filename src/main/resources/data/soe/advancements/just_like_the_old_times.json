@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "soe:steel_sword"
+    },
+    "title": {
+      "translate": "advancements.just_like_the_old_times.title"
+    },
+    "description": {
+      "translate": "advancements.just_like_the_old_times.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "just_like_the_old_times": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "soe:steel_sword",
+            "count": {
+              "min": 1,
+              "max": 100
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "soe:stronk"
+}

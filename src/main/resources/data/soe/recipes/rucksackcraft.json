@@ -1,0 +1,30 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "tag": "forge:leather"
+    },
+    "2": {
+      "item": "minecraft:string"
+    },
+    "3": {
+      "tag": "forge:leather"
+    },
+    "5": {
+      "tag": "forge:leather"
+    },
+    "7": {
+      "tag": "forge:leather"
+    }
+  },
+  "result": {
+    "item": "soe:rucksack",
+    "count": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "soe:lavendarium_nugget"
+    },
+    {
+      "item": "soe:lavendarium_nugget"
+    },
+    {
+      "item": "soe:lavendarium_nugget"
+    },
+    {
+      "item": "soe:lavendarium_nugget"
+    },
+    {
+      "item": "soe:lavendarium_nugget"
+    },
+    {
+      "item": "soe:lavendarium_nugget"
+    },
+    {
+      "item": "soe:lavendarium_nugget"
+    },
+    {
+      "item": "soe:lavendarium_nugget"
+    },
+    {
+      "item": "soe:lavendarium_nugget"
+    }
+  ],
+  "result": {
+    "item": "soe:lavendarium_ingot",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bone"
+    },
+    "2": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "item": "soe:bone_boots",
+    "count": 1
+  }
+}

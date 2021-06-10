@@ -1,0 +1,26 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:lavendarium_ingot"
+    },
+    "1": {
+      "item": "soe:lavendarium_nugget"
+    },
+    "2": {
+      "item": "soe:lavendarium_nugget"
+    },
+    "3": {
+      "item": "soe:lavendarium_ingot"
+    }
+  },
+  "result": {
+    "item": "soe:lavendarium_mesh",
+    "count": 3
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:rotten_hunk"
+    }
+  },
+  "result": {
+    "item": "minecraft:rotten_flesh",
+    "count": 9
+  }
+}

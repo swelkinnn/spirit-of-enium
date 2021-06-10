@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {},
+      "name": "default"
+    },
+    "ladder": {
+      "map": {},
+      "name": "ladder"
+    }
+  }
+}

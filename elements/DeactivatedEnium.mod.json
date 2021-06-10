@@ -1,0 +1,62 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "deactivated_enium_helmet",
+    "enableBody": true,
+    "textureBody": "deactivated_enium_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "deactivated_enium_leggings",
+    "enableBoots": true,
+    "textureBoots": "deactivated_enium_boots",
+    "creativeTab": {
+      "value": "CUSTOM:GTMArmors"
+    },
+    "armorTextureFile": "deactivated_enium_",
+    "helmetName": "Deactivated Enium Helmet",
+    "bodyName": "Deactivated Enium Body",
+    "leggingsName": "Deactivated Enium Leggings",
+    "bootsName": "Deactivated Enium Boots",
+    "helmetSpecialInfo": [
+      "Feed the core."
+    ],
+    "bodySpecialInfo": [
+      "Feed the core."
+    ],
+    "leggingsSpecialInfo": [
+      "Feed the core."
+    ],
+    "bootsSpecialInfo": [
+      "Feed the core."
+    ],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 25,
+    "damageValueHelmet": 1,
+    "damageValueBody": 1,
+    "damageValueLeggings": 1,
+    "damageValueBoots": 1,
+    "enchantability": 0,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "block.tripwire.click_off"
+    },
+    "repairItems": []
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "soe:ruby"
+    },
+    "1": {
+      "item": "minecraft:gold_nugget"
+    },
+    "2": {
+      "item": "soe:ruby"
+    },
+    "3": {
+      "item": "soe:ruby"
+    },
+    "4": {
+      "item": "soe:ruby"
+    },
+    "5": {
+      "item": "soe:ruby"
+    },
+    "7": {
+      "item": "soe:ruby"
+    }
+  },
+  "result": {
+    "item": "soe:pendant_of_determination",
+    "count": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "soe:lithium_block"
+    },
+    "title": {
+      "translate": "advancements.bustling_with_energy.title"
+    },
+    "description": {
+      "translate": "advancements.bustling_with_energy.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "bustling_with_energy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "soe:lithium_block",
+            "count": {
+              "min": 1,
+              "max": 1000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "soe:lithium_ingot_obtained"
+}

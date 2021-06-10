@@ -1,0 +1,39 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cyan_wool"
+    },
+    "2": {
+      "item": "minecraft:cyan_wool"
+    },
+    "3": {
+      "item": "minecraft:black_wool"
+    },
+    "4": {
+      "item": "soe:enium_chestplate"
+    },
+    "5": {
+      "item": "minecraft:cornflower"
+    },
+    "6": {
+      "item": "minecraft:cyan_wool"
+    },
+    "7": {
+      "item": "minecraft:cyan_wool"
+    },
+    "8": {
+      "item": "minecraft:cyan_wool"
+    }
+  },
+  "result": {
+    "item": "soe:n_ns_gown_chestplate",
+    "count": 1
+  }
+}

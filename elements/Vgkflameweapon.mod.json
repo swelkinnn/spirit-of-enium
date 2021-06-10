@@ -1,0 +1,40 @@
+{
+  "_fv": 18,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "vgk_flame",
+    "customModelName": "Normal",
+    "name": "§5GodKing Pyre",
+    "specialInfo": [
+      "§5Tier 5^ Boss Drop",
+      "§7Extinguish The Father"
+    ],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": true,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "entity.blaze.shoot"
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 8.5,
+    "bulletPower": 3.5,
+    "bulletDamage": 10.0,
+    "bulletKnockback": 3,
+    "bulletParticles": false,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Vgkflameweapontexture"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

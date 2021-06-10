@@ -1,0 +1,26 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:CrumblingOakLog"
+      },
+      {
+        "value": "CUSTOM:CrumblingOakWood"
+      },
+      {
+        "value": "CUSTOM:CrumblingBarkStairs"
+      },
+      {
+        "value": "CUSTOM:CrumblingBarkSlab"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "logs",
+    "namespace": "minecraft"
+  }
+}

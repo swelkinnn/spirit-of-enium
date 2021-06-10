@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "soe:block/nowhere_portal_ew"
+    },
+    "axis=x": {
+      "model": "soe:block/nowhere_portal_ns"
+    }
+  }
+}

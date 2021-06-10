@@ -1,0 +1,69 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "obsidian": "minecraft:block/obsidian",
+        "glass_2": "minecraft:blocks/glass_2"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "base",
+            "from": [ 4, 0, 4 ], 
+            "to": [ 12, 2, 12 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#obsidian", "uv": [ 0, 0, 8, 2 ] },
+                "east": { "texture": "#obsidian", "uv": [ 0, 0, 8, 2 ] },
+                "south": { "texture": "#obsidian", "uv": [ 0, 0, 8, 2 ] },
+                "west": { "texture": "#obsidian", "uv": [ 0, 0, 8, 2 ] },
+                "up": { "texture": "#obsidian", "uv": [ 0, 0, 8, 8 ] },
+                "down": { "texture": "#obsidian", "uv": [ 0, 0, 8, 8 ] }
+            }
+        },
+        {
+            "name": "glass",
+            "from": [ 5, 2, 5 ], 
+            "to": [ 11, 8, 11 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#glass_2", "uv": [ 0, 0, 6, 6 ] },
+                "east": { "texture": "#glass_2", "uv": [ 0, 0, 6, 6 ] },
+                "south": { "texture": "#glass_2", "uv": [ 0, 0, 6, 6 ] },
+                "west": { "texture": "#glass_2", "uv": [ 0, 0, 6, 6 ] },
+                "up": { "texture": "#glass_2", "uv": [ 0, 0, 6, 6 ], "rotation": 180 },
+                "down": { "texture": "#glass_2", "uv": [ 0, 0, 6, 6 ] }
+            }
+        }
+    ]
+}

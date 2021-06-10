@@ -1,0 +1,12 @@
+{
+  "group": "soe",
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "soe:raw_steel"
+  },
+  "result": {
+    "item": "soe:steel"
+  }
+}

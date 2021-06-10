@@ -1,0 +1,13 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "soe:lavendarium_ingot"
+    }
+  ],
+  "result": {
+    "item": "soe:lavendarium_nugget",
+    "count": 9
+  }
+}

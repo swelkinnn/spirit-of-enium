@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "soe:blocks/candy_cane_block",
+    "top": "soe:blocks/candy_cane_block",
+    "side": "soe:blocks/candy_cane_block"
+  }
+}

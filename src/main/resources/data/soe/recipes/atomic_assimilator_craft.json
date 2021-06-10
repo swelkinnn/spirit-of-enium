@@ -1,0 +1,36 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01 ",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond_block"
+    },
+    "1": {
+      "item": "minecraft:blue_stained_glass"
+    },
+    "3": {
+      "item": "minecraft:purple_concrete"
+    },
+    "4": {
+      "item": "minecraft:end_crystal"
+    },
+    "5": {
+      "item": "minecraft:purple_concrete_powder"
+    },
+    "6": {
+      "item": "soe:gun"
+    },
+    "7": {
+      "item": "minecraft:wooden_sword"
+    }
+  },
+  "result": {
+    "item": "soe:atomic_assimilator",
+    "count": 1
+  }
+}

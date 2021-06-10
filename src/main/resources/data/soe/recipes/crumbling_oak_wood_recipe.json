@@ -1,0 +1,26 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:crumbling_oak_log"
+    },
+    "1": {
+      "item": "soe:crumbling_oak_log"
+    },
+    "2": {
+      "item": "soe:crumbling_oak_log"
+    },
+    "3": {
+      "item": "soe:crumbling_oak_log"
+    }
+  },
+  "result": {
+    "item": "soe:crumbling_oak_wood",
+    "count": 3
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "soe:wraithly_matter"
+    },
+    {
+      "item": "soe:steel"
+    },
+    {
+      "item": "soe:obsidian_ingot"
+    }
+  ],
+  "result": {
+    "item": "soe:nowhere",
+    "count": 1
+  }
+}

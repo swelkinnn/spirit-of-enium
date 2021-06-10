@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soe:blocks/enium_ore",
+    "up": "soe:blocks/enium_ore",
+    "north": "soe:blocks/enium_ore",
+    "east": "soe:blocks/enium_ore",
+    "south": "soe:blocks/enium_ore",
+    "west": "soe:blocks/enium_ore",
+    "particle": "soe:blocks/enium_ore"
+  }
+}

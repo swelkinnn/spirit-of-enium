@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soe:blocks/wax",
+    "up": "soe:blocks/wax",
+    "north": "soe:blocks/wax",
+    "east": "soe:blocks/wax",
+    "south": "soe:blocks/wax",
+    "west": "soe:blocks/wax",
+    "particle": "soe:blocks/wax"
+  }
+}

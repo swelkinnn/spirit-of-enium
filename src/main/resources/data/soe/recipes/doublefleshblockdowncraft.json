@@ -1,0 +1,16 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:double_compressed_rotten_blcok"
+    }
+  },
+  "result": {
+    "item": "soe:compressed_block_of_rotting_flesh",
+    "count": 9
+  }
+}

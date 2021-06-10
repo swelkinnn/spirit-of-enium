@@ -1,0 +1,9 @@
+{
+  "group": "soe",
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "soe:hellstone_ingot"
+  },
+  "result": "soe:hellstonewall_5"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "soe:blocks/crumbling_oak_log",
+    "top": "soe:blocks/crumbling_oak_log",
+    "side": "soe:blocks/crumbling_oak_log"
+  }
+}

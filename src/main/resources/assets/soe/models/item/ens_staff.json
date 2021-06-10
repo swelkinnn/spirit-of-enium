@@ -1,0 +1,7 @@
+{
+  "parent": "soe:custom/en_staff",
+  "textures": {
+    "0": "soe:blocks/en_staff",
+    "particle": "soe:items/green_wand"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bone"
+    },
+    {
+      "item": "soe:present"
+    }
+  ],
+  "result": {
+    "item": "soe:cursed_present",
+    "count": 1
+  }
+}

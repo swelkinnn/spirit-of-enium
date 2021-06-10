@@ -1,0 +1,30 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    "34 ",
+    "67 "
+  ],
+  "key": {
+    "2": {
+      "item": "soe:obsidian_ingot"
+    },
+    "3": {
+      "item": "soe:obsidian_ingot"
+    },
+    "4": {
+      "item": "soe:envy_shard"
+    },
+    "6": {
+      "item": "soe:obsidian_ingot"
+    },
+    "7": {
+      "item": "soe:obsidian_ingot"
+    }
+  },
+  "result": {
+    "item": "soe:green_eyed_monster",
+    "count": 1
+  }
+}

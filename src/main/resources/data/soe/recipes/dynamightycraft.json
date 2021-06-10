@@ -1,0 +1,30 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:gunpowder"
+    },
+    "3": {
+      "item": "soe:dynamite"
+    },
+    "4": {
+      "item": "soe:dynamite"
+    },
+    "5": {
+      "item": "soe:dynamite"
+    },
+    "7": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "result": {
+    "item": "soe:dynamighty",
+    "count": 3
+  }
+}

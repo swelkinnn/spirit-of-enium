@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "SoE Ores",
+    "icon": {
+      "value": "CUSTOM:LithiumOre"
+    },
+    "showSearch": true
+  }
+}

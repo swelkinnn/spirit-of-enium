@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "soe:textures/advancement_background.png",
+    "icon": {
+      "item": "soe:soelogo"
+    },
+    "title": {
+      "translate": "advancements.genuinely_too_many_advancements.title"
+    },
+    "description": {
+      "translate": "advancements.genuinely_too_many_advancements.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "genuinely_too_many_advancements": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}

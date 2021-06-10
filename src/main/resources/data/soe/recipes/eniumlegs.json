@@ -1,0 +1,36 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:enium_gem"
+    },
+    "1": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "2": {
+      "item": "soe:enium_gem"
+    },
+    "3": {
+      "item": "soe:enium_ingot"
+    },
+    "5": {
+      "item": "soe:enium_ingot"
+    },
+    "6": {
+      "item": "soe:enium_ingot"
+    },
+    "8": {
+      "item": "soe:enium_ingot"
+    }
+  },
+  "result": {
+    "item": "soe:deactivated_enium_leggings",
+    "count": 1
+  }
+}

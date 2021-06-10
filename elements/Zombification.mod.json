@@ -1,0 +1,22 @@
+{
+  "_fv": 18,
+  "_type": "potion",
+  "definition": {
+    "name": "Zombification",
+    "effectName": "Zombification",
+    "icon": "zombification.png",
+    "color": {
+      "value": -16764160,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "registerPotionType": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "ZombificationOnPotionActiveTick"
+    }
+  }
+}

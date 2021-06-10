@@ -1,0 +1,39 @@
+{
+  "_fv": 18,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "rotting_horn",
+    "customModelName": "Normal",
+    "name": "Rotten Horn",
+    "specialInfo": [
+      "§7Just try not to taste it too much."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:GMTToolsAndWeapons"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": true,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.wolf.howl"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.5,
+    "bulletDamage": 0.0,
+    "bulletKnockback": 15,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Rottennote"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

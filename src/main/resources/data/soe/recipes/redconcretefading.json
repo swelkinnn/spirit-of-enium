@@ -1,0 +1,16 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:potion"
+    },
+    {
+      "item": "minecraft:red_concrete"
+    }
+  ],
+  "result": {
+    "item": "soe:faded_red_concrete",
+    "count": 1
+  }
+}

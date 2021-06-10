@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "soe:reinforced_battery"
+    },
+    "title": {
+      "translate": "advancements.shocking_reality.title"
+    },
+    "description": {
+      "translate": "advancements.shocking_reality.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "shocking_reality": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "soe:reinforced_battery",
+            "count": {
+              "min": 1,
+              "max": 100
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "soe:feeling_electric"
+}

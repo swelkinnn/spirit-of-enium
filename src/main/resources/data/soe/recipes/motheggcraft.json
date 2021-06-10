@@ -1,0 +1,32 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:ruby"
+    },
+    "1": {
+      "item": "minecraft:spider_eye"
+    },
+    "2": {
+      "item": "soe:ruby"
+    },
+    "3": {
+      "item": "minecraft:obsidian"
+    },
+    "4": {
+      "item": "minecraft:egg"
+    },
+    "5": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "soe:mothegg",
+    "count": 1
+  }
+}

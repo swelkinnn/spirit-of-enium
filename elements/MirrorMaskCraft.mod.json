@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.WOOL#7"
+      },
+      {
+        "value": "Blocks.WOOL#7"
+      },
+      {
+        "value": "Blocks.WOOL#7"
+      },
+      {
+        "value": "Items.DYE#4"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": "CUSTOM:Cheese"
+      },
+      {
+        "value": "Items.DYE#4"
+      },
+      {
+        "value": "CUSTOM:Rice"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MirrorMask.helmet"
+    },
+    "name": "mirror_mask_craft",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "soe:block/metallurgy_table"
+    },
+    "facing=east": {
+      "model": "soe:block/metallurgy_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "soe:block/metallurgy_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "soe:block/metallurgy_table",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "soe:block/metallurgy_table",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "soe:block/metallurgy_table",
+      "x": 90
+    }
+  }
+}

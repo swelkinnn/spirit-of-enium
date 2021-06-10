@@ -1,0 +1,33 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bone"
+    },
+    "2": {
+      "item": "minecraft:bone"
+    },
+    "3": {
+      "item": "minecraft:bone"
+    },
+    "4": {
+      "item": "minecraft:bone"
+    },
+    "5": {
+      "item": "minecraft:bone"
+    },
+    "7": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "item": "soe:bone_chestplate",
+    "count": 1
+  }
+}

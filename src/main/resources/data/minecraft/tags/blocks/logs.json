@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "soe:crumbling_oak_log",
+    "soe:crumbling_oak_wood",
+    "soe:crumbling_bark_stairs",
+    "soe:crumbling_bark_slab"
+  ]
+}

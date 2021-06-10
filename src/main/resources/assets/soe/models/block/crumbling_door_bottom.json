@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom",
+  "textures": {
+    "bottom": "soe:blocks/crumbling_door_bottom",
+    "top": "soe:blocks/crumbling_door_top"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:obsidian_ingot"
+    },
+    "1": {
+      "item": "soe:envy_shard"
+    },
+    "2": {
+      "item": "soe:obsidian_ingot"
+    },
+    "3": {
+      "item": "soe:obsidian_ingot"
+    },
+    "5": {
+      "item": "soe:obsidian_ingot"
+    },
+    "6": {
+      "item": "soe:obsidian_ingot"
+    },
+    "8": {
+      "item": "soe:obsidian_ingot"
+    }
+  },
+  "result": {
+    "item": "soe:envious_leggings",
+    "count": 1
+  }
+}

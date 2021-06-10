@@ -1,0 +1,42 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:lavendarium_ingot"
+    },
+    "1": {
+      "item": "soe:lavendarium_ingot"
+    },
+    "2": {
+      "item": "soe:lavendarium_ingot"
+    },
+    "3": {
+      "item": "soe:lavendarium_ingot"
+    },
+    "4": {
+      "item": "soe:lavendarium_ingot"
+    },
+    "5": {
+      "item": "soe:lavendarium_ingot"
+    },
+    "6": {
+      "item": "soe:lavendarium_ingot"
+    },
+    "7": {
+      "item": "soe:lavendarium_ingot"
+    },
+    "8": {
+      "item": "soe:lavendarium_ingot"
+    }
+  },
+  "result": {
+    "item": "soe:lavendarium_block",
+    "count": 1
+  }
+}

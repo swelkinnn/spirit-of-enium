@@ -1,0 +1,30 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 ",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:leather"
+    },
+    "2": {
+      "item": "soe:rotten_heap"
+    },
+    "4": {
+      "item": "minecraft:string"
+    },
+    "6": {
+      "item": "soe:rotten_heap"
+    },
+    "8": {
+      "item": "minecraft:bone_meal"
+    }
+  },
+  "result": {
+    "item": "soe:rotten_bait",
+    "count": 1
+  }
+}

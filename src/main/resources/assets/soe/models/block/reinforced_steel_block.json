@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soe:blocks/reinforced_steel_block",
+    "up": "soe:blocks/reinforced_steel_block",
+    "north": "soe:blocks/reinforced_steel_block",
+    "east": "soe:blocks/reinforced_steel_block",
+    "south": "soe:blocks/reinforced_steel_block",
+    "west": "soe:blocks/reinforced_steel_block",
+    "particle": "soe:blocks/reinforced_steel_block"
+  }
+}

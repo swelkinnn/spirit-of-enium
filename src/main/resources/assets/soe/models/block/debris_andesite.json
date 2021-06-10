@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soe:blocks/fake_andesite",
+    "up": "soe:blocks/fake_andesite",
+    "north": "soe:blocks/fake_andesite",
+    "east": "soe:blocks/fake_andesite",
+    "south": "soe:blocks/fake_andesite",
+    "west": "soe:blocks/fake_andesite",
+    "particle": "soe:blocks/fake_andesite"
+  }
+}

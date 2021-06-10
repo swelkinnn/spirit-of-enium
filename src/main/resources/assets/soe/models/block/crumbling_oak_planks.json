@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "soe:blocks/crumbling_planks",
+    "particle": "soe:blocks/crumbling_planks"
+  }
+}

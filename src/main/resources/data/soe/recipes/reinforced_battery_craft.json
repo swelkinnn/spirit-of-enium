@@ -1,0 +1,26 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:battery_part"
+    },
+    "1": {
+      "item": "soe:steel"
+    },
+    "2": {
+      "item": "soe:lithium_ingot"
+    },
+    "3": {
+      "item": "soe:burnt_out_lithium_battery"
+    }
+  },
+  "result": {
+    "item": "soe:reinforced_battery",
+    "count": 1
+  }
+}

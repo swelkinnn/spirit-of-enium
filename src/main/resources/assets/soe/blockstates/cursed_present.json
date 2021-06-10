@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "soe:block/cursed_present"
+    },
+    "facing=east": {
+      "model": "soe:block/cursed_present",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "soe:block/cursed_present",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "soe:block/cursed_present",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "soe:block/cursed_present",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "soe:block/cursed_present",
+      "x": 90
+    }
+  }
+}

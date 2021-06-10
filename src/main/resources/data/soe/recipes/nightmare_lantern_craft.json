@@ -1,0 +1,42 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:quartz"
+    },
+    "1": {
+      "item": "soe:ruby"
+    },
+    "2": {
+      "item": "minecraft:quartz"
+    },
+    "3": {
+      "item": "soe:ruby"
+    },
+    "4": {
+      "item": "minecraft:torch"
+    },
+    "5": {
+      "item": "soe:ruby"
+    },
+    "6": {
+      "item": "minecraft:quartz"
+    },
+    "7": {
+      "item": "soe:ruby"
+    },
+    "8": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "item": "soe:nightmare_lantern",
+    "count": 3
+  }
+}

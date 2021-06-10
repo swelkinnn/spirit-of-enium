@@ -1,0 +1,31 @@
+{
+  "_fv": 18,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "tainted_apple",
+    "customModelName": "Normal",
+    "name": "Tainted Apple",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "§o§7Cold to the touch."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:GTMMisc"
+    },
+    "stackSize": 1,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatingSpeed": 64,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "TaintedAppleFoodEaten"
+    }
+  }
+}

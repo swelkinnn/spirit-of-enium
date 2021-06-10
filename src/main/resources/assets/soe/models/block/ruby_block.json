@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soe:blocks/block_of_ruby",
+    "up": "soe:blocks/block_of_ruby",
+    "north": "soe:blocks/block_of_ruby",
+    "east": "soe:blocks/block_of_ruby",
+    "south": "soe:blocks/block_of_ruby",
+    "west": "soe:blocks/block_of_ruby",
+    "particle": "soe:blocks/block_of_ruby"
+  }
+}

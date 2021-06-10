@@ -1,0 +1,19 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:CrumblingOakWood"
+      },
+      {
+        "value": "CUSTOM:CrumblingOakLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "crumblingoak_log",
+    "namespace": "forge"
+  }
+}

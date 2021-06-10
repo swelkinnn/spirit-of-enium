@@ -1,0 +1,23 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "Items.EXPERIENCE_BOTTLE"
+    },
+    "brewingIngredientStack": {
+      "value": "CUSTOM:PlagueFlesh"
+    },
+    "brewingReturnStack": {
+      "value": "CUSTOM:PlagueCure"
+    },
+    "name": "plague_vaccine_craft",
+    "namespace": "mod"
+  }
+}

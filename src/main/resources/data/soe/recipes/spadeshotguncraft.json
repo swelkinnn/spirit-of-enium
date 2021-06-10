@@ -1,0 +1,30 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "6  "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:cornflower"
+    },
+    "3": {
+      "item": "soe:enium_ingot"
+    },
+    "4": {
+      "item": "soe:throwing_spade"
+    },
+    "5": {
+      "item": "soe:enium_ingot"
+    },
+    "6": {
+      "item": "soe:enium_gem"
+    }
+  },
+  "result": {
+    "item": "soe:spade_shotgun",
+    "count": 1
+  }
+}

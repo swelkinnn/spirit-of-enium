@@ -1,0 +1,26 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:reinforced_reinforced_steel_block"
+    },
+    "2": {
+      "item": "soe:reinforced_reinforced_steel_block"
+    },
+    "3": {
+      "item": "soe:reinforced_reinforced_steel_block"
+    },
+    "5": {
+      "item": "soe:reinforced_reinforced_steel_block"
+    }
+  },
+  "result": {
+    "item": "soe:reinforced_steel_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "soe:custom/carpet",
+  "textures": {
+    "all": "soe:blocks/blood_2",
+    "particle": "soe:blocks/blood_2",
+    "0": "soe:blocks/blood"
+  }
+}

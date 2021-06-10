@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soe:blocks/compressed_rotten_block",
+    "up": "soe:blocks/compressed_rotten_block",
+    "north": "soe:blocks/compressed_rotten_block",
+    "east": "soe:blocks/compressed_rotten_block",
+    "south": "soe:blocks/compressed_rotten_block",
+    "west": "soe:blocks/compressed_rotten_block",
+    "particle": "soe:blocks/compressed_rotten_block"
+  }
+}

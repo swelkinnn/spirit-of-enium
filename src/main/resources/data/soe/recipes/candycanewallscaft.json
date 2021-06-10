@@ -1,0 +1,32 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:candycane_wall"
+    },
+    "1": {
+      "item": "soe:candycane_wall"
+    },
+    "2": {
+      "item": "soe:candycane_wall"
+    },
+    "3": {
+      "item": "soe:candycane_wall"
+    },
+    "4": {
+      "item": "soe:candycane_wall"
+    },
+    "5": {
+      "item": "soe:candycane_wall"
+    }
+  },
+  "result": {
+    "item": "soe:candycane_wall",
+    "count": 6
+  }
+}

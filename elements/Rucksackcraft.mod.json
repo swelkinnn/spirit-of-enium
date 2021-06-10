@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:forge:leather"
+      },
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": "TAG:forge:leather"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:forge:leather"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:forge:leather"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Rucksack"
+    },
+    "name": "rucksackcraft",
+    "namespace": "mod"
+  }
+}

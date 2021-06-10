@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soe:blocks/raw_steel_clump",
+    "up": "soe:blocks/raw_steel_clump",
+    "north": "soe:blocks/raw_steel_clump",
+    "east": "soe:blocks/raw_steel_clump",
+    "south": "soe:blocks/raw_steel_clump",
+    "west": "soe:blocks/raw_steel_clump",
+    "particle": "soe:blocks/raw_steel_clump"
+  }
+}

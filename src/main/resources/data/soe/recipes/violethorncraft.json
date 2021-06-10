@@ -1,0 +1,36 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01 ",
+    "345",
+    " 78"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:grass"
+    },
+    "1": {
+      "item": "soe:violet_hide"
+    },
+    "3": {
+      "item": "soe:violet_hide"
+    },
+    "4": {
+      "item": "soe:rotten_horn"
+    },
+    "5": {
+      "item": "soe:violet_hide"
+    },
+    "7": {
+      "item": "soe:violet_hide"
+    },
+    "8": {
+      "tag": "forge:stone"
+    }
+  },
+  "result": {
+    "item": "soe:violet_horn",
+    "count": 1
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "wraithly_helm",
+    "enableBody": true,
+    "textureBody": "wraithly_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "wraithly_grieves",
+    "enableBoots": true,
+    "textureBoots": "wraithly_boots",
+    "onHelmetTick": {
+      "name": "WraithlyArmorHelmetTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:GTMArmors"
+    },
+    "armorTextureFile": "wraithly_armor_",
+    "helmetName": "Wraithly Helm",
+    "bodyName": "Wraithly Body",
+    "leggingsName": "Wraithly Grieves",
+    "bootsName": "Wraithly Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 10,
+    "damageValueHelmet": 2,
+    "damageValueBody": 8,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 9,
+    "toughness": 1.5,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "item.armor.equip_diamond"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:WraithlyMatter"
+      }
+    ]
+  }
+}

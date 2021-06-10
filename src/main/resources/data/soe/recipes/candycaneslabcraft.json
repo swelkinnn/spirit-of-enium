@@ -1,0 +1,22 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:candycaneblock"
+    },
+    "1": {
+      "item": "soe:candycaneblock"
+    },
+    "2": {
+      "item": "soe:candycaneblock"
+    }
+  },
+  "result": {
+    "item": "soe:candycane_slab",
+    "count": 6
+  }
+}

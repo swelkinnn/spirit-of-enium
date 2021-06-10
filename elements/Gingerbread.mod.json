@@ -1,0 +1,29 @@
+{
+  "_fv": 18,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "gingerbread",
+    "customModelName": "Normal",
+    "name": "Gingerbread",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:GTMFood"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 2,
+    "saturation": 2.5,
+    "eatingSpeed": 20,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "GingerbreadFoodEaten"
+    }
+  }
+}

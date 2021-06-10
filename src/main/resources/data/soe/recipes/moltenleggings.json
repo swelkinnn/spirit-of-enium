@@ -1,0 +1,36 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:hellstone_ingot"
+    },
+    "1": {
+      "item": "soe:unrefined_hellstone_block"
+    },
+    "2": {
+      "item": "soe:hellstone_ingot"
+    },
+    "3": {
+      "item": "soe:hellstone_ingot"
+    },
+    "5": {
+      "item": "soe:hellstone_ingot"
+    },
+    "6": {
+      "item": "soe:unrefined_hellstone_block"
+    },
+    "8": {
+      "item": "soe:unrefined_hellstone_block"
+    }
+  },
+  "result": {
+    "item": "soe:molten_leggings",
+    "count": 1
+  }
+}

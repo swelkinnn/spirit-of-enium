@@ -1,0 +1,26 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:candy_stick"
+    },
+    "1": {
+      "item": "soe:candy_stick"
+    },
+    "2": {
+      "item": "soe:candy_stick"
+    },
+    "3": {
+      "item": "soe:candy_stick"
+    }
+  },
+  "result": {
+    "item": "soe:candycaneblock",
+    "count": 1
+  }
+}

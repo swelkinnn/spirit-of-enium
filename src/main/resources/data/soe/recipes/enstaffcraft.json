@@ -1,0 +1,36 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:ender_eye"
+    },
+    "1": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "2": {
+      "item": "minecraft:ender_eye"
+    },
+    "3": {
+      "item": "soe:infinitewatersource"
+    },
+    "4": {
+      "item": "soe:enium_ingot"
+    },
+    "5": {
+      "item": "soe:infinitewatersource"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "soe:en_staff",
+    "count": 1
+  }
+}

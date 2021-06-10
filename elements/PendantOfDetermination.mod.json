@@ -1,0 +1,39 @@
+{
+  "_fv": 18,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "pendant_of_deternmination",
+    "customModelName": "Normal",
+    "name": "Pendant Of Determination",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "CUSTOM:SoECharms"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "§7* You are filled with DETERMINATION.",
+      "§7When in inventory: Grants Regeneration II"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onItemInInventoryTick": {
+      "name": "PendantOfDeterminationItemInInventoryTick"
+    }
+  }
+}

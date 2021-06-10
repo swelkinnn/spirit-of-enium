@@ -1,0 +1,37 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "soe:debris_scrap"
+    },
+    {
+      "item": "soe:debris_scrap"
+    },
+    {
+      "item": "soe:debris_scrap"
+    },
+    {
+      "item": "soe:debris_scrap"
+    },
+    {
+      "item": "soe:debris_scrap"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "result": {
+    "item": "minecraft:netherite_ingot",
+    "count": 1
+  }
+}

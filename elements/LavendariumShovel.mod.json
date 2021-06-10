@@ -1,0 +1,39 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "lavendariumshovel",
+    "customModelName": "Normal",
+    "name": "Lavendarium Shovel",
+    "specialInfo": [
+      "§7Lightweight digging"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:GMTToolsAndWeapons"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 2,
+    "efficiency": 7.5,
+    "attackSpeed": 1.0,
+    "enchantability": 14,
+    "damageVsEntity": 5.0,
+    "usageCount": 275,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:LavendariumNugget"
+      },
+      {
+        "value": "CUSTOM:LavendariumMesh"
+      },
+      {
+        "value": "CUSTOM:LavendariumIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

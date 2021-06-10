@@ -1,0 +1,39 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "abyssal_cracker_v2",
+    "customModelName": "Normal",
+    "name": "§aAbyssal Striker",
+    "specialInfo": [
+      "§aPart,fools!"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:GMTToolsAndWeapons"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 4,
+    "efficiency": 10.0,
+    "attackSpeed": 1.2999999999999998,
+    "enchantability": 20,
+    "damageVsEntity": 8.5,
+    "usageCount": 10000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ObsidianIngot"
+      },
+      {
+        "value": "CUSTOM:EnvyShard"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInUseTick": {
+      "name": "AbyssalCrackerToolInHandTick"
+    }
+  }
+}

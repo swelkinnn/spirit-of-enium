@@ -1,0 +1,24 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:lavendarium_nugget"
+    },
+    "1": {
+      "item": "soe:lavendarium_mesh"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "soe:lavendarium_knife",
+    "count": 1
+  }
+}

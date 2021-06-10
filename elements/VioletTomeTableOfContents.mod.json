@@ -1,0 +1,230 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 1,
+    "height": 150,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "table_of_contents.png",
+          "use1Xscale": false,
+          "name": "table_of_contents.png",
+          "x": 69,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Table Of Contents",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Table Of Contents",
+          "x": 105,
+          "y": 35
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Pigclops",
+          "onClick": {
+            "name": "Vttopigclops"
+          },
+          "width": 65,
+          "height": 20,
+          "name": "Pigclops",
+          "x": 114,
+          "y": 53
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "pigclops_icon.png",
+          "use1Xscale": false,
+          "name": "pigclops_icon.png",
+          "x": 87,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Wendigo",
+          "onClick": {
+            "name": "Vttowend"
+          },
+          "width": 60,
+          "height": 20,
+          "name": "Wendigo",
+          "x": 114,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "wendigo_icon_2.png",
+          "use1Xscale": false,
+          "name": "wendigo_icon_2.png",
+          "x": 87,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Mothman",
+          "onClick": {
+            "name": "Vttomm"
+          },
+          "width": 60,
+          "height": 20,
+          "name": "Mothman",
+          "x": 114,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "mothman_icon.png",
+          "use1Xscale": false,
+          "name": "mothman_icon.png",
+          "x": 87,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "T.M Grimm",
+          "onClick": {
+            "name": "Vttogrimm"
+          },
+          "width": 70,
+          "height": 20,
+          "name": "T.M Grimm",
+          "x": 114,
+          "y": 134
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "grimm_icon.png",
+          "use1Xscale": false,
+          "name": "grimm_icon.png",
+          "x": 87,
+          "y": 134
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "violet_boar_icon.png",
+          "use1Xscale": false,
+          "name": "violet_boar_icon.png",
+          "x": 321,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Violet Boar",
+          "onClick": {
+            "name": "Vttovbore"
+          },
+          "width": 80,
+          "height": 20,
+          "name": "Violet Boar",
+          "x": 231,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Violet Winding",
+          "onClick": {
+            "name": "Vttovwend"
+          },
+          "width": 95,
+          "height": 20,
+          "name": "Violet Winding",
+          "x": 222,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Violet Moth",
+          "onClick": {
+            "name": "Vttovm"
+          },
+          "width": 80,
+          "height": 20,
+          "name": "Violet Moth",
+          "x": 231,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "violet_wendigo_icon_2.png",
+          "use1Xscale": false,
+          "name": "violet_wendigo_icon_2.png",
+          "x": 321,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "violet_moth_icon.png",
+          "use1Xscale": false,
+          "name": "violet_moth_icon.png",
+          "x": 321,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "The Godking",
+          "onClick": {
+            "name": "Vttovgkgrimm"
+          },
+          "width": 80,
+          "height": 20,
+          "name": "The Godking",
+          "x": 231,
+          "y": 134
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "vgk_grimm_icon.png",
+          "use1Xscale": false,
+          "name": "vgk_grimm_icon.png",
+          "x": 321,
+          "y": 134
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "soe:pigclopsicon"
+    },
+    "title": {
+      "translate": "advancements.boreing.title"
+    },
+    "description": {
+      "translate": "advancements.boreing.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "boreing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "soe:pigclops_tooth",
+            "count": {
+              "min": 1,
+              "max": 1000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "soe:genuinely_too_many_advancements"
+}

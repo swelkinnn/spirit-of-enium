@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soe:blocks/candy_cane_block",
+    "up": "soe:blocks/candy_cane_block",
+    "north": "soe:blocks/candy_cane_block",
+    "east": "soe:blocks/candy_cane_block",
+    "south": "soe:blocks/candy_cane_block",
+    "west": "soe:blocks/candy_cane_block",
+    "particle": "soe:blocks/candy_cane_block"
+  }
+}

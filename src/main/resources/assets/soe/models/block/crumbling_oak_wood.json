@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "soe:blocks/crumbling_oak_log",
+    "particle": "soe:blocks/crumbling_oak_log"
+  }
+}

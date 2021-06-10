@@ -1,0 +1,39 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "en_whip",
+    "customModelName": "Normal",
+    "name": "N's Whip",
+    "specialInfo": [
+      "§7YOU'RE A FREAK!"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:GMTToolsAndWeapons"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 5,
+    "efficiency": 17.0,
+    "attackSpeed": 3.0,
+    "enchantability": 30,
+    "damageVsEntity": 7.5,
+    "usageCount": 1000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:EniumIngot"
+      },
+      {
+        "value": "CUSTOM:EniumGem"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "EnWhipLivingEntityIsHitWithTool"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:marble"
+    },
+    "1": {
+      "item": "soe:marble"
+    },
+    "2": {
+      "item": "soe:marble"
+    },
+    "3": {
+      "item": "soe:marble"
+    }
+  },
+  "result": {
+    "item": "soe:polished_marble",
+    "count": 4
+  }
+}

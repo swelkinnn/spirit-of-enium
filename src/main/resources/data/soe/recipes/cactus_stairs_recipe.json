@@ -1,0 +1,33 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:cactus_planks"
+    },
+    "3": {
+      "item": "soe:cactus_planks"
+    },
+    "4": {
+      "item": "soe:cactus_planks"
+    },
+    "6": {
+      "item": "soe:cactus_planks"
+    },
+    "7": {
+      "item": "soe:cactus_planks"
+    },
+    "8": {
+      "item": "soe:cactus_planks"
+    }
+  },
+  "result": {
+    "item": "soe:cactus_stairs",
+    "count": 4
+  }
+}

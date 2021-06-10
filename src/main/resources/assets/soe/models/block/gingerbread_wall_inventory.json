@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "soe:blocks/gingerbread_block",
+    "particle": "soe:blocks/gingerbread_block"
+  }
+}

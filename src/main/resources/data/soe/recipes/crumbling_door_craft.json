@@ -1,0 +1,33 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:crumbling_oak_planks"
+    },
+    "1": {
+      "item": "soe:crumbling_oak_planks"
+    },
+    "2": {
+      "item": "soe:crumbling_oak_planks"
+    },
+    "3": {
+      "item": "soe:crumbling_oak_planks"
+    },
+    "4": {
+      "item": "soe:crumbling_oak_planks"
+    },
+    "5": {
+      "item": "soe:crumbling_oak_planks"
+    }
+  },
+  "result": {
+    "item": "soe:crumbling_door",
+    "count": 3
+  }
+}

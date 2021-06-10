@@ -1,0 +1,12 @@
+{
+  "group": "soe",
+  "type": "minecraft:blasting",
+  "experience": 2,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "soe:debris"
+  },
+  "result": {
+    "item": "soe:debris_scrap"
+  }
+}

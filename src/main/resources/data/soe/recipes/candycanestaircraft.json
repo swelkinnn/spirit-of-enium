@@ -1,0 +1,33 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:candycaneblock"
+    },
+    "3": {
+      "item": "soe:candycaneblock"
+    },
+    "4": {
+      "item": "soe:candycaneblock"
+    },
+    "6": {
+      "item": "soe:candycaneblock"
+    },
+    "7": {
+      "item": "soe:candycaneblock"
+    },
+    "8": {
+      "item": "soe:candycaneblock"
+    }
+  },
+  "result": {
+    "item": "soe:candycanestairs",
+    "count": 4
+  }
+}

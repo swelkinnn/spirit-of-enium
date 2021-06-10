@@ -1,0 +1,8 @@
+{
+  "parent": "soe:custom/present",
+  "textures": {
+    "all": "soe:blocks/present_texture",
+    "particle": "soe:blocks/present_texture",
+    "0": "soe:blocks/present_texture"
+  }
+}

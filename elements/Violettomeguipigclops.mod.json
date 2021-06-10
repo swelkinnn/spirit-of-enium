@@ -1,0 +1,49 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 1,
+    "height": 150,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "pigclops_basic.png",
+          "use1Xscale": false,
+          "name": "pigclops_basic.png",
+          "x": 141,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "pigclops_icon.png",
+          "use1Xscale": false,
+          "name": "pigclops_icon.png",
+          "x": 213,
+          "y": 17
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<==",
+          "onClick": {
+            "name": "Vttoc"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "<==",
+          "x": 195,
+          "y": 215
+        }
+      }
+    ]
+  }
+}

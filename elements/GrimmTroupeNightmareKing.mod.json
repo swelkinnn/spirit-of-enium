@@ -1,0 +1,17 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "music_disk_grimm",
+    "name": "Music Disc",
+    "description": "§7Christopher Larkin-Grimm Troupe + Nightmare King",
+    "creativeTab": {
+      "value": "CUSTOM:GTMMisc"
+    },
+    "music": {
+      "value": "CUSTOM:grimmtrouperecord"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "ghost_mask_texture"
+      },
+      "name": "default"
+    }
+  }
+}

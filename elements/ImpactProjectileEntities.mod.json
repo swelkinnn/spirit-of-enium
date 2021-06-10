@@ -1,0 +1,41 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "CUSTOM:TroupeMasterGrimm"
+      },
+      {
+        "value": "CUSTOM:Grimmchild"
+      },
+      {
+        "value": "CUSTOM:Mothman"
+      },
+      {
+        "value": "CUSTOM:GrimmkinMaster"
+      },
+      {
+        "value": "CUSTOM:VGKGrimm"
+      },
+      {
+        "value": "CUSTOM:Grimmature"
+      },
+      {
+        "value": "CUSTOM:VioletMoth"
+      },
+      {
+        "value": "CUSTOM:AbyssalRemains2"
+      },
+      {
+        "value": "CUSTOM:Bombe"
+      }
+    ],
+    "name": "impact_projectiles",
+    "namespace": "minecraft"
+  }
+}

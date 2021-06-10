@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "soe:blocks/small_peony",
+    "particle": "soe:blocks/small_peony"
+  }
+}

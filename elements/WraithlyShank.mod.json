@@ -1,0 +1,33 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "wraithly_shank",
+    "customModelName": "Normal",
+    "name": "Wraithly Shank",
+    "specialInfo": [
+      "§7Spooky!"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:GMTToolsAndWeapons"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 2,
+    "efficiency": 10.0,
+    "attackSpeed": 1.4,
+    "enchantability": 25,
+    "damageVsEntity": 5.5,
+    "usageCount": 500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:WraithlyMatter"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

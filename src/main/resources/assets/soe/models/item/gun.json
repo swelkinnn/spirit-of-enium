@@ -1,0 +1,7 @@
+{
+  "parent": "soe:custom/new_pistol",
+  "textures": {
+    "0": "soe:blocks/new_pistol",
+    "particle": "soe:items/pistolb"
+  }
+}

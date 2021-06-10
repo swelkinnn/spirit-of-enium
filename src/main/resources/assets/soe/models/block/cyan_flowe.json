@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "soe:blocks/cyan_flower",
+    "particle": "soe:blocks/cyan_flower"
+  }
+}

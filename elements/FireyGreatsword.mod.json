@@ -1,0 +1,39 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "fiery_greatsword",
+    "customModelName": "Normal",
+    "name": "Firey Greatsword",
+    "specialInfo": [
+      "§7It's made out of fire!"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:GMTToolsAndWeapons"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 3,
+    "efficiency": 8.0,
+    "attackSpeed": 1.0,
+    "enchantability": 12,
+    "damageVsEntity": 6.5,
+    "usageCount": 600,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:HellstoneIngot"
+      },
+      {
+        "value": "CUSTOM:HellstoneOre"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "FireyGreatswordLivingEntityIsHitWithTool"
+    }
+  }
+}

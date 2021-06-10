@@ -1,0 +1,66 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "bone_helmet",
+    "enableBody": true,
+    "textureBody": "bone_chest",
+    "enableLeggings": true,
+    "textureLeggings": "bone_leggings",
+    "enableBoots": true,
+    "textureBoots": "bone_boots",
+    "creativeTab": {
+      "value": "CUSTOM:GTMArmors"
+    },
+    "armorTextureFile": "bone_",
+    "helmetName": "Bone Helmet",
+    "bodyName": "Bone Body",
+    "leggingsName": "Bone Leggings",
+    "bootsName": "Bone Boots",
+    "helmetSpecialInfo": [
+      "§7Full set bonus: Absorbs bones in turn for +3 XP generation and Regeneration 2 for 3 seconds."
+    ],
+    "bodySpecialInfo": [
+      "§7Full set bonus: Absorbs bones in turn for +3 XP generation and Regeneration 2 for 3 seconds."
+    ],
+    "leggingsSpecialInfo": [
+      "§7Full set bonus: Absorbs bones in turn for +3 XP generation and Regeneration 2 for 3 seconds."
+    ],
+    "bootsSpecialInfo": [
+      "§7Full set bonus: Absorbs bones in turn for +3 XP generation and Regeneration 2 for 3 seconds."
+    ],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 25,
+    "damageValueHelmet": 1,
+    "damageValueBody": 3,
+    "damageValueLeggings": 2,
+    "damageValueBoots": 1,
+    "enchantability": 10,
+    "toughness": 0.1,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "entity.skeleton.ambient"
+    },
+    "repairItems": [
+      {
+        "value": "Items.BONE"
+      }
+    ]
+  }
+}

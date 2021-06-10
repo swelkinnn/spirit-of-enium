@@ -1,0 +1,7 @@
+{
+  "parent": "soe:custom/spade_shotgun",
+  "textures": {
+    "0": "soe:blocks/spade_shotgun",
+    "particle": "soe:items/bullet"
+  }
+}

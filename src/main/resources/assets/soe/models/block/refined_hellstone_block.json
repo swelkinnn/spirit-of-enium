@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soe:blocks/polished_hellstone_block",
+    "up": "soe:blocks/polished_hellstone_block",
+    "north": "soe:blocks/polished_hellstone_block",
+    "east": "soe:blocks/polished_hellstone_block",
+    "south": "soe:blocks/polished_hellstone_block",
+    "west": "soe:blocks/polished_hellstone_block",
+    "particle": "soe:blocks/polished_hellstone_block"
+  }
+}

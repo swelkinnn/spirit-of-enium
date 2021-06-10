@@ -1,0 +1,26 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:enium_gem"
+    },
+    "2": {
+      "item": "soe:enium_gem"
+    },
+    "3": {
+      "item": "soe:enium_ingot"
+    },
+    "5": {
+      "item": "soe:enium_ingot"
+    }
+  },
+  "result": {
+    "item": "soe:deactivated_enium_boots",
+    "count": 1
+  }
+}

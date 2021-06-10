@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "soe:deactivated_enium_helmet"
+    },
+    "title": {
+      "translate": "advancements.envy_armor.title"
+    },
+    "description": {
+      "translate": "advancements.envy_armor.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "envy_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "soe:bullet",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "soe:genuinely_too_many_advancements"
+}

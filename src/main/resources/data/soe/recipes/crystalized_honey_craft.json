@@ -1,0 +1,19 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:honey_bottle"
+    },
+    "1": {
+      "item": "minecraft:ice"
+    }
+  },
+  "result": {
+    "item": "soe:crystalized_honey",
+    "count": 9
+  }
+}

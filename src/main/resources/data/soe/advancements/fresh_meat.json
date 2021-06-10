@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "soe:rawflesh"
+    },
+    "title": {
+      "translate": "advancements.fresh_meat.title"
+    },
+    "description": {
+      "translate": "advancements.fresh_meat.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fresh_meat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "soe:rawflesh",
+            "count": {
+              "min": 1,
+              "max": 1000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "soe:song_of_plague"
+}

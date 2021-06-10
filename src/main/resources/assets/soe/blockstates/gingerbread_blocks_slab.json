@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "soe:block/gingerbread_blocks_slab"
+    },
+    "type=top": {
+      "model": "soe:block/gingerbread_blocks_slab_top"
+    },
+    "type=double": {
+      "model": "soe:block/gingerbread_blocks_slab_full"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "soe:present"
+    },
+    "title": {
+      "translate": "advancements.all_i_want_for_christmas.title"
+    },
+    "description": {
+      "translate": "advancements.all_i_want_for_christmas.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "all_i_want_for_christmas": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "soe:present",
+            "count": {
+              "min": 1,
+              "max": 10000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "soe:genuinely_too_many_advancements"
+}

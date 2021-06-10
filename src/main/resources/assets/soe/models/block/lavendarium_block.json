@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soe:blocks/lavendariumblock",
+    "up": "soe:blocks/lavendariumblock",
+    "north": "soe:blocks/lavendariumblock",
+    "east": "soe:blocks/lavendariumblock",
+    "south": "soe:blocks/lavendariumblock",
+    "west": "soe:blocks/lavendariumblock",
+    "particle": "soe:blocks/lavendariumblock"
+  }
+}

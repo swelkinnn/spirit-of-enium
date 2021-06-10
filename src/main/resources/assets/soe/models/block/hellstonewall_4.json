@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soe:blocks/magma_wall",
+    "up": "soe:blocks/magma_wall",
+    "north": "soe:blocks/magma_wall",
+    "east": "soe:blocks/magma_wall",
+    "south": "soe:blocks/magma_wall",
+    "west": "soe:blocks/magma_wall",
+    "particle": "soe:blocks/magma_wall"
+  }
+}

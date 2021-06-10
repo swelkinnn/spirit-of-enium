@@ -1,0 +1,36 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:prime_leather"
+    },
+    "1": {
+      "item": "soe:prime_leather"
+    },
+    "2": {
+      "item": "soe:prime_leather"
+    },
+    "3": {
+      "item": "soe:prime_leather"
+    },
+    "5": {
+      "item": "soe:prime_leather"
+    },
+    "6": {
+      "item": "soe:prime_leather"
+    },
+    "8": {
+      "item": "soe:prime_leather"
+    }
+  },
+  "result": {
+    "item": "soe:prime_leathera_leggings",
+    "count": 1
+  }
+}

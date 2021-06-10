@@ -1,0 +1,13 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:crumblingoak_log"
+    }
+  ],
+  "result": {
+    "item": "soe:crumbling_oak_planks",
+    "count": 4
+  }
+}

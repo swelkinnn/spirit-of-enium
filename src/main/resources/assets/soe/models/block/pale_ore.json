@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soe:blocks/pale_ore",
+    "up": "soe:blocks/pale_ore",
+    "north": "soe:blocks/pale_ore",
+    "east": "soe:blocks/pale_ore",
+    "south": "soe:blocks/pale_ore",
+    "west": "soe:blocks/pale_ore",
+    "particle": "soe:blocks/pale_ore"
+  }
+}

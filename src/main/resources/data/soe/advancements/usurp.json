@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "soe:vgkgrimmicon"
+    },
+    "title": {
+      "translate": "advancements.usurp.title"
+    },
+    "description": {
+      "translate": "advancements.usurp.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "usurp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "soe:grimmature_summoner",
+            "count": {
+              "min": 1,
+              "max": 10000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "soe:feed_the_child"
+}

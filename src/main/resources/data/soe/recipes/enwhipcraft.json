@@ -1,0 +1,27 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:string"
+    },
+    "3": {
+      "item": "soe:enium_ingot"
+    },
+    "5": {
+      "item": "soe:enium_gem"
+    },
+    "7": {
+      "item": "soe:whip"
+    }
+  },
+  "result": {
+    "item": "soe:en_whip",
+    "count": 1
+  }
+}

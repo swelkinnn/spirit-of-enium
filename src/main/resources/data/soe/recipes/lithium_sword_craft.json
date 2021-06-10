@@ -1,0 +1,24 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:lithium_ingot"
+    },
+    "1": {
+      "item": "soe:lithium_ingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "soe:lithium_sword",
+    "count": 1
+  }
+}

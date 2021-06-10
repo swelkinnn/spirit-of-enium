@@ -1,0 +1,49 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 1,
+    "height": 150,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "mothman_violet.png",
+          "use1Xscale": false,
+          "name": "mothman_violet.png",
+          "x": 141,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "violet_moth_icon.png",
+          "use1Xscale": false,
+          "name": "violet_moth_icon.png",
+          "x": 213,
+          "y": 17
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<==",
+          "onClick": {
+            "name": "Vttoc"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "<==",
+          "x": 195,
+          "y": 215
+        }
+      }
+    ]
+  }
+}

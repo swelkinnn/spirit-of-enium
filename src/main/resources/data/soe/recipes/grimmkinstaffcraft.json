@@ -1,0 +1,30 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "1": {
+      "item": "soe:ruby"
+    },
+    "2": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "soe:grimmkin_staff",
+    "count": 1
+  }
+}

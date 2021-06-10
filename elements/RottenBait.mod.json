@@ -1,0 +1,35 @@
+{
+  "_fv": 18,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "rotten_bait",
+    "customModelName": "Normal",
+    "name": "§dRotten Bait",
+    "rarity": "EPIC",
+    "specialInfo": [
+      "§dSummons the Wendigo",
+      "§7This should be illegal to give humans access."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:GTMMobs"
+    },
+    "stackSize": 1,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false,
+    "onRightClickedOnBlock": {
+      "name": "RottenBaitItemIsDroppedByPlayer"
+    },
+    "onEaten": {
+      "name": "RottenBaitFoodEaten"
+    }
+  }
+}

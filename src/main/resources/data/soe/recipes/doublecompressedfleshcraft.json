@@ -1,0 +1,42 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:compressed_block_of_rotting_flesh"
+    },
+    "1": {
+      "item": "soe:compressed_block_of_rotting_flesh"
+    },
+    "2": {
+      "item": "soe:compressed_block_of_rotting_flesh"
+    },
+    "3": {
+      "item": "soe:compressed_block_of_rotting_flesh"
+    },
+    "4": {
+      "item": "soe:compressed_block_of_rotting_flesh"
+    },
+    "5": {
+      "item": "soe:compressed_block_of_rotting_flesh"
+    },
+    "6": {
+      "item": "soe:compressed_block_of_rotting_flesh"
+    },
+    "7": {
+      "item": "soe:compressed_block_of_rotting_flesh"
+    },
+    "8": {
+      "item": "soe:compressed_block_of_rotting_flesh"
+    }
+  },
+  "result": {
+    "item": "soe:double_compressed_rotten_blcok",
+    "count": 1
+  }
+}

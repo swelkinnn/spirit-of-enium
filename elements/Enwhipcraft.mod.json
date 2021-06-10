@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EniumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EniumGem"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Whip"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EnWhip"
+    },
+    "name": "enwhipcraft",
+    "namespace": "mod"
+  }
+}

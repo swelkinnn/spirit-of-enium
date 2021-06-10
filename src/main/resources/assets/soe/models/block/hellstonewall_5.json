@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soe:blocks/smoldering_stone",
+    "up": "soe:blocks/smoldering_stone",
+    "north": "soe:blocks/smoldering_stone",
+    "east": "soe:blocks/smoldering_stone",
+    "south": "soe:blocks/smoldering_stone",
+    "west": "soe:blocks/smoldering_stone",
+    "particle": "soe:blocks/smoldering_stone"
+  }
+}

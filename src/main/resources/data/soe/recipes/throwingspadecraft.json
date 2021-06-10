@@ -1,0 +1,16 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "soe:enium_gem"
+    },
+    {
+      "item": "soe:enium_ingot"
+    }
+  ],
+  "result": {
+    "item": "soe:throwing_spade",
+    "count": 1
+  }
+}

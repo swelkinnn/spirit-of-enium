@@ -1,0 +1,26 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:hellstone_ingot"
+    },
+    "2": {
+      "item": "soe:hellstone_ingot"
+    },
+    "3": {
+      "item": "soe:unrefined_hellstone_block"
+    },
+    "5": {
+      "item": "soe:unrefined_hellstone_block"
+    }
+  },
+  "result": {
+    "item": "soe:molten_boots",
+    "count": 1
+  }
+}

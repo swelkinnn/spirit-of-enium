@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "soe:present"
+    },
+    "title": {
+      "translate": "advancements.yuletide_terros.title"
+    },
+    "description": {
+      "translate": "advancements.yuletide_terros.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "yuletide_terros": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "soe:cursed_present",
+            "count": {
+              "min": 1,
+              "max": 100000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "soe:all_i_want_for_christmas"
+}

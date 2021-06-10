@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "soe:blocks/crumbling_planks",
+    "top": "soe:blocks/crumbling_planks",
+    "side": "soe:blocks/crumbling_planks"
+  }
+}

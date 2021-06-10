@@ -1,0 +1,12 @@
+{
+  "_fv": 18,
+  "_type": "overlay",
+  "definition": {
+    "priority": "HIGH",
+    "components": [],
+    "baseTexture": "void.png",
+    "displayCondition": {
+      "name": "VoidTempDisplayOverlayIngame"
+    }
+  }
+}

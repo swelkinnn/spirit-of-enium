@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "soe:pale_ingot"
+    },
+    "title": {
+      "translate": "advancements.fool_arena.title"
+    },
+    "description": {
+      "translate": "advancements.fool_arena.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fool_arena": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "soe:pale_ingot",
+            "count": {
+              "min": 1,
+              "max": 10000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "soe:genuinely_too_many_advancements"
+}

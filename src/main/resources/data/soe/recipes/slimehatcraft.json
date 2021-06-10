@@ -1,0 +1,39 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:slime_ball"
+    },
+    "1": {
+      "item": "minecraft:slime_ball"
+    },
+    "2": {
+      "item": "minecraft:slime_ball"
+    },
+    "3": {
+      "item": "minecraft:slime_ball"
+    },
+    "5": {
+      "item": "minecraft:slime_ball"
+    },
+    "6": {
+      "item": "minecraft:slime_ball"
+    },
+    "7": {
+      "item": "minecraft:slime_ball"
+    },
+    "8": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "result": {
+    "item": "soe:slimehat_helmet",
+    "count": 1
+  }
+}

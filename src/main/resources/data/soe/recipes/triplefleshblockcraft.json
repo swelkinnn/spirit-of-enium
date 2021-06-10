@@ -1,0 +1,42 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:double_compressed_rotten_blcok"
+    },
+    "1": {
+      "item": "soe:double_compressed_rotten_blcok"
+    },
+    "2": {
+      "item": "soe:double_compressed_rotten_blcok"
+    },
+    "3": {
+      "item": "soe:double_compressed_rotten_blcok"
+    },
+    "4": {
+      "item": "soe:double_compressed_rotten_blcok"
+    },
+    "5": {
+      "item": "soe:double_compressed_rotten_blcok"
+    },
+    "6": {
+      "item": "soe:double_compressed_rotten_blcok"
+    },
+    "7": {
+      "item": "soe:double_compressed_rotten_blcok"
+    },
+    "8": {
+      "item": "soe:double_compressed_rotten_blcok"
+    }
+  },
+  "result": {
+    "item": "soe:triplefleshblock",
+    "count": 1
+  }
+}

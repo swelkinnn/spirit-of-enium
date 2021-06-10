@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "soe:block/cactus_slab"
+    },
+    "type=top": {
+      "model": "soe:block/cactus_slab_top"
+    },
+    "type=double": {
+      "model": "soe:block/cactus_slab_full"
+    }
+  }
+}

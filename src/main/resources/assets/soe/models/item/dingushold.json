@@ -1,0 +1,7 @@
+{
+  "parent": "soe:custom/dingus_2",
+  "textures": {
+    "0": "soe:blocks/dingus",
+    "particle": "soe:items/bullet"
+  }
+}

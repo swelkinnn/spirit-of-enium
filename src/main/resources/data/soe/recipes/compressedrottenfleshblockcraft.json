@@ -1,0 +1,42 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:rotten_hunk"
+    },
+    "1": {
+      "item": "soe:rotten_hunk"
+    },
+    "2": {
+      "item": "soe:rotten_hunk"
+    },
+    "3": {
+      "item": "soe:rotten_hunk"
+    },
+    "4": {
+      "item": "soe:rotten_hunk"
+    },
+    "5": {
+      "item": "soe:rotten_hunk"
+    },
+    "6": {
+      "item": "soe:rotten_hunk"
+    },
+    "7": {
+      "item": "soe:rotten_hunk"
+    },
+    "8": {
+      "item": "soe:rotten_hunk"
+    }
+  },
+  "result": {
+    "item": "soe:compressed_block_of_rotting_flesh",
+    "count": 1
+  }
+}

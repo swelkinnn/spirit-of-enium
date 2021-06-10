@@ -1,0 +1,42 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bone"
+    },
+    "1": {
+      "item": "minecraft:chain"
+    },
+    "2": {
+      "item": "minecraft:bone"
+    },
+    "3": {
+      "item": "soe:rawflesh"
+    },
+    "4": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "5": {
+      "item": "soe:rawflesh"
+    },
+    "6": {
+      "item": "soe:rawflesh"
+    },
+    "7": {
+      "item": "soe:rawflesh"
+    },
+    "8": {
+      "item": "soe:rawflesh"
+    }
+  },
+  "result": {
+    "item": "soe:wendigo_pendant",
+    "count": 1
+  }
+}

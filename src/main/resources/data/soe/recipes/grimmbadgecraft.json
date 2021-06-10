@@ -1,0 +1,42 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:quartz"
+    },
+    "1": {
+      "item": "soe:pale_ingot"
+    },
+    "2": {
+      "item": "minecraft:quartz"
+    },
+    "3": {
+      "item": "soe:pale_ingot"
+    },
+    "4": {
+      "item": "minecraft:blaze_powder"
+    },
+    "5": {
+      "item": "soe:pale_ingot"
+    },
+    "6": {
+      "item": "minecraft:quartz"
+    },
+    "7": {
+      "item": "soe:pale_ingot"
+    },
+    "8": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "item": "soe:grimm_badge",
+    "count": 1
+  }
+}

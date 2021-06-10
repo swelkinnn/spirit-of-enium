@@ -1,0 +1,33 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01 ",
+    "3 5",
+    " 78"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:wendigo_hide"
+    },
+    "1": {
+      "item": "soe:wendigo_hide"
+    },
+    "3": {
+      "item": "soe:wendigo_hide"
+    },
+    "5": {
+      "item": "minecraft:string"
+    },
+    "7": {
+      "item": "minecraft:string"
+    },
+    "8": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "soe:rotten_horn",
+    "count": 1
+  }
+}

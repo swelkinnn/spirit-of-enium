@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "soe:blocks/candy_cane_block",
+    "particle": "soe:blocks/candy_cane_block"
+  }
+}

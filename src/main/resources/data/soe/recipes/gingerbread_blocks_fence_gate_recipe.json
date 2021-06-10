@@ -1,0 +1,32 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:gingerbread"
+    },
+    "1": {
+      "item": "soe:gingerbread_block"
+    },
+    "2": {
+      "item": "soe:gingerbread"
+    },
+    "3": {
+      "item": "soe:gingerbread"
+    },
+    "4": {
+      "item": "soe:gingerbread_block"
+    },
+    "5": {
+      "item": "soe:gingerbread"
+    }
+  },
+  "result": {
+    "item": "soe:gingerbread_blocks_fence_gate",
+    "count": 1
+  }
+}

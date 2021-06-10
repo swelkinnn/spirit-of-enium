@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "soe:block/hellstonewall_2"
+    },
+    "facing=east": {
+      "model": "soe:block/hellstonewall_2",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "soe:block/hellstonewall_2",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "soe:block/hellstonewall_2",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:enium_ingot"
+    },
+    "2": {
+      "item": "soe:enium_ingot"
+    },
+    "3": {
+      "item": "soe:enium_gem"
+    },
+    "4": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "5": {
+      "item": "soe:enium_gem"
+    },
+    "6": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "7": {
+      "item": "soe:enium_ingot"
+    },
+    "8": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "result": {
+    "item": "soe:deactivated_enium_chestplate",
+    "count": 1
+  }
+}

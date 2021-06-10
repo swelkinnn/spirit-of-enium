@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "soe:block/cobblegen"
+    },
+    "facing=east": {
+      "model": "soe:block/cobblegen",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "soe:block/cobblegen",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "soe:block/cobblegen",
+      "y": 270
+    }
+  }
+}

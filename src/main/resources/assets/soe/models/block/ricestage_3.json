@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "soe:blocks/rice_stage_2",
+    "particle": "soe:blocks/rice_stage_2"
+  }
+}

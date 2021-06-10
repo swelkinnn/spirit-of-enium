@@ -1,0 +1,32 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "green_wand",
+    "customModelName": "Normal",
+    "name": "§aAsmodeus' Eye",
+    "specialInfo": [
+      "§aThen I sit a little longer, on a blaket made for three."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:GMTToolsAndWeapons"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 2,
+    "efficiency": 4.0,
+    "attackSpeed": 1.4,
+    "enchantability": 20,
+    "damageVsEntity": 8.0,
+    "usageCount": 10000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "AsmodeusEyeEntitySwingsItem"
+    }
+  }
+}

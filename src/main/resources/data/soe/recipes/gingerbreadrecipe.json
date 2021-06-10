@@ -1,0 +1,26 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:water_bucket"
+    },
+    "1": {
+      "item": "minecraft:wheat"
+    },
+    "2": {
+      "item": "minecraft:brown_dye"
+    },
+    "3": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "soe:gingerbread",
+    "count": 5
+  }
+}

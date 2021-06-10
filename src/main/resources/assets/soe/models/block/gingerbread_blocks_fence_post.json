@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "soe:blocks/gingerbread_block",
+    "particle": "soe:blocks/gingerbread_block"
+  }
+}

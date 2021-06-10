@@ -1,0 +1,9 @@
+{
+  "parent": "soe:custom/model",
+  "textures": {
+    "0": "soe:blocks/barreltexture",
+    "1": "soe:blocks/oak_log",
+    "missing": "soe:blocks/blue_stained_glass",
+    "particle": "soe:items/lavendariumingot"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LavendariumNugget"
+      },
+      {
+        "value": "CUSTOM:LavendariumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LavendariumMesh"
+      },
+      {
+        "value": "Items.STONE_AXE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LavendariumAxe"
+    },
+    "name": "lavendarium_axe_craft",
+    "namespace": "mod"
+  }
+}

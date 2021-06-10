@@ -1,0 +1,29 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:steel"
+    },
+    "1": {
+      "item": "soe:steel"
+    },
+    "2": {
+      "item": "soe:steel"
+    },
+    "3": {
+      "item": "soe:steel"
+    },
+    "5": {
+      "item": "soe:steel"
+    }
+  },
+  "result": {
+    "item": "soe:steel_armor_helmet",
+    "count": 1
+  }
+}

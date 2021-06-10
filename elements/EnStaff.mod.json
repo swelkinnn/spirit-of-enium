@@ -1,0 +1,43 @@
+{
+  "_fv": 18,
+  "_type": "gun",
+  "definition": {
+    "renderType": 1,
+    "texture": "bullet",
+    "customModelName": "en_staff:default",
+    "name": "N's Staff",
+    "specialInfo": [
+      "§7The original Dingbat.",
+      "§7Shift Right Click to summon a Dingus for 3 XP"
+    ],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": true,
+    "usageCount": 1000,
+    "actionSound": {
+      "value": ""
+    },
+    "hasGlow": true,
+    "animation": "crossbow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 6.5,
+    "onRangedItemUsed": {
+      "name": "EnStaffRangedItemUsed"
+    },
+    "bulletPower": 1.5,
+    "bulletDamage": 6.0,
+    "bulletKnockback": 1,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Items.HEART_OF_THE_SEA"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

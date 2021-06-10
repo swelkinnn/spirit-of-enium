@@ -1,0 +1,16 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:crumbling_bark_stairs"
+    }
+  },
+  "result": {
+    "item": "soe:crumbling_oak_planks",
+    "count": 3
+  }
+}

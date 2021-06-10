@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "lithiumblock",
+        "1": "hellstone",
+        "2": "lavendariumblock"
+      },
+      "name": "default"
+    }
+  }
+}

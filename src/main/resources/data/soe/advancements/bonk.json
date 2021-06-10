@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "soe:pigclops_club"
+    },
+    "title": {
+      "translate": "advancements.bonk.title"
+    },
+    "description": {
+      "translate": "advancements.bonk.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bonk": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "soe:pigclops_club",
+            "count": {
+              "min": 1,
+              "max": 100
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "soe:boreing"
+}

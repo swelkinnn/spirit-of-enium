@@ -1,0 +1,12 @@
+{
+  "group": "soe",
+  "type": "minecraft:campfire_cooking",
+  "experience": 1,
+  "cookingtime": 450,
+  "ingredient": {
+    "item": "soe:negrado_stone"
+  },
+  "result": {
+    "item": "soe:albedo_stone"
+  }
+}

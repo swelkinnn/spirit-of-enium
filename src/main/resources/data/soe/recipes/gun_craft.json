@@ -1,0 +1,29 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 45"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:steel"
+    },
+    "1": {
+      "item": "soe:steel"
+    },
+    "2": {
+      "item": "soe:steel"
+    },
+    "4": {
+      "item": "soe:pistol_ammo"
+    },
+    "5": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "result": {
+    "item": "soe:gun",
+    "count": 1
+  }
+}

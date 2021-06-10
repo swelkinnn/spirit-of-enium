@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "soe:clown_armor_helmet"
+    },
+    "title": {
+      "translate": "advancements.you_are_the_entire_circus.title"
+    },
+    "description": {
+      "translate": "advancements.you_are_the_entire_circus.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "you_are_the_entire_circus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "soe:bullet",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1,
+    "loot": [
+      "soe:clown"
+    ]
+  },
+  "parent": "soe:genuinely_too_many_advancements"
+}

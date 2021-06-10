@@ -1,0 +1,22 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "soe:raw_steel"
+    },
+    {
+      "item": "soe:raw_steel"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "soe:raw_steel"
+    }
+  ],
+  "result": {
+    "item": "soe:clump_of_raw_steel",
+    "count": 1
+  }
+}

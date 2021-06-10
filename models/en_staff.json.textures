@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "en_staff"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "group": "soe",
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "soe:lithium_ore"
+  },
+  "result": {
+    "item": "soe:lithium_ingot"
+  }
+}

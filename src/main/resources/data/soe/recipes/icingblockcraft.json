@@ -1,0 +1,26 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:icingball"
+    },
+    "1": {
+      "item": "soe:icingball"
+    },
+    "2": {
+      "item": "soe:icingball"
+    },
+    "3": {
+      "item": "soe:icingball"
+    }
+  },
+  "result": {
+    "item": "soe:icing_block",
+    "count": 1
+  }
+}

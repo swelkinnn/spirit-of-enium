@@ -1,0 +1,16 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "soe:steel_amalgem"
+    }
+  },
+  "result": {
+    "item": "soe:steel",
+    "count": 3
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "group": "soe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "1": {
+      "item": "soe:enium_gem"
+    },
+    "2": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "3": {
+      "item": "soe:enium_ingot"
+    },
+    "5": {
+      "item": "soe:enium_ingot"
+    }
+  },
+  "result": {
+    "item": "soe:deactivated_enium_helmet",
+    "count": 1
+  }
+}
