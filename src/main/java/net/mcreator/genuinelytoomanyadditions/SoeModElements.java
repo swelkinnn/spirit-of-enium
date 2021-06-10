@@ -46,15 +46,11 @@ public class SoeModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public SoeModElements() {
-		sounds.put(new ResourceLocation("soe", "grimm_murmur"), new net.minecraft.util.SoundEvent(new ResourceLocation("soe", "grimm_murmur")));
-		sounds.put(new ResourceLocation("soe", "grimm_hurt"), new net.minecraft.util.SoundEvent(new ResourceLocation("soe", "grimm_hurt")));
-		sounds.put(new ResourceLocation("soe", "grimm_death"), new net.minecraft.util.SoundEvent(new ResourceLocation("soe", "grimm_death")));
 		sounds.put(new ResourceLocation("soe", "asmodeuschant"), new net.minecraft.util.SoundEvent(new ResourceLocation("soe", "asmodeuschant")));
 		sounds.put(new ResourceLocation("soe", "abaddonchant"), new net.minecraft.util.SoundEvent(new ResourceLocation("soe", "abaddonchant")));
 		sounds.put(new ResourceLocation("soe", "mothman_idle"), new net.minecraft.util.SoundEvent(new ResourceLocation("soe", "mothman_idle")));
 		sounds.put(new ResourceLocation("soe", "mothman_hurts"), new net.minecraft.util.SoundEvent(new ResourceLocation("soe", "mothman_hurts")));
 		sounds.put(new ResourceLocation("soe", "mothman_dies"), new net.minecraft.util.SoundEvent(new ResourceLocation("soe", "mothman_dies")));
-		sounds.put(new ResourceLocation("soe", "wendigo_spawns"), new net.minecraft.util.SoundEvent(new ResourceLocation("soe", "wendigo_spawns")));
 		sounds.put(new ResourceLocation("soe", "wendigo_dies"), new net.minecraft.util.SoundEvent(new ResourceLocation("soe", "wendigo_dies")));
 		sounds.put(new ResourceLocation("soe", "wendigo_hit"), new net.minecraft.util.SoundEvent(new ResourceLocation("soe", "wendigo_hit")));
 		sounds.put(new ResourceLocation("soe", "wendigo_idles"), new net.minecraft.util.SoundEvent(new ResourceLocation("soe", "wendigo_idles")));
@@ -64,6 +60,10 @@ public class SoeModElements {
 		sounds.put(new ResourceLocation("soe", "nowhere_song_1"), new net.minecraft.util.SoundEvent(new ResourceLocation("soe", "nowhere_song_1")));
 		sounds.put(new ResourceLocation("soe", "nowhere_song_2"), new net.minecraft.util.SoundEvent(new ResourceLocation("soe", "nowhere_song_2")));
 		sounds.put(new ResourceLocation("soe", "abysswind"), new net.minecraft.util.SoundEvent(new ResourceLocation("soe", "abysswind")));
+		sounds.put(new ResourceLocation("soe", "grimm_murmur"), new net.minecraft.util.SoundEvent(new ResourceLocation("soe", "grimm_murmur")));
+		sounds.put(new ResourceLocation("soe", "grimm_hurt"), new net.minecraft.util.SoundEvent(new ResourceLocation("soe", "grimm_hurt")));
+		sounds.put(new ResourceLocation("soe", "grimm_death"), new net.minecraft.util.SoundEvent(new ResourceLocation("soe", "grimm_death")));
+		sounds.put(new ResourceLocation("soe", "wendigo_spawns"), new net.minecraft.util.SoundEvent(new ResourceLocation("soe", "wendigo_spawns")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("soe").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

@@ -1,34 +1,4 @@
 {
-  "grimm_murmur": {
-    "category": "hostile",
-    "subtitle": "subtitles.grimm_murmur",
-    "sounds": [
-      {
-        "name": "soe:grimm_murmur",
-        "stream": false
-      }
-    ]
-  },
-  "grimm_hurt": {
-    "category": "hostile",
-    "subtitle": "subtitles.grimm_hurt",
-    "sounds": [
-      {
-        "name": "soe:grimm_hurt",
-        "stream": false
-      }
-    ]
-  },
-  "grimm_death": {
-    "category": "hostile",
-    "subtitle": "subtitles.grimm_death",
-    "sounds": [
-      {
-        "name": "soe:grimm_death",
-        "stream": false
-      }
-    ]
-  },
   "asmodeuschant": {
     "category": "hostile",
     "subtitle": "subtitles.asmodeuschant",
@@ -75,16 +45,6 @@
     "sounds": [
       {
         "name": "soe:mothman_death_2",
-        "stream": false
-      }
-    ]
-  },
-  "wendigo_spawns": {
-    "category": "master",
-    "subtitle": "subtitles.wendigo_spawns",
-    "sounds": [
-      {
-        "name": "soe:wendigo_spawn",
         "stream": false
       }
     ]
@@ -161,6 +121,46 @@
     "sounds": [
       {
         "name": "soe:ontiva.com_wind_sound_effects_samia-hq",
+        "stream": false
+      }
+    ]
+  },
+  "grimm_murmur": {
+    "category": "hostile",
+    "subtitle": "subtitles.grimm_murmur",
+    "sounds": [
+      {
+        "name": "soe:grimm_murmur",
+        "stream": false
+      }
+    ]
+  },
+  "grimm_hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.grimm_hurt",
+    "sounds": [
+      {
+        "name": "soe:grimm_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "grimm_death": {
+    "category": "hostile",
+    "subtitle": "subtitles.grimm_death",
+    "sounds": [
+      {
+        "name": "soe:grimm_death",
+        "stream": false
+      }
+    ]
+  },
+  "wendigo_spawns": {
+    "category": "master",
+    "subtitle": "subtitles.wendigo_spawns",
+    "sounds": [
+      {
+        "name": "soe:wendigo_spawn",
         "stream": false
       }
     ]

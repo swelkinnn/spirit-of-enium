@@ -2590,7 +2590,7 @@
           }
         ]
       },
-      "path": "~/Spirit Of Enium/Living Entities"
+      "path": "~/Spirit Of Enium/Procedures"
     },
     {
       "name": "GrimmchildSummoner",
@@ -12213,30 +12213,6 @@
   ],
   "sound_elements": [
     {
-      "name": "grimm_murmur",
-      "files": [
-        "grimm_murmur"
-      ],
-      "category": "hostile",
-      "subtitle": "Grimm Murmurs"
-    },
-    {
-      "name": "grimm_hurt",
-      "files": [
-        "grimm_hurt"
-      ],
-      "category": "hostile",
-      "subtitle": "Grimm Groans"
-    },
-    {
-      "name": "grimm_death",
-      "files": [
-        "grimm_death"
-      ],
-      "category": "hostile",
-      "subtitle": "Grimm\u0027s Ritual Completes"
-    },
-    {
       "name": "asmodeuschant",
       "files": [
         "asmodeus"
@@ -12275,14 +12251,6 @@
       ],
       "category": "hostile",
       "subtitle": "Mothman dies"
-    },
-    {
-      "name": "wendigo_spawns",
-      "files": [
-        "wendigo_spawn"
-      ],
-      "category": "master",
-      "subtitle": "Wendigo Howls"
     },
     {
       "name": "wendigo_dies",
@@ -12347,6 +12315,38 @@
       ],
       "category": "ambient",
       "subtitle": ""
+    },
+    {
+      "name": "grimm_murmur",
+      "files": [
+        "grimm_murmur"
+      ],
+      "category": "hostile",
+      "subtitle": "Grimm Murmurs"
+    },
+    {
+      "name": "grimm_hurt",
+      "files": [
+        "grimm_hurt"
+      ],
+      "category": "hostile",
+      "subtitle": "Grimm Groans"
+    },
+    {
+      "name": "grimm_death",
+      "files": [
+        "grimm_death"
+      ],
+      "category": "hostile",
+      "subtitle": "Grimm\u0027s Ritual Completes"
+    },
+    {
+      "name": "wendigo_spawns",
+      "files": [
+        "wendigo_spawn"
+      ],
+      "category": "master",
+      "subtitle": "Wendigo Howls"
     }
   ],
   "language_map": {
@@ -13470,6 +13470,7 @@
     "license": "Not specified",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "soe_logo",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
