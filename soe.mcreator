@@ -5621,7 +5621,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crumbling_oak_wood",
-      "path": "~/Spirit Of Enium/Stones/Wood Blocks"
+      "path": "~/Spirit Of Enium/Wood Blocks"
     },
     {
       "name": "CrumblingOakLog",
@@ -5631,7 +5631,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crumbling_oak_log",
-      "path": "~/Spirit Of Enium/Stones/Wood Blocks"
+      "path": "~/Spirit Of Enium/Wood Blocks"
     },
     {
       "name": "CrumblingOakPlanks",
@@ -5641,7 +5641,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crumbling_oak_planks",
-      "path": "~/Spirit Of Enium/Stones/Wood Blocks"
+      "path": "~/Spirit Of Enium/Wood Blocks"
     },
     {
       "name": "CrumblingOakStairs",
@@ -5651,7 +5651,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crumbling_oak_stairs",
-      "path": "~/Spirit Of Enium/Stones/Wood Blocks"
+      "path": "~/Spirit Of Enium/Wood Blocks"
     },
     {
       "name": "CrumblingOakSlab",
@@ -5661,7 +5661,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crumbling_oak_slab",
-      "path": "~/Spirit Of Enium/Stones/Wood Blocks"
+      "path": "~/Spirit Of Enium/Wood Blocks"
     },
     {
       "name": "CrumblingOakFence",
@@ -5671,7 +5671,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crumbling_oak_fence",
-      "path": "~/Spirit Of Enium/Stones/Wood Blocks"
+      "path": "~/Spirit Of Enium/Wood Blocks"
     },
     {
       "name": "CrumblingOakFenceGate",
@@ -5681,7 +5681,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crumbling_oak_fence_gate",
-      "path": "~/Spirit Of Enium/Stones/Wood Blocks"
+      "path": "~/Spirit Of Enium/Wood Blocks"
     },
     {
       "name": "CrumblingOakItemsTag",
@@ -5781,7 +5781,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cactus_planks",
-      "path": "~/Spirit Of Enium/Stones/Wood Blocks"
+      "path": "~/Spirit Of Enium/Wood Blocks"
     },
     {
       "name": "CactusStairs",
@@ -5791,7 +5791,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cactus_stairs",
-      "path": "~/Spirit Of Enium/Stones/Wood Blocks"
+      "path": "~/Spirit Of Enium/Wood Blocks"
     },
     {
       "name": "CactusSlab",
@@ -5801,7 +5801,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cactus_slab",
-      "path": "~/Spirit Of Enium/Stones/Wood Blocks"
+      "path": "~/Spirit Of Enium/Wood Blocks"
     },
     {
       "name": "CactusFence",
@@ -5811,7 +5811,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cactus_fence",
-      "path": "~/Spirit Of Enium/Stones/Wood Blocks"
+      "path": "~/Spirit Of Enium/Wood Blocks"
     },
     {
       "name": "CactusFenceGate",
@@ -5821,7 +5821,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cactus_fence_gate",
-      "path": "~/Spirit Of Enium/Stones/Wood Blocks"
+      "path": "~/Spirit Of Enium/Wood Blocks"
     },
     {
       "name": "CactusItemsTag",
@@ -5901,7 +5901,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crumbling_bark_stairs",
-      "path": "~/Spirit Of Enium/Stones/Wood Blocks"
+      "path": "~/Spirit Of Enium/Wood Blocks"
     },
     {
       "name": "CrumblingBarkSlab",
@@ -5911,7 +5911,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crumbling_bark_slab",
-      "path": "~/Spirit Of Enium/Stones/Wood Blocks"
+      "path": "~/Spirit Of Enium/Wood Blocks"
     },
     {
       "name": "Crumblingslabplanks",
@@ -5981,7 +5981,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crumbling_door",
-      "path": "~/Spirit Of Enium/Stones/Wood Blocks"
+      "path": "~/Spirit Of Enium/Wood Blocks"
     },
     {
       "name": "Asmodeus",
@@ -8372,7 +8372,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cactus_door",
-      "path": "~/Spirit Of Enium/Stones/Wood Blocks"
+      "path": "~/Spirit Of Enium/Wood Blocks"
     },
     {
       "name": "Cactusdoorcraft",
@@ -10770,7 +10770,7 @@
       "metadata": {
         "type": "boolean"
       },
-      "path": "~/Spirit Of Enium/Ore Blocks/Game Rules"
+      "path": "~/Spirit Of Enium/Game Rules"
     },
     {
       "name": "WardlingOnInitialEntitySpawn",
@@ -11640,7 +11640,7 @@
       "metadata": {
         "type": "boolean"
       },
-      "path": "~/Spirit Of Enium/Ore Blocks/Game Rules"
+      "path": "~/Spirit Of Enium/Game Rules"
     },
     {
       "name": "VoidTemp",
@@ -11697,7 +11697,7 @@
           }
         ]
       },
-      "path": "~/Spirit Of Enium/Ore Blocks/Game Rules"
+      "path": "~/Spirit Of Enium/Game Rules"
     },
     {
       "name": "Hardmodetweaks",
@@ -11758,7 +11758,7 @@
       "metadata": {
         "type": "boolean"
       },
-      "path": "~/Spirit Of Enium/Ore Blocks/Game Rules"
+      "path": "~/Spirit Of Enium/Game Rules"
     },
     {
       "name": "Leather",
@@ -12375,23 +12375,23 @@
       "entity.soe.abyssal_remains_1": "Abyssal Remains 1",
       "block.genuinelytoomanyores.compressed_block_of_rotting_flesh": "Compressed Block Of Flesh",
       "entity.soe.abyssal_remains_3": "Abyssal Remains 3",
-      "item.soe.violet_hide": "Violet Hide",
-      "block.gtma.cactus_slab": "Cactus Slab",
       "entity.soe.abyssal_remains_2": "Abyssal Remains 2",
+      "block.gtma.cactus_slab": "Cactus Slab",
+      "item.soe.violet_hide": "Violet Hide",
       "item.gtma.rotten_horn": "Rotten Horn",
       "block.soe.refined_hellstone_block": "Refined Hellstone Block",
       "item.gtma.steel_shovel": "Steel Shovel",
       "advancements.stronk.descr": "Obtain a steel bar",
       "item.minecraft.splash_potion.effect.choking": "Splash Choking",
-      "item.genuinelytoomanyores.wraithly_armor_helmet": "Wraithly Helm",
-      "item.gtma.pigman_spawn_egg": "Pigman Spawn Egg",
       "item.soe.steel": "Steel Bar",
+      "item.gtma.pigman_spawn_egg": "Pigman Spawn Egg",
+      "item.genuinelytoomanyores.wraithly_armor_helmet": "Wraithly Helm",
       "advancements.ancient_rock.title": "2010",
       "entity.gtma.violet_moth": "Violet Moth",
-      "item.soe.stone_hammer": "Stone Hammer",
       "item.gtma.grimmflame": "Grimmflame",
-      "item.soe.mothmanicon": "Mothmanicon",
+      "item.soe.stone_hammer": "Stone Hammer",
       "entity.soe.bombe": "Bomb",
+      "item.soe.mothmanicon": "Mothmanicon",
       "entity.soe.violet_corpse": "Violet Flame Cultist Corpse",
       "item.gtma.nowhere": "Nowhere Portal Igniter",
       "item.soe.violet_winding_spawn_egg": "Violet Winding Spawn Egg",
@@ -12427,15 +12427,15 @@
       "block.soe.reinforced_steel_block": "Reinforced Steel Block",
       "item.soe.clown_armor_leggings": "Clown Pants",
       "item.soe.debris_scrap": "Debris Scrap",
-      "advancements.the_end.title": "The End.",
       "item.soe.molten_leggings": "Molten Grieves",
+      "advancements.the_end.title": "The End.",
       "item.soe.mirror_mask_sad_boots": "Mirror Mask Boots",
       "item.soe.mirror_mask_sad_chestplate": "Mirror Mask Body",
       "advancements.drastic_measures.descr": "Craft a pistol",
       "item.soe.asmodeus_clone_spawn_egg": "Asmodeus Clone Spawn Egg",
       "item.soe.grimmature_spawn_egg": "Grimmature Spawn Egg",
-      "item.gtma.n_ns_gown_boots": "N_N\u0027s Shoes",
       "item.soe.mirror_mask_boots": "Mirror Mask Boots",
+      "item.gtma.n_ns_gown_boots": "N_N\u0027s Shoes",
       "block.soe.driedblood": "Dried blood",
       "subtitles.asmodeuschime": "Asmodeus Chimes",
       "item.gtma.soelogo": "Soelogo",
@@ -12445,11 +12445,11 @@
       "item.genuinelytoomanyores.lithium_ingot": "Lithium Ingot",
       "item.gtma.zombie_pigman_spawn_egg": "Zombie Pigman Spawn Egg",
       "block.gtma.nightmare_lantern": "Nightmare Lamp",
-      "advancements.lavendarium_chestplate_obtained.descr": "Craft and wear a full set of lavendarium armor",
       "item.gtma.molten_helmet": "Molten Helmet",
+      "advancements.lavendarium_chestplate_obtained.descr": "Craft and wear a full set of lavendarium armor",
       "block.gtma.cactus_stairs": "Cactus Stairs",
-      "item.gtma.molten_boots": "Molten Boots",
       "block.gtma.gingerbread_block": "Gingerbread Block",
+      "item.gtma.molten_boots": "Molten Boots",
       "block.gtma.cobblegen": "Cobblegen",
       "item.soe.envys_slasher": "§aEnvy\u0027s Slasher",
       "item.soe.dynamitethrown": "Dynamitethrown",
@@ -12457,8 +12457,8 @@
       "item.gtma.en_whip": "N\u0027s Whip",
       "item.soe.nail": "Nail",
       "item.gtma.steel_armor_helmet": "Steel Armor Helmet",
-      "block.gtma.hellstonewall_5": "Smoldering Stone",
       "subtitles.abysswind": "",
+      "block.gtma.hellstonewall_5": "Smoldering Stone",
       "block.gtma.hellstonewall_2": "Ember Walling",
       "advancements.whip_of_void.descr": "Craft the Palidan Of Tears\u0027 trusty weapon",
       "block.gtma.hellstonewall_1": "Cinder Walling",
@@ -12473,8 +12473,8 @@
       "item.soe.grimmicon": "Grimmicon",
       "item.soe.vgk_grimm_spawn_egg": "Violet GodKing Grimm Spawn Egg",
       "block.soe.faded_light_grey_concrete": "Faded Light Gray Concrete",
-      "block.gtma.icing_block": "Icing Block",
       "item.gtma.violet_flame_cultist_corpse_spawn_egg": "Violet Flame Cultist Corpse Spawn Egg",
+      "block.gtma.icing_block": "Icing Block",
       "advancements.feed_the_child.title": "Feed The Child",
       "item.soe.violet_horn": "Violet Horn",
       "item.gtma.gun": "Pistol",
@@ -12506,8 +12506,8 @@
       "item.gtma.dingushold": "Dingus",
       "item.gtma.nightmareflame": "Grimmflame",
       "block.soe.lithium_block": "Lithium Block",
-      "item.gtma.zombie_pigman_brute_spawn_egg": "Zombie Pigman Brute Spawn Egg",
       "entity.soe.vgk_grimm": "Violet GodKing Grimm",
+      "item.gtma.zombie_pigman_brute_spawn_egg": "Zombie Pigman Brute Spawn Egg",
       "death.attack.awful": "%1$s made MANY life mistakes",
       "advancements.just_like_the_old_times.descr": "Obtain a Steel Sword",
       "item.genuinelytoomanyores.lavendarium_armor_helmet": "Lavendarium Mesh Helmet",
@@ -12552,18 +12552,18 @@
       "advancements.bonk.descr": "Obtain the Pigclops\u0027 faithful weapon",
       "item.genuinelytoomanyores.lithium_pickaxe": "Lithium Pickaxe",
       "item.gtma.wraithly_armor_boots": "Wraithly Boots",
-      "item.soe.walking_stick": "Walking Stick",
       "item.soe.n_ns_gown_chestplate": "En\u0027s Hood",
+      "item.soe.walking_stick": "Walking Stick",
       "item.genuinelytoomanyores.steel_armor_leggings": "Steel Armor Leggings",
       "item.gtma.steel_armor_chestplate": "Steel Armor Body",
       "item.soe.mirror_mask_sad_leggings": "Mirror Mask Leggings",
       "item.gtma.firey_greatsword": "Firey Greatsword",
       "biome.gtma.nowhere_plains": "Nowhere Plains",
       "block.soe.crumbling_oak_fence_gate": "Crumbling Fence Gate",
-      "item.gtma.husk_sentry_spawn_egg": "Hallownest Husk Sentry Spawn Egg",
-      "item.gtma.violet_cloak_chestplate": "Violet Cloak",
-      "advancements.craving.descr": "Slay the Violet Winding",
       "advancements.burnthefather_2.title": "Burn The Father",
+      "advancements.craving.descr": "Slay the Violet Winding",
+      "item.gtma.violet_cloak_chestplate": "Violet Cloak",
+      "item.gtma.husk_sentry_spawn_egg": "Hallownest Husk Sentry Spawn Egg",
       "block.soe.gingerbread_blocks_fence": "Gingerbread Fence",
       "block.gtma.crumbling_bark_slab": "Crumbling Bark Slab",
       "block.gtma.clump_of_raw_steel": "Clump Of Raw Steel",
@@ -12578,10 +12578,10 @@
       "item.genuinelytoomanyores.reinforced_battery": "Reinforced Battery",
       "entity.soe.grimmkin_master": "Grimmkin Master",
       "item.soe.mirror_mask_chestplate": "Mirror Mask Body",
-      "item.genuinelytoomanyores.molten_hamaxe": "Molten Hamaxe",
       "entity.soe.reaver": "Reaver",
-      "item.soe.roast_carrot": "Roast Carrot",
+      "item.genuinelytoomanyores.molten_hamaxe": "Molten Hamaxe",
       "item.soe.ripped_sheet": "§7Ripped Sheet",
+      "item.soe.roast_carrot": "Roast Carrot",
       "item.genuinelytoomanyores.lithium_sword": "Lithium Sword",
       "block.gtma.crumbling_oak_log": "Crumbling Oak Log",
       "item.soe.tainted_end": "End Farlands Portal Igniter",
@@ -12594,8 +12594,8 @@
       "item.soe.pigman_spawn_egg": "Pigman Spawn Egg",
       "item.minecraft.splash_potion.effect.zombification": "Splash Zombification",
       "item.gtma.violet_tome": "Violet Tome",
-      "item.genuinelytoomanyores.steel_axe": "Steel Axe",
       "item.soe.clown_armor_boots": "Clown Armor Boots",
+      "item.genuinelytoomanyores.steel_axe": "Steel Axe",
       "block.gtma.lithium_ore": "Lithium Ore",
       "item.gtma.grimmature_summoner": "Grimmature Summoner",
       "item.genuinelytoomanyores.rotten_heap": "Rotten Heap",
@@ -12605,15 +12605,15 @@
       "block.soe.hellstonewall_3": "Hellstone Bricks",
       "item.soe.firey_greatsword": "Firey Greatsword",
       "item.gtma.nether_transmitter": "Nether Transmitter",
-      "item.soe.mirror_mask_diablada_boots": "Mirror Mask Boots",
       "item.genuinelytoomanyores.steel_amalgem": "Steel Amalgemation",
+      "item.soe.mirror_mask_diablada_boots": "Mirror Mask Boots",
       "item.gtma.n_ns_gown_chestplate": "En\u0027s Hood",
       "item.gtma.infinitewatersource": "Infinite Water Source",
       "item.gtma.reinforced_battery": "Reinforced Battery",
       "advancements.words_cannot_express.descr": "Wear a piece of reinforced steel block armor and turn your bones to powder. Why did you craft this/ Why is THIS what you spent your time doing? I swear to god there is no mercy upon your soul for this. Actually a lunatic.",
       "item.soe.abyssalremains_2attack": "Abyssalremains 2attack",
-      "advancements.ritual_music.title": "Ritual Music",
       "advancements.just_like_the_old_times.title": "Knight-mare",
+      "advancements.ritual_music.title": "Ritual Music",
       "entity.soe.grimmchild": "Grimmchild",
       "item.soe.abyssal_remains_2_spawn_egg": "Abyssal Remains 2 Spawn Egg",
       "item.soe.dynamite": "Dynamite",
@@ -12634,8 +12634,8 @@
       "entity.genuinelytoomanyores.wraith": "Wraith",
       "item.genuinelytoomanyores.lavendarium_nugget": "Lavendarium Nugget",
       "advancements.the_end.descr": "Enter Nowhere. The end of the line. An eternal cursing for those who slip into the wrong cracks.",
-      "item.gtma.brutingstick": "Bruting Stick",
       "item.gtma.wraithly_armor_chestplate": "Wraithly Body",
+      "item.gtma.brutingstick": "Bruting Stick",
       "item.soe.gingerbreadman": "Gingerbread Man",
       "block.soe.crumbling_bark_slab": "Crumbling Bark Slab",
       "item.gtma.zombie_pigman_brute": "Zombie Pigman Brute Spawn Egg",
@@ -13406,12 +13406,7 @@
           },
           {
             "name": "Stones",
-            "children": [
-              {
-                "name": "Wood Blocks",
-                "children": []
-              }
-            ]
+            "children": []
           },
           {
             "name": "Potions",
@@ -13447,15 +13442,18 @@
           },
           {
             "name": "Ore Blocks",
-            "children": [
-              {
-                "name": "Game Rules",
-                "children": []
-              }
-            ]
+            "children": []
           },
           {
             "name": "Random Items",
+            "children": []
+          },
+          {
+            "name": "Game Rules",
+            "children": []
+          },
+          {
+            "name": "Wood Blocks",
             "children": []
           }
         ]
