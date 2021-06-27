@@ -2,15 +2,15 @@
   "mappings": {
     "default": {
       "map": {
-        "0": ""
+        "0": "card"
       },
       "name": "default"
     },
-    "blood": {
+    "magician": {
       "map": {
-        "0": "blood_2"
+        "0": "card_1"
       },
-      "name": "blood"
+      "name": "magician"
     }
   }
 }

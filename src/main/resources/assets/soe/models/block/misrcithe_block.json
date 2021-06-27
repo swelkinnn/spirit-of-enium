@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soe:blocks/misricithe_block",
+    "up": "soe:blocks/misricithe_block",
+    "north": "soe:blocks/misricithe_block",
+    "east": "soe:blocks/misricithe_block",
+    "south": "soe:blocks/misricithe_block",
+    "west": "soe:blocks/misricithe_block",
+    "particle": "soe:blocks/misricithe_block"
+  }
+}

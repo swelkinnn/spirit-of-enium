@@ -15,7 +15,11 @@
     "spawnWorldTypes": [
       "CUSTOM:Nowhere"
     ],
-    "restrictionBlocks": [],
+    "restrictionBlocks": [
+      {
+        "value": "CUSTOM:NowhereStone"
+      }
+    ],
     "restrictionBiomes": [],
     "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK"
   }

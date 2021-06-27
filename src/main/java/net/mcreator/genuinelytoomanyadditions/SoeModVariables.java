@@ -206,6 +206,9 @@ public class SoeModVariables {
 			nbt.putDouble("Temp", instance.Temp);
 			nbt.putDouble("TempIns", instance.TempIns);
 			nbt.putDouble("PigmanRep", instance.PigmanRep);
+			nbt.putDouble("spawnpointx", instance.spawnpointx);
+			nbt.putDouble("spawnpointy", instance.spawnpointy);
+			nbt.putDouble("spawnpointz", instance.spawnpointz);
 			return nbt;
 		}
 
@@ -215,6 +218,9 @@ public class SoeModVariables {
 			instance.Temp = nbt.getDouble("Temp");
 			instance.TempIns = nbt.getDouble("TempIns");
 			instance.PigmanRep = nbt.getDouble("PigmanRep");
+			instance.spawnpointx = nbt.getDouble("spawnpointx");
+			instance.spawnpointy = nbt.getDouble("spawnpointy");
+			instance.spawnpointz = nbt.getDouble("spawnpointz");
 		}
 	}
 
@@ -222,6 +228,9 @@ public class SoeModVariables {
 		public double Temp = 0;
 		public double TempIns = 0;
 		public double PigmanRep = 0;
+		public double spawnpointx = 0;
+		public double spawnpointy = 0;
+		public double spawnpointz = 0;
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayerEntity)
 				SoeMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayerEntity) entity), new PlayerVariablesSyncMessage(this));
@@ -256,6 +265,9 @@ public class SoeModVariables {
 		clone.Temp = original.Temp;
 		clone.TempIns = original.TempIns;
 		clone.PigmanRep = original.PigmanRep;
+		clone.spawnpointx = original.spawnpointx;
+		clone.spawnpointy = original.spawnpointy;
+		clone.spawnpointz = original.spawnpointz;
 		if (!event.isWasDeath()) {
 		}
 	}
@@ -283,6 +295,9 @@ public class SoeModVariables {
 					variables.Temp = message.data.Temp;
 					variables.TempIns = message.data.TempIns;
 					variables.PigmanRep = message.data.PigmanRep;
+					variables.spawnpointx = message.data.spawnpointx;
+					variables.spawnpointy = message.data.spawnpointy;
+					variables.spawnpointz = message.data.spawnpointz;
 				}
 			});
 			context.setPacketHandled(true);

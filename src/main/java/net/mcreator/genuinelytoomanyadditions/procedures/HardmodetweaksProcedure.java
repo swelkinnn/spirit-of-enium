@@ -7,11 +7,11 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
 import net.minecraft.util.Hand;
-import net.minecraft.potion.Effects;
-import net.minecraft.potion.EffectInstance;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
+import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.player.ServerPlayerEntity;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.monster.ZombieEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
@@ -45,22 +45,123 @@ public class HardmodetweaksProcedure extends SoeModElements.ModElement {
 		Entity entity = (Entity) dependencies.get("entity");
 		IWorld world = (IWorld) dependencies.get("world");
 		if (((SoeModVariables.MapVariables.get(world).HardMode) == (true))) {
+			if (entity instanceof LivingEntity) {
+				if (entity instanceof PlayerEntity)
+					((PlayerEntity) entity).inventory.armorInventory.set((int) 3, new ItemStack(Blocks.STONE_BUTTON, (int) (1)));
+				else
+					((LivingEntity) entity).setItemStackToSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 3),
+							new ItemStack(Blocks.STONE_BUTTON, (int) (1)));
+				if (entity instanceof ServerPlayerEntity)
+					((ServerPlayerEntity) entity).inventory.markDirty();
+			}
 			if ((entity instanceof ZombieEntity)) {
-				if (entity instanceof LivingEntity)
-					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.FIRE_RESISTANCE, (int) 60, (int) 1, (true), (false)));
 				if ((Math.random() < 0.3)) {
-					if (entity instanceof LivingEntity) {
-						ItemStack _setstack = new ItemStack(Items.STONE_SWORD, (int) (1));
-						_setstack.setCount((int) 1);
-						((LivingEntity) entity).setHeldItem(Hand.MAIN_HAND, _setstack);
-						if (entity instanceof ServerPlayerEntity)
-							((ServerPlayerEntity) entity).inventory.markDirty();
+					if ((Math.random() < 0.3)) {
+						if (entity instanceof LivingEntity) {
+							ItemStack _setstack = new ItemStack(Items.STONE_SWORD, (int) (1));
+							_setstack.setCount((int) 1);
+							((LivingEntity) entity).setHeldItem(Hand.MAIN_HAND, _setstack);
+							if (entity instanceof ServerPlayerEntity)
+								((ServerPlayerEntity) entity).inventory.markDirty();
+						}
+					} else {
+						if (entity instanceof LivingEntity) {
+							ItemStack _setstack = new ItemStack(Items.WOODEN_SWORD, (int) (1));
+							_setstack.setCount((int) 1);
+							((LivingEntity) entity).setHeldItem(Hand.MAIN_HAND, _setstack);
+							if (entity instanceof ServerPlayerEntity)
+								((ServerPlayerEntity) entity).inventory.markDirty();
+						}
 					}
 				} else {
 					if (entity instanceof LivingEntity) {
 						ItemStack _setstack = new ItemStack(Blocks.AIR, (int) (1));
 						_setstack.setCount((int) 1);
 						((LivingEntity) entity).setHeldItem(Hand.MAIN_HAND, _setstack);
+						if (entity instanceof ServerPlayerEntity)
+							((ServerPlayerEntity) entity).inventory.markDirty();
+					}
+				}
+				if ((Math.random() < 0.3)) {
+					if (entity instanceof LivingEntity) {
+						if (entity instanceof PlayerEntity)
+							((PlayerEntity) entity).inventory.armorInventory.set((int) 3, new ItemStack(Items.LEATHER_HELMET, (int) (1)));
+						else
+							((LivingEntity) entity).setItemStackToSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 3),
+									new ItemStack(Items.LEATHER_HELMET, (int) (1)));
+						if (entity instanceof ServerPlayerEntity)
+							((ServerPlayerEntity) entity).inventory.markDirty();
+					}
+				} else {
+					if (entity instanceof LivingEntity) {
+						if (entity instanceof PlayerEntity)
+							((PlayerEntity) entity).inventory.armorInventory.set((int) 3, new ItemStack(Blocks.STONE_BUTTON, (int) (1)));
+						else
+							((LivingEntity) entity).setItemStackToSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 3),
+									new ItemStack(Blocks.STONE_BUTTON, (int) (1)));
+						if (entity instanceof ServerPlayerEntity)
+							((ServerPlayerEntity) entity).inventory.markDirty();
+					}
+				}
+				if ((Math.random() < 0.3)) {
+					if (entity instanceof LivingEntity) {
+						if (entity instanceof PlayerEntity)
+							((PlayerEntity) entity).inventory.armorInventory.set((int) 2, new ItemStack(Items.LEATHER_CHESTPLATE, (int) (1)));
+						else
+							((LivingEntity) entity).setItemStackToSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 2),
+									new ItemStack(Items.LEATHER_CHESTPLATE, (int) (1)));
+						if (entity instanceof ServerPlayerEntity)
+							((ServerPlayerEntity) entity).inventory.markDirty();
+					}
+				} else {
+					if (entity instanceof LivingEntity) {
+						if (entity instanceof PlayerEntity)
+							((PlayerEntity) entity).inventory.armorInventory.set((int) 2, new ItemStack(Blocks.STONE_BUTTON, (int) (1)));
+						else
+							((LivingEntity) entity).setItemStackToSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 2),
+									new ItemStack(Blocks.STONE_BUTTON, (int) (1)));
+						if (entity instanceof ServerPlayerEntity)
+							((ServerPlayerEntity) entity).inventory.markDirty();
+					}
+				}
+				if ((Math.random() < 0.3)) {
+					if (entity instanceof LivingEntity) {
+						if (entity instanceof PlayerEntity)
+							((PlayerEntity) entity).inventory.armorInventory.set((int) 1, new ItemStack(Items.LEATHER_LEGGINGS, (int) (1)));
+						else
+							((LivingEntity) entity).setItemStackToSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 1),
+									new ItemStack(Items.LEATHER_LEGGINGS, (int) (1)));
+						if (entity instanceof ServerPlayerEntity)
+							((ServerPlayerEntity) entity).inventory.markDirty();
+					}
+				} else {
+					if (entity instanceof LivingEntity) {
+						if (entity instanceof PlayerEntity)
+							((PlayerEntity) entity).inventory.armorInventory.set((int) 1, new ItemStack(Blocks.STONE_BUTTON, (int) (1)));
+						else
+							((LivingEntity) entity).setItemStackToSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 1),
+									new ItemStack(Blocks.STONE_BUTTON, (int) (1)));
+						if (entity instanceof ServerPlayerEntity)
+							((ServerPlayerEntity) entity).inventory.markDirty();
+					}
+				}
+				if ((Math.random() < 0.3)) {
+					if (entity instanceof LivingEntity) {
+						if (entity instanceof PlayerEntity)
+							((PlayerEntity) entity).inventory.armorInventory.set((int) 0, new ItemStack(Items.LEATHER_BOOTS, (int) (1)));
+						else
+							((LivingEntity) entity).setItemStackToSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 0),
+									new ItemStack(Items.LEATHER_BOOTS, (int) (1)));
+						if (entity instanceof ServerPlayerEntity)
+							((ServerPlayerEntity) entity).inventory.markDirty();
+					}
+				} else {
+					if (entity instanceof LivingEntity) {
+						if (entity instanceof PlayerEntity)
+							((PlayerEntity) entity).inventory.armorInventory.set((int) 0, new ItemStack(Blocks.STONE_BUTTON, (int) (1)));
+						else
+							((LivingEntity) entity).setItemStackToSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 0),
+									new ItemStack(Blocks.STONE_BUTTON, (int) (1)));
 						if (entity instanceof ServerPlayerEntity)
 							((ServerPlayerEntity) entity).inventory.markDirty();
 					}

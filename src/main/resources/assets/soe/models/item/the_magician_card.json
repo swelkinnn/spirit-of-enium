@@ -1,0 +1,7 @@
+{
+  "parent": "soe:custom/card",
+  "textures": {
+    "0": "soe:blocks/card_1",
+    "particle": "soe:items/magician"
+  }
+}

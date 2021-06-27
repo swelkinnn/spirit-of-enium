@@ -28,7 +28,9 @@ import net.minecraft.util.Rotation;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.util.Mirror;
+import net.minecraft.block.BlockState;
 
+import net.mcreator.genuinelytoomanyadditions.block.NowhereStoneBlock;
 import net.mcreator.genuinelytoomanyadditions.SoeModElements;
 
 import java.util.Random;
@@ -63,6 +65,12 @@ public class AsmodeusTowerStructure extends SoeModElements.ModElement {
 							int k = ck + random.nextInt(16);
 							int j = world.getHeight(Heightmap.Type.OCEAN_FLOOR_WG, i, k);
 							j -= 1;
+							BlockState blockAt = world.getBlockState(new BlockPos(i, j, k));
+							boolean blockCriteria = false;
+							if (blockAt.getBlock() == NowhereStoneBlock.block.getDefaultState().getBlock())
+								blockCriteria = true;
+							if (!blockCriteria)
+								continue;
 							Rotation rotation = Rotation.values()[random.nextInt(3)];
 							Mirror mirror = Mirror.values()[random.nextInt(2)];
 							BlockPos spawnTo = new BlockPos(i + 0, j + 0, k + 0);

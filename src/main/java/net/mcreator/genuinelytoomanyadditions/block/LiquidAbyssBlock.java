@@ -28,7 +28,9 @@ import net.minecraft.util.registry.Registry;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
+import net.minecraft.item.Items;
 import net.minecraft.item.Item;
+import net.minecraft.item.BucketItem;
 import net.minecraft.fluid.Fluid;
 import net.minecraft.fluid.FlowingFluid;
 import net.minecraft.client.renderer.RenderTypeLookup;
@@ -37,6 +39,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.FlowingFluidBlock;
 import net.minecraft.block.Block;
 
+import net.mcreator.genuinelytoomanyadditions.itemgroup.GTMBlocksItemGroup;
 import net.mcreator.genuinelytoomanyadditions.SoeModElements;
 
 import java.util.Random;
@@ -74,11 +77,14 @@ public class LiquidAbyssBlock extends SoeModElements.ModElement {
 	public void initElements() {
 		fluidproperties = new ForgeFlowingFluid.Properties(() -> still, () -> flowing,
 				FluidAttributes.builder(new ResourceLocation("soe:blocks/abyss"), new ResourceLocation("soe:blocks/abyss")).luminosity(0)
-						.density(5000).viscosity(5000)).block(() -> block);
+						.density(5000).viscosity(5000)).bucket(() -> bucket).block(() -> block);
 		still = (FlowingFluid) new ForgeFlowingFluid.Source(fluidproperties).setRegistryName("liquid_abyss");
 		flowing = (FlowingFluid) new ForgeFlowingFluid.Flowing(fluidproperties).setRegistryName("liquid_abyss_flowing");
 		elements.blocks.add(() -> new FlowingFluidBlock(still, Block.Properties.create(Material.WATER)) {
 		}.setRegistryName("liquid_abyss"));
+		elements.items
+				.add(() -> new BucketItem(still, new Item.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(GTMBlocksItemGroup.tab))
+						.setRegistryName("liquid_abyss_bucket"));
 	}
 	private static Feature<BlockStateFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;

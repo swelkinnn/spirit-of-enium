@@ -10,7 +10,7 @@
     "viscosity": 5000,
     "isGas": false,
     "type": "WATER",
-    "generateBucket": false,
+    "generateBucket": true,
     "creativeTab": {
       "value": "CUSTOM:GTMBlocks"
     },

@@ -1403,7 +1403,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "rotten_hunk",
-      "path": "~/Spirit Of Enium/Ore Blocks"
+      "path": "~/Spirit Of Enium/Random Blocks"
     },
     {
       "name": "Rottenhunkcraft",
@@ -1443,7 +1443,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "compressed_block_of_rotting_flesh",
-      "path": "~/Spirit Of Enium/Ore Blocks"
+      "path": "~/Spirit Of Enium/Random Blocks"
     },
     {
       "name": "Compressedrottenfleshblockcraft",
@@ -1463,7 +1463,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "double_compressed_rotten_blcok",
-      "path": "~/Spirit Of Enium/Ore Blocks"
+      "path": "~/Spirit Of Enium/Random Blocks"
     },
     {
       "name": "Doublecompressedfleshcraft",
@@ -1483,7 +1483,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "triplefleshblock",
-      "path": "~/Spirit Of Enium/Ore Blocks"
+      "path": "~/Spirit Of Enium/Random Blocks"
     },
     {
       "name": "Triplefleshblockcraft",
@@ -1503,7 +1503,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "quad_fleshblock",
-      "path": "~/Spirit Of Enium/Ore Blocks"
+      "path": "~/Spirit Of Enium/Random Blocks"
     },
     {
       "name": "Rottenhunkdowncraft",
@@ -5591,7 +5591,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "burnt_out_lithium_battery",
-      "path": "~/Spirit Of Enium/Ore Blocks"
+      "path": "~/Spirit Of Enium/Random Items"
     },
     {
       "name": "LithiumBattery",
@@ -11722,45 +11722,6 @@
       "path": "~/Spirit Of Enium/Procedures"
     },
     {
-      "name": "Dimensionstack",
-      "type": "procedure",
-      "sortid": 923,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "dimensionstack",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Spirit Of Enium/Procedures"
-    },
-    {
-      "name": "DimesionStack",
-      "type": "gamerule",
-      "sortid": 924,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "dimesionStack",
-      "metadata": {
-        "type": "boolean"
-      },
-      "path": "~/Spirit Of Enium/Game Rules"
-    },
-    {
       "name": "Leather",
       "type": "tag",
       "sortid": 925,
@@ -12183,6 +12144,276 @@
         ]
       },
       "path": "~/Spirit Of Enium/Procedures"
+    },
+    {
+      "name": "TheFoolCard",
+      "type": "item",
+      "sortid": 950,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_fool_card",
+      "path": "~/Spirit Of Enium/Card Decks"
+    },
+    {
+      "name": "Playerspawnpoint",
+      "type": "procedure",
+      "sortid": 951,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "playerspawnpoint",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Spirit Of Enium/Procedures"
+    },
+    {
+      "name": "Playerspawnpoint2",
+      "type": "procedure",
+      "sortid": 952,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "playerspawnpoint_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Spirit Of Enium/Procedures"
+    },
+    {
+      "name": "Foolcardtp",
+      "type": "procedure",
+      "sortid": 953,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "foolcardtp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Spirit Of Enium/Procedures"
+    },
+    {
+      "name": "TheMagicianCard",
+      "type": "item",
+      "sortid": 954,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_magician_card",
+      "path": "~/Spirit Of Enium/Card Decks"
+    },
+    {
+      "name": "MagicianConversion",
+      "type": "procedure",
+      "sortid": 955,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magician_conversion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Spirit Of Enium/Procedures"
+    },
+    {
+      "name": "HideMaskHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 956,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hide_mask_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Spirit Of Enium/Procedures"
+    },
+    {
+      "name": "HideMask",
+      "type": "armor",
+      "sortid": 956,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hide_mask",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      },
+      "path": "~/Spirit Of Enium/Armors"
+    },
+    {
+      "name": "Hidemaskprocedure2",
+      "type": "procedure",
+      "sortid": 957,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hidemaskprocedure_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Spirit Of Enium/Procedures"
+    },
+    {
+      "name": "MisrcitheBlock",
+      "type": "block",
+      "sortid": 958,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "misrcithe_block",
+      "path": "~/Spirit Of Enium/Ore Blocks"
+    },
+    {
+      "name": "MisricitheIngot",
+      "type": "item",
+      "sortid": 959,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "misricithe_ingot",
+      "path": "~/Spirit Of Enium/Ingots"
+    },
+    {
+      "name": "MisricitheIngotCraft",
+      "type": "recipe",
+      "sortid": 960,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "misricithe_ingot_craft",
+      "path": "~/Spirit Of Enium/Recipes"
+    },
+    {
+      "name": "JukeboxRecraft",
+      "type": "recipe",
+      "sortid": 961,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jukebox_recraft",
+      "path": "~/Spirit Of Enium/Recipes"
+    },
+    {
+      "name": "Jukeboxcraftremove",
+      "type": "recipe",
+      "sortid": 962,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jukeboxcraftremove",
+      "path": "~/Spirit Of Enium/Recipes"
     }
   ],
   "variable_elements": [
@@ -12206,6 +12437,24 @@
     },
     {
       "name": "PigmanRep",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "spawnpointx",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "spawnpointy",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "spawnpointz",
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
@@ -12356,8 +12605,8 @@
       "item.soe.lavendarium_armor_boots": "Lavendarium Boots",
       "item.gtma.enium_helmet": "Enium Helmet",
       "block.gtma.crumbling_oak_stairs": "Crumbling Stairs",
-      "block.soe.debris_andesite": "Andesite",
       "block.soe.cobblegen": "Cobblegen",
+      "block.soe.debris_andesite": "Andesite",
       "advancements.violet_whisperings.descr": "Obtain a long-gone cult\u0027s tome",
       "item.soe.violet_flame_cultist_corpse_sitting_spawn_egg": "Violet Flame Cultist Corpse (Sitting) Spawn Egg",
       "entity.soe.dingus": "Dingus",
@@ -12431,8 +12680,8 @@
       "advancements.the_end.title": "The End.",
       "item.soe.mirror_mask_sad_boots": "Mirror Mask Boots",
       "item.soe.mirror_mask_sad_chestplate": "Mirror Mask Body",
-      "advancements.drastic_measures.descr": "Craft a pistol",
       "item.soe.asmodeus_clone_spawn_egg": "Asmodeus Clone Spawn Egg",
+      "advancements.drastic_measures.descr": "Craft a pistol",
       "item.soe.grimmature_spawn_egg": "Grimmature Spawn Egg",
       "item.soe.mirror_mask_boots": "Mirror Mask Boots",
       "item.gtma.n_ns_gown_boots": "N_N\u0027s Shoes",
@@ -12496,6 +12745,7 @@
       "item.gtma.lavendarium_armor_boots": "Lavendarium Boots",
       "item.gtma.gingerbread": "Gingerbread",
       "item.soe.godking_pin": "§5GodKing Badge",
+      "block.soe.misrcithe_block": "Misrcithe Block",
       "item.genuinelytoomanyores.steel_hoe": "Steel Hoe",
       "item.soe.lavendarium_sword": "Lavendarium Sword",
       "entity.soe.the_lost": "The Lost",
@@ -12523,6 +12773,7 @@
       "item.gtma.pistol_ammo": "Pistol Ammo",
       "item.soe.hardmodetest": "Hardmodetest",
       "item.gtma.lithium_battery": "Lithium Battery",
+      "item.soe.the_magician_card": "Tarot Card",
       "subtitles.mothman_hurts": "Mothman hurts",
       "item.genuinelytoomanyores.steel_shovel": "Steel Shovel",
       "item.genuinelytoomanyores.lavendarium_armor_leggings": "Lavendarium Mesh Leggings",
@@ -12590,6 +12841,7 @@
       "item.soe.mirror_mask_diablada_helmet": "Mirror Mask",
       "entity.soe.violet_boar": "Violet Boarclops",
       "item.gtma.grimmkin_staff": "Grimmkin Staff",
+      "item.soe.the_fool_card": "Tarot Card",
       "item.soe.steel_hoe": "Steel Hoe",
       "item.soe.pigman_spawn_egg": "Pigman Spawn Egg",
       "item.minecraft.splash_potion.effect.zombification": "Splash Zombification",
@@ -12883,6 +13135,7 @@
       "item.genuinelytoomanyores.lavendarium_ingot": "Lavendarium Ingot",
       "item.gtma.throwing_spade": "Throwing Spade",
       "item.soe.violetbait": "§5Violet Bait",
+      "item.soe.hide_mask_chestplate": "Hide Mask Body",
       "block.soe.gingerbread_block": "Gingerbread Block",
       "advancements.burning_body.title": "Blazing Body",
       "item.soe.grimmchild_summoner": "Grimmchild Summoner",
@@ -13037,7 +13290,6 @@
       "block.soe.cactus_fence": "Cactus Fence",
       "item.genuinelytoomanyores.wraithly_shank": "Wraithly Shank",
       "item.soe.slimehat_boots": "Slimehat Boots",
-      "gamerule.dimesionStack.description": "If you go under the world, you go down a level, above the world, up a level.",
       "item.minecraft.splash_potion.effect.wendigo_curse": "Splash Wendigo Curse",
       "entity.soe.reaver_inf": "Reaver",
       "advancements.fool_arena.descr": "Obtain a pale ingot",
@@ -13093,6 +13345,7 @@
       "entity.soe.abyssal_knight": "Abyssal Knight",
       "item.gtma.n_ns_gown_helmet": "N_N Wig",
       "item.soe.n_ns_gown_leggings": "N_N\u0027s Skirt",
+      "item.soe.misricithe_ingot": "Misricithe Ingot",
       "item.gtma.icingball": "Icing Ball",
       "block.soe.rice_stage_1": "Rice",
       "block.soe.rice_stage_2": "Rice",
@@ -13155,6 +13408,7 @@
       "item.soe.prime_leathera_helmet": "Prime Leather Helmet",
       "advancements.abyssally_wooden.title": "Abyssally Wooden",
       "item.soe.n_ns_gown_boots": "N_N\u0027s Shoes",
+      "item.soe.hide_mask_helmet": "Hide Mask",
       "item.gtma.wendigo_hide": "Wendigo Hide",
       "block.gtma.rose": "Rose",
       "item.gtma.godking_pin": "GodKing Badge",
@@ -13207,6 +13461,7 @@
       "item.gtma.violet_cloak_helmet": "Moth Helmet",
       "item.soe.sasquatch_fur": "Sasquatch Skin",
       "item.soe.bone_boots": "Bone Boots",
+      "item.soe.hide_mask_leggings": "Hide Mask Leggings",
       "item.gtma.bullet": "Bullet",
       "item.soe.negrado_stone": "Negrado Stone",
       "entity.gtma.pigclops": "Pigclops",
@@ -13219,6 +13474,7 @@
       "item.gtma.steel_amalgem": "Steel Amalgemation",
       "death.attack.awful2": "%1$s \u0027s insides were melted and have poured out on the ground",
       "block.soe.faded_brown_concrete": "Faded Brown Concrete",
+      "item.soe.hide_mask_boots": "Hide Mask Boots",
       "advancements.palidan_of_tears.descr": "Equip the Palidan of Tears\u0027 gown",
       "item.soe.lithium_sword": "Lithium Sword",
       "advancements.feeling_electric.descr": "Obtain a lithium battery",
@@ -13246,7 +13502,6 @@
       "item.soe.violet_rib": "Violet Rib",
       "item.soe.decayed_spawn_egg": "Decayed Spawn Egg",
       "item.genuinelytoomanyores.lavendarium_axe": "Lavendarium Axe",
-      "gamerule.dimesionStack": "(SoE) Dimension Stack",
       "item.soe.insectoid_egg": "§5Insectoid Egg",
       "item.soe.violet_cloak_leggings": "Moth Leggings",
       "biome.soe.tainted_nowhere": "Tainted Nowhere",
@@ -13454,6 +13709,10 @@
           },
           {
             "name": "Wood Blocks",
+            "children": []
+          },
+          {
+            "name": "Card Decks",
             "children": []
           }
         ]
