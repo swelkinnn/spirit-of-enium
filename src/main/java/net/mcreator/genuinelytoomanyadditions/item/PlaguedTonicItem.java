@@ -75,7 +75,7 @@ public class PlaguedTonicItem extends SoeModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("\u00A7aHee hee hee!!"));
+			list.add(new StringTextComponent("\u00A77Hee hee hee!!"));
 		}
 
 		@Override
@@ -149,7 +149,6 @@ public class PlaguedTonicItem extends SoeModElements.ModElement {
 			World world = this.world;
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
@@ -169,7 +168,6 @@ public class PlaguedTonicItem extends SoeModElements.ModElement {
 			if (this.inGround) {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
-					$_dependencies.put("entity", entity);
 					$_dependencies.put("x", x);
 					$_dependencies.put("y", y);
 					$_dependencies.put("z", z);

@@ -6,9 +6,7 @@
     "texture": "steel_axe",
     "customModelName": "Normal",
     "name": "Steel Axe",
-    "specialInfo": [
-      "§7Lumber's bane"
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:GMTToolsAndWeapons"
     },

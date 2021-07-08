@@ -64,8 +64,7 @@ public class EnvysSlasherItem extends SoeModElements.ModElement {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("\u00A7aFetch me my rapier,boy!"));
-				list.add(new StringTextComponent("\u00A77Right Click and move to dash"));
+				list.add(new StringTextComponent("\u00A77ABILITY: Right Click and move to dash"));
 			}
 
 			@Override

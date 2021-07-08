@@ -48,6 +48,8 @@ public class LavendariumArmorHelmetTickEventProcedure extends SoeModElements.Mod
 										: ItemStack.EMPTY).getItem() == new ItemStack(LavendariumArmorItem.helmet, (int) (1)).getItem()))))) {
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 60, (int) 1, (false), (false)));
+			if (entity instanceof LivingEntity)
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.JUMP_BOOST, (int) 60, (int) 1, (false), (false)));
 			if (entity instanceof ServerPlayerEntity) {
 				Advancement _adv = ((MinecraftServer) ((ServerPlayerEntity) entity).server).getAdvancementManager()
 						.getAdvancement(new ResourceLocation("soe:lavendarium_chestplate_obtained"));

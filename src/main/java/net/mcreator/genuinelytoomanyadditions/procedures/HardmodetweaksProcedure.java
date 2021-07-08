@@ -45,16 +45,20 @@ public class HardmodetweaksProcedure extends SoeModElements.ModElement {
 		Entity entity = (Entity) dependencies.get("entity");
 		IWorld world = (IWorld) dependencies.get("world");
 		if (((SoeModVariables.MapVariables.get(world).HardMode) == (true))) {
-			if (entity instanceof LivingEntity) {
-				if (entity instanceof PlayerEntity)
-					((PlayerEntity) entity).inventory.armorInventory.set((int) 3, new ItemStack(Blocks.STONE_BUTTON, (int) (1)));
-				else
-					((LivingEntity) entity).setItemStackToSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 3),
-							new ItemStack(Blocks.STONE_BUTTON, (int) (1)));
-				if (entity instanceof ServerPlayerEntity)
-					((ServerPlayerEntity) entity).inventory.markDirty();
-			}
 			if ((entity instanceof ZombieEntity)) {
+				if ((((entity instanceof LivingEntity)
+						? ((LivingEntity) entity).getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 3))
+						: ItemStack.EMPTY).getItem() == new ItemStack(Blocks.AIR, (int) (1)).getItem())) {
+					if (entity instanceof LivingEntity) {
+						if (entity instanceof PlayerEntity)
+							((PlayerEntity) entity).inventory.armorInventory.set((int) 3, new ItemStack(Blocks.STONE_BUTTON, (int) (1)));
+						else
+							((LivingEntity) entity).setItemStackToSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 3),
+									new ItemStack(Blocks.STONE_BUTTON, (int) (1)));
+						if (entity instanceof ServerPlayerEntity)
+							((ServerPlayerEntity) entity).inventory.markDirty();
+					}
+				}
 				if ((Math.random() < 0.3)) {
 					if ((Math.random() < 0.3)) {
 						if (entity instanceof LivingEntity) {

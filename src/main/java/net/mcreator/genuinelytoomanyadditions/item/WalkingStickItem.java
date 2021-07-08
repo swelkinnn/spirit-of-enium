@@ -53,7 +53,7 @@ public class WalkingStickItem extends SoeModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("\u00A77It wasn't found on a tree branch in the middle of a woods this time!"));
+			list.add(new StringTextComponent("\u00A77This one wasn't found on a tree branch"));
 			list.add(new StringTextComponent("When in off-hand: \u00A77Grants Speed"));
 		}
 	}

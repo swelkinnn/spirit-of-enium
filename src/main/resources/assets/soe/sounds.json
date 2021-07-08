@@ -164,5 +164,45 @@
         "stream": false
       }
     ]
+  },
+  "lightspell": {
+    "category": "player",
+    "subtitle": "subtitles.lightspell",
+    "sounds": [
+      {
+        "name": "soe:eniumspell1",
+        "stream": false
+      }
+    ]
+  },
+  "darkspell": {
+    "category": "player",
+    "subtitle": "subtitles.darkspell",
+    "sounds": [
+      {
+        "name": "soe:eniumspell2",
+        "stream": false
+      }
+    ]
+  },
+  "heavyspell": {
+    "category": "player",
+    "subtitle": "subtitles.heavyspell",
+    "sounds": [
+      {
+        "name": "soe:eniumspell3",
+        "stream": false
+      }
+    ]
+  },
+  "summoningspell": {
+    "category": "player",
+    "subtitle": "subtitles.summoningspell",
+    "sounds": [
+      {
+        "name": "soe:eniumspell4",
+        "stream": false
+      }
+    ]
   }
 }

@@ -12,13 +12,13 @@ import net.minecraft.potion.EffectInstance;
 import net.minecraft.item.ItemStack;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.player.ServerPlayerEntity;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.advancements.AdvancementProgress;
 import net.minecraft.advancements.Advancement;
 
 import net.mcreator.genuinelytoomanyadditions.item.EnviousItem;
+import net.mcreator.genuinelytoomanyadditions.SoeModVariables;
 import net.mcreator.genuinelytoomanyadditions.SoeModElements;
 import net.mcreator.genuinelytoomanyadditions.SoeMod;
 
@@ -60,10 +60,13 @@ public class EnviouspottickProcedure extends SoeModElements.ModElement {
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NIGHT_VISION, (int) 60, (int) 0, (false), (false)));
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NIGHT_VISION, (int) 60, (int) 0, (false), (false)));
-			entity.getPersistentData().putDouble("counter1", ((entity.getPersistentData().getDouble("counter1")) + 1));
-			if ((((entity.getPersistentData().getDouble("counter1")) % 5) == 0)) {
-				if (entity instanceof PlayerEntity)
-					((PlayerEntity) entity).giveExperiencePoints((int) 1);
+			{
+				double _setval = (double) (((entity.getCapability(SoeModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+						.orElse(new SoeModVariables.PlayerVariables())).mana) + 0.2);
+				entity.getCapability(SoeModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.mana = _setval;
+					capability.syncPlayerVariables(entity);
+				});
 			}
 			if (entity instanceof ServerPlayerEntity) {
 				Advancement _adv = ((MinecraftServer) ((ServerPlayerEntity) entity).server).getAdvancementManager()

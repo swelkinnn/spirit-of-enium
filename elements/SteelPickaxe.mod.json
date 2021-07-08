@@ -6,9 +6,7 @@
     "texture": "steel_pickaxe",
     "customModelName": "Normal",
     "name": "Steel Pickaxe",
-    "specialInfo": [
-      "§7Unobjectively useful"
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:GMTToolsAndWeapons"
     },

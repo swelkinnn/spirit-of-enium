@@ -1,0 +1,12 @@
+{
+  "_fv": 18,
+  "_type": "overlay",
+  "definition": {
+    "priority": "HIGHEST",
+    "components": [],
+    "baseTexture": "mana_final_25.png",
+    "displayCondition": {
+      "name": "Mana4DisplayOverlayIngame"
+    }
+  }
+}

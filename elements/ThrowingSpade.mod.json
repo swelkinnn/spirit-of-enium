@@ -6,9 +6,7 @@
     "texture": "throwing_spade",
     "customModelName": "Normal",
     "name": "Throwing Spade",
-    "specialInfo": [
-      "§7Like a knife, but probably hurts more."
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:GMTToolsAndWeapons"
     },

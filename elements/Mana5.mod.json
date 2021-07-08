@@ -1,0 +1,12 @@
+{
+  "_fv": 18,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [],
+    "baseTexture": "mana_0.png",
+    "displayCondition": {
+      "name": "Mana5DisplayOverlayTick"
+    }
+  }
+}

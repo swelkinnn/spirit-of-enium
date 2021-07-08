@@ -25,7 +25,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "§7It wasn't found on a tree branch in the middle of a woods this time!",
+      "§7This one wasn't found on a tree branch",
       "When in off-hand: §7Grants Speed"
     ],
     "hasGlow": false,

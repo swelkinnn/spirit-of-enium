@@ -60,7 +60,7 @@ public class NightmareFlameItem extends SoeModElements.ModElement {
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
 			list.add(new StringTextComponent("\u00A74Burn the Father"));
-			list.add(new StringTextComponent("\u00A77Tier 3 Boss Drop"));
+			list.add(new StringTextComponent("\u00A79Costs: 10 Mana"));
 		}
 
 		@Override

@@ -10,8 +10,6 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.ResourceLocation;
@@ -30,14 +28,12 @@ import net.minecraft.entity.IRendersAsItem;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
-import net.minecraft.client.util.ITooltipFlag;
 
 import net.mcreator.genuinelytoomanyadditions.itemgroup.GMTToolsAndWeaponsItemGroup;
 import net.mcreator.genuinelytoomanyadditions.entity.renderer.VengefulSoulRenderer;
 import net.mcreator.genuinelytoomanyadditions.SoeModElements;
 
 import java.util.Random;
-import java.util.List;
 
 @SoeModElements.ModElement.Tag
 public class VengefulSoulItem extends SoeModElements.ModElement {
@@ -66,12 +62,6 @@ public class VengefulSoulItem extends SoeModElements.ModElement {
 		public ActionResult<ItemStack> onItemRightClick(World world, PlayerEntity entity, Hand hand) {
 			entity.setActiveHand(hand);
 			return new ActionResult(ActionResultType.SUCCESS, entity.getHeldItem(hand));
-		}
-
-		@Override
-		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
-			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("\u00A77Best paired with a nail art you can't do."));
 		}
 
 		@Override

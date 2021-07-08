@@ -6,9 +6,7 @@
     "texture": "pheonix_blaster",
     "customModelName": "phoenix_blaster:default",
     "name": "Phoenix Blaster",
-    "specialInfo": [
-      "§7Confirmed not to be 'Pheonix'"
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:GMTToolsAndWeapons"
     },

@@ -25,7 +25,7 @@
     "enableMeleeDamage": true,
     "damageVsEntity": 6.0,
     "specialInfo": [
-      "§5Tier 1^ Boss Drop"
+      "§9Costs: 10 Mana"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

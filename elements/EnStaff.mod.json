@@ -26,9 +26,6 @@
     "animation": "crossbow",
     "enableMeleeDamage": false,
     "damageVsEntity": 6.5,
-    "onRangedItemUsed": {
-      "name": "EnStaffRangedItemUsed"
-    },
     "bulletPower": 1.5,
     "bulletDamage": 6.0,
     "bulletKnockback": 1,

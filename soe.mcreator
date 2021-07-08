@@ -775,7 +775,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "reinforced_battery",
-      "path": "~/Spirit Of Enium/Staffs"
+      "path": "~/Spirit Of Enium/Random Items"
     },
     {
       "name": "ShockingReality",
@@ -875,7 +875,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "lavendarium_axe",
-      "path": "~/Spirit Of Enium/Pickaxes"
+      "path": "~/Spirit Of Enium/Axes"
     },
     {
       "name": "LavendariumAxeCraft",
@@ -3263,19 +3263,6 @@
       "path": "~/Spirit Of Enium/Advancements"
     },
     {
-      "name": "MoltenHelmetTickEvent",
-      "type": "procedure",
-      "sortid": 351,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "molten_helmet_tick_event",
-      "metadata": {
-        "dependencies": []
-      },
-      "path": "~/Spirit Of Enium/Procedures"
-    },
-    {
       "name": "SongOfPlague",
       "type": "achievement",
       "sortid": 352,
@@ -3820,44 +3807,6 @@
       "ids": {},
       "registry_name": "en_staff",
       "path": "~/Spirit Of Enium/Ranged Weapons"
-    },
-    {
-      "name": "EnStaffRangedItemUsed",
-      "type": "procedure",
-      "sortid": 390,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "en_staff_ranged_item_used",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Spirit Of Enium/Procedures"
     },
     {
       "name": "EnWhipLivingEntityIsHitWithTool",
@@ -4473,6 +4422,14 @@
       "registry_name": "violet_rib_right_clicked_on_block",
       "metadata": {
         "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
           {
             "name": "x",
             "type": "number"
@@ -6773,10 +6730,6 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
             "name": "x",
             "type": "number"
           },
@@ -6844,10 +6797,6 @@
       "registry_name": "plagued_tonic_bullet_hits_block",
       "metadata": {
         "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
           {
             "name": "x",
             "type": "number"
@@ -7391,12 +7340,7 @@
       "ids": {},
       "registry_name": "bonepottick",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
+        "dependencies": []
       },
       "path": "~/Spirit Of Enium/Procedures"
     },
@@ -7529,6 +7473,22 @@
           {
             "name": "itemstack",
             "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -8163,24 +8123,6 @@
       "path": "~/Spirit Of Enium/Procedures"
     },
     {
-      "name": "EnStaffCanUseRangedItem",
-      "type": "procedure",
-      "sortid": 677,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "en_staff_can_use_ranged_item",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Spirit Of Enium/Procedures"
-    },
-    {
       "name": "VgkflameweaponCanUseRangedItem",
       "type": "procedure",
       "sortid": 678,
@@ -8313,6 +8255,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
           },
           {
             "name": "x",
@@ -12414,6 +12360,264 @@
       "ids": {},
       "registry_name": "jukeboxcraftremove",
       "path": "~/Spirit Of Enium/Recipes"
+    },
+    {
+      "name": "Maaatick",
+      "type": "procedure",
+      "sortid": 965,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "maaatick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Spirit Of Enium/Procedures"
+    },
+    {
+      "name": "ManaPotionFoodEaten",
+      "type": "procedure",
+      "sortid": 966,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mana_potion_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Spirit Of Enium/Procedures"
+    },
+    {
+      "name": "ManaPotion",
+      "type": "food",
+      "sortid": 966,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mana_potion",
+      "path": "~/Spirit Of Enium/Food"
+    },
+    {
+      "name": "ManaShrink",
+      "type": "procedure",
+      "sortid": 967,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mana_shrink",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Spirit Of Enium/Procedures"
+    },
+    {
+      "name": "Manatest",
+      "type": "procedure",
+      "sortid": 968,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "manatest",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Spirit Of Enium/Procedures"
+    },
+    {
+      "name": "Mannatest",
+      "type": "command",
+      "sortid": 969,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mannatest",
+      "path": "~/Spirit Of Enium/Commands"
+    },
+    {
+      "name": "ManaDisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 970,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mana_display_overlay_ingame",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Spirit Of Enium/Procedures"
+    },
+    {
+      "name": "Mana",
+      "type": "overlay",
+      "sortid": 970,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mana",
+      "path": "~/Spirit Of Enium/Over Lays"
+    },
+    {
+      "name": "Mana2",
+      "type": "overlay",
+      "sortid": 971,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mana_2",
+      "path": "~/Spirit Of Enium/Over Lays"
+    },
+    {
+      "name": "Mana2DisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 972,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mana_2_display_overlay_ingame",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Spirit Of Enium/Procedures"
+    },
+    {
+      "name": "Mana3",
+      "type": "overlay",
+      "sortid": 973,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mana_3",
+      "path": "~/Spirit Of Enium/Over Lays"
+    },
+    {
+      "name": "Mana3DisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 974,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mana_3_display_overlay_ingame",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Spirit Of Enium/Procedures"
+    },
+    {
+      "name": "Mana4",
+      "type": "overlay",
+      "sortid": 975,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mana_4",
+      "path": "~/Spirit Of Enium/Over Lays"
+    },
+    {
+      "name": "Mana4DisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 976,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mana_4_display_overlay_ingame",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Spirit Of Enium/Procedures"
+    },
+    {
+      "name": "LithiumBatteryItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 977,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lithium_battery_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mana5",
+      "type": "overlay",
+      "sortid": 978,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mana_5",
+      "path": "~/Spirit Of Enium/Over Lays"
+    },
+    {
+      "name": "Mana5DisplayOverlayTick",
+      "type": "procedure",
+      "sortid": 979,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mana_5_display_overlay_tick",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Spirit Of Enium/Procedures"
     }
   ],
   "variable_elements": [
@@ -12455,6 +12659,12 @@
     },
     {
       "name": "spawnpointz",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "mana",
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
@@ -12596,6 +12806,38 @@
       ],
       "category": "master",
       "subtitle": "Wendigo Howls"
+    },
+    {
+      "name": "lightspell",
+      "files": [
+        "eniumspell1"
+      ],
+      "category": "player",
+      "subtitle": "Light Spell"
+    },
+    {
+      "name": "darkspell",
+      "files": [
+        "eniumspell2"
+      ],
+      "category": "player",
+      "subtitle": "Dark Spell"
+    },
+    {
+      "name": "heavyspell",
+      "files": [
+        "eniumspell3"
+      ],
+      "category": "player",
+      "subtitle": "Heavy Spell"
+    },
+    {
+      "name": "summoningspell",
+      "files": [
+        "eniumspell4"
+      ],
+      "category": "player",
+      "subtitle": "Summoning Spell"
     }
   ],
   "language_map": {
@@ -12605,8 +12847,8 @@
       "item.soe.lavendarium_armor_boots": "Lavendarium Boots",
       "item.gtma.enium_helmet": "Enium Helmet",
       "block.gtma.crumbling_oak_stairs": "Crumbling Stairs",
-      "block.soe.cobblegen": "Cobblegen",
       "block.soe.debris_andesite": "Andesite",
+      "block.soe.cobblegen": "Cobblegen",
       "advancements.violet_whisperings.descr": "Obtain a long-gone cult\u0027s tome",
       "item.soe.violet_flame_cultist_corpse_sitting_spawn_egg": "Violet Flame Cultist Corpse (Sitting) Spawn Egg",
       "entity.soe.dingus": "Dingus",
@@ -12725,7 +12967,7 @@
       "item.gtma.violet_flame_cultist_corpse_spawn_egg": "Violet Flame Cultist Corpse Spawn Egg",
       "block.gtma.icing_block": "Icing Block",
       "advancements.feed_the_child.title": "Feed The Child",
-      "item.soe.violet_horn": "Violet Horn",
+      "item.soe.violet_horn": "§5Violet Horn",
       "item.gtma.gun": "Pistol",
       "entity.gtma.grimmchild": "Grimmchild",
       "item.soe.arch_head_spawn_egg": "Arch Head Spawn Egg",
@@ -12749,6 +12991,7 @@
       "item.genuinelytoomanyores.steel_hoe": "Steel Hoe",
       "item.soe.lavendarium_sword": "Lavendarium Sword",
       "entity.soe.the_lost": "The Lost",
+      "subtitles.lightspell": "Light Spell",
       "item.gtma.pigman_warrior": "Pigman Warrior Spawn Egg",
       "entity.gtma.crawling_violet_flame_cultist": "Crawling Violet Flame Cultist",
       "effect.void_sickness": "Void Sickness",
@@ -12852,6 +13095,8 @@
       "item.gtma.grimmature_summoner": "Grimmature Summoner",
       "item.genuinelytoomanyores.rotten_heap": "Rotten Heap",
       "item.soe.envious_helmet": "§aEnvious Helmet",
+      "item.soe.mana_potion": "Mana Potion",
+      "subtitles.heavyspell": "Heavy Spell",
       "block.soe.hellstonewall_5": "Smoldering Stone",
       "block.soe.hellstonewall_4": "Magma Walling",
       "block.soe.hellstonewall_3": "Hellstone Bricks",
@@ -13062,6 +13307,7 @@
       "gamerule.bloodEffects.description": "Enable/Disable SoE blood particles when an entity is damaged",
       "block.soe.nightmare_lantern": "Nightmare Lamp",
       "item.gtma.moth_chestplate": "Moth Cloak",
+      "subtitles.summoningspell": "Summoning Spell",
       "item.genuinelytoomanyores.steel_armor_boots": "Steel Armor Boots",
       "item.soe.lavendarium_knife": "Lavendarium Knife",
       "item.soe.pheonix_blaster": "Phoenix Blaster",
@@ -13435,6 +13681,7 @@
       "advancements.lavendarium_ingot_obtained.title": "Spell My Name",
       "advancements.get_the_crabs.title": "Get The Crabs",
       "item.soe.reinforced_steel_leggings": "Reinforced Block of Reinforced Steel Leggings",
+      "subtitles.darkspell": "Dark Spell",
       "advancements.shocking_reality.descr": "Upgrade a lithium battery to a reinforced battery",
       "advancements.song_of_plague.title": "Song Of Plague",
       "advancements.take_me_home.title": "Take Me Home",

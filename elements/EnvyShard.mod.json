@@ -24,9 +24,7 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "§aTier 3 Boss Item"
-    ],
+    "specialInfo": [],
     "hasGlow": true,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,

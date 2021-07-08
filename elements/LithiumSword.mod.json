@@ -6,9 +6,7 @@
     "texture": "lithiumsword",
     "customModelName": "Normal",
     "name": "Lithium Sword",
-    "specialInfo": [
-      "§7Literally why did you craft this?"
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:GMTToolsAndWeapons"
     },

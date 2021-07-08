@@ -61,7 +61,7 @@ public class AbyssalCrackerRightClickedOnBlockProcedure extends SoeModElements.M
 		if (entity instanceof PlayerEntity)
 			((PlayerEntity) entity).getCooldownTracker().setCooldown(((itemstack)).getItem(), (int) 40);
 		if (world instanceof ServerWorld) {
-			((ServerWorld) world).spawnParticle(NowhereSoulParticle.particle, x, y, z, (int) 5, 3, 3, 3, 1);
+			((ServerWorld) world).spawnParticle(NowhereSoulParticle.particle, x, y, z, (int) 15, 3, 3, 3, 1);
 		}
 		if (entity instanceof LivingEntity)
 			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 5, (int) 9, (false), (false)));

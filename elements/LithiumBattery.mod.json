@@ -16,7 +16,7 @@
     "toolType": 1.0,
     "damageCount": 10,
     "recipeRemainder": {
-      "value": "CUSTOM:BurntOutLithiumBattery"
+      "value": ""
     },
     "destroyAnyBlock": false,
     "immuneToFire": false,
@@ -25,11 +25,14 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "§7Chargers for the strong"
+      "§7Charged"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
-    "inventoryStackSize": 64
+    "inventoryStackSize": 64,
+    "onItemInInventoryTick": {
+      "name": "LithiumBatteryItemInInventoryTick"
+    }
   }
 }

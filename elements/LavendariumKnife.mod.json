@@ -6,16 +6,14 @@
     "texture": "lavendariumknife",
     "customModelName": "Normal",
     "name": "Lavendarium Knife",
-    "specialInfo": [
-      "§7/combat 1.8"
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:GMTToolsAndWeapons"
     },
     "toolType": "Sword",
     "harvestLevel": 2,
     "efficiency": 6.5,
-    "attackSpeed": 11.0,
+    "attackSpeed": 20.0,
     "enchantability": 14,
     "damageVsEntity": 0.5,
     "usageCount": 200,

@@ -6,9 +6,7 @@
     "texture": "pistolb",
     "customModelName": "new_pistol:default",
     "name": "Pistol",
-    "specialInfo": [
-      "§7The Neutral Special"
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:GMTToolsAndWeapons"
     },

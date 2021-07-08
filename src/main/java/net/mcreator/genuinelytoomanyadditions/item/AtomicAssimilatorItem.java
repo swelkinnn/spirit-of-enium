@@ -72,7 +72,7 @@ public class AtomicAssimilatorItem extends SoeModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("\u00A7bBane of Crabs III"));
+			list.add(new StringTextComponent("\u00A77Bane of Crabs III"));
 		}
 
 		@Override

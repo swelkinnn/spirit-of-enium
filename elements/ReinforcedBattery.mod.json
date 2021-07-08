@@ -6,9 +6,7 @@
     "texture": "reinforced_battery",
     "customModelName": "Normal",
     "name": "Reinforced Battery",
-    "specialInfo": [
-      "§7Steel is always a good thing to wrap batteries in."
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:GMTToolsAndWeapons"
     },

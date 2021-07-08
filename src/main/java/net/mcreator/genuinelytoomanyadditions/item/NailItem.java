@@ -65,7 +65,7 @@ public class NailItem extends SoeModElements.ModElement {
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
 				list.add(new StringTextComponent("\u00A77Higher being,these words are for for you alone"));
-				list.add(new StringTextComponent("\u00A77Right click to launch a Vengeful Spirit for 3 XP Levels"));
+				list.add(new StringTextComponent("\u00A77ABILITY: Vengeful Spirit,Costs: 10 Soul"));
 			}
 
 			@Override

@@ -6,9 +6,7 @@
     "texture": "rotting_horn",
     "customModelName": "Normal",
     "name": "Rotten Horn",
-    "specialInfo": [
-      "§7Just try not to taste it too much."
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:GMTToolsAndWeapons"
     },

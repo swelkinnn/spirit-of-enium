@@ -3,20 +3,14 @@ package net.mcreator.genuinelytoomanyadditions.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
-import net.minecraft.world.World;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
-import net.minecraft.client.util.ITooltipFlag;
 
 import net.mcreator.genuinelytoomanyadditions.itemgroup.GMTToolsAndWeaponsItemGroup;
 import net.mcreator.genuinelytoomanyadditions.SoeModElements;
-
-import java.util.List;
 
 @SoeModElements.ModElement.Tag
 public class LavendariumKnifeItem extends SoeModElements.ModElement {
@@ -53,12 +47,7 @@ public class LavendariumKnifeItem extends SoeModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(LavendariumIngotItem.block, (int) (1)),
 						new ItemStack(LavendariumMeshItem.block, (int) (1)));
 			}
-		}, 3, 7f, new Item.Properties().group(GMTToolsAndWeaponsItemGroup.tab)) {
-			@Override
-			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
-				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("\u00A77/combat 1.8"));
-			}
+		}, 3, 16f, new Item.Properties().group(GMTToolsAndWeaponsItemGroup.tab)) {
 		}.setRegistryName("lavendarium_knife"));
 	}
 }

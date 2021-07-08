@@ -7,7 +7,8 @@
     "customModelName": "Normal",
     "name": "§aAsmodeus' Eye",
     "specialInfo": [
-      "§aThen I sit a little longer, on a blaket made for three."
+      "§aThen I sit a little longer, on a blaket made for three.",
+      "§9Costs 7:Mana"
     ],
     "creativeTab": {
       "value": "CUSTOM:GMTToolsAndWeapons"

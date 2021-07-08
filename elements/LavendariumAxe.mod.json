@@ -6,9 +6,7 @@
     "texture": "lavendariumaxe",
     "customModelName": "Normal",
     "name": "Lavendarium Axe",
-    "specialInfo": [
-      "§7Lightweight chopping"
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:GMTToolsAndWeapons"
     },

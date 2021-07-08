@@ -62,8 +62,8 @@ public class EnsStaffItem extends SoeModElements.ModElement {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("\u00A77The original Dingbat."));
-				list.add(new StringTextComponent("\u00A77Shift Right Click to summon a Dingus for 3 XP"));
+				list.add(new StringTextComponent(
+						"\u00A77The original Dingbat/\u00A79Costs 7 Mana/\u00A79Shift Right Click to summon Dingus, costs 15 Mana"));
 			}
 
 			@Override
@@ -76,6 +76,7 @@ public class EnsStaffItem extends SoeModElements.ModElement {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
+					$_dependencies.put("itemstack", itemstack);
 					$_dependencies.put("x", x);
 					$_dependencies.put("y", y);
 					$_dependencies.put("z", z);

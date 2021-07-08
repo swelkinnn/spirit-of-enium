@@ -24,9 +24,7 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "§5Ramblings from a group of madmen."
-    ],
+    "specialInfo": [],
     "hasGlow": false,
     "guiBoundTo": "VioletTomeGUI",
     "inventorySize": 0,

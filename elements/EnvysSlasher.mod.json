@@ -7,8 +7,7 @@
     "customModelName": "Normal",
     "name": "§aEnvy's Slasher",
     "specialInfo": [
-      "§aFetch me my rapier,boy!",
-      "§7Right Click and move to dash"
+      "§7ABILITY: Right Click and move to dash"
     ],
     "creativeTab": {
       "value": "CUSTOM:GMTToolsAndWeapons"

@@ -6,9 +6,7 @@
     "texture": "bruting_stick",
     "customModelName": "Normal",
     "name": "Bruting Stick",
-    "specialInfo": [
-      "§7REALLY bonks hard."
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:GMTToolsAndWeapons"
     },

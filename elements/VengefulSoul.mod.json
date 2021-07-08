@@ -6,9 +6,7 @@
     "texture": "projectile",
     "customModelName": "Normal",
     "name": "Vengeful Spirit",
-    "specialInfo": [
-      "§7Best paired with a nail art you can't do."
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:GMTToolsAndWeapons"
     },

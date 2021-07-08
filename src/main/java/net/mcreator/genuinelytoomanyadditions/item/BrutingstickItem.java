@@ -4,22 +4,18 @@ package net.mcreator.genuinelytoomanyadditions.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.world.World;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.client.util.ITooltipFlag;
 
 import net.mcreator.genuinelytoomanyadditions.procedures.BrutingstickLivingEntityIsHitWithToolProcedure;
 import net.mcreator.genuinelytoomanyadditions.itemgroup.GMTToolsAndWeaponsItemGroup;
 import net.mcreator.genuinelytoomanyadditions.SoeModElements;
 
 import java.util.Map;
-import java.util.List;
 import java.util.HashMap;
 
 @SoeModElements.ModElement.Tag
@@ -57,12 +53,6 @@ public class BrutingstickItem extends SoeModElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, 3, -3.4f, new Item.Properties().group(GMTToolsAndWeaponsItemGroup.tab)) {
-			@Override
-			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
-				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("\u00A77REALLY bonks hard."));
-			}
-
 			@Override
 			public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 				boolean retval = super.hitEntity(itemstack, entity, sourceentity);

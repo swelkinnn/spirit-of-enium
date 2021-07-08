@@ -25,7 +25,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "§7Tastes like moths."
+      "§7Tastes like moths"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

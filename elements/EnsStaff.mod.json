@@ -7,8 +7,7 @@
     "customModelName": "en_staff:default",
     "name": "En's Staff",
     "specialInfo": [
-      "§7The original Dingbat.",
-      "§7Shift Right Click to summon a Dingus for 3 XP"
+      "§7The original Dingbat/§9Costs 7 Mana/§9Shift Right Click to summon Dingus, costs 15 Mana"
     ],
     "creativeTab": {
       "value": "CUSTOM:GMTToolsAndWeapons"

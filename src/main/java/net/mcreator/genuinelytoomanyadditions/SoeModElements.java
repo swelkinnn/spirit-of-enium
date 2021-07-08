@@ -64,6 +64,10 @@ public class SoeModElements {
 		sounds.put(new ResourceLocation("soe", "grimm_hurt"), new net.minecraft.util.SoundEvent(new ResourceLocation("soe", "grimm_hurt")));
 		sounds.put(new ResourceLocation("soe", "grimm_death"), new net.minecraft.util.SoundEvent(new ResourceLocation("soe", "grimm_death")));
 		sounds.put(new ResourceLocation("soe", "wendigo_spawns"), new net.minecraft.util.SoundEvent(new ResourceLocation("soe", "wendigo_spawns")));
+		sounds.put(new ResourceLocation("soe", "lightspell"), new net.minecraft.util.SoundEvent(new ResourceLocation("soe", "lightspell")));
+		sounds.put(new ResourceLocation("soe", "darkspell"), new net.minecraft.util.SoundEvent(new ResourceLocation("soe", "darkspell")));
+		sounds.put(new ResourceLocation("soe", "heavyspell"), new net.minecraft.util.SoundEvent(new ResourceLocation("soe", "heavyspell")));
+		sounds.put(new ResourceLocation("soe", "summoningspell"), new net.minecraft.util.SoundEvent(new ResourceLocation("soe", "summoningspell")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("soe").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

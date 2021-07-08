@@ -10,10 +10,10 @@ import net.minecraft.potion.EffectInstance;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.inventory.EquipmentSlotType;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
+import net.mcreator.genuinelytoomanyadditions.SoeModVariables;
 import net.mcreator.genuinelytoomanyadditions.SoeModElements;
 import net.mcreator.genuinelytoomanyadditions.SoeMod;
 
@@ -50,10 +50,13 @@ public class LeatherpottickProcedure extends SoeModElements.ModElement {
 										: ItemStack.EMPTY).getItem() == new ItemStack(Items.LEATHER_HELMET, (int) (1)).getItem()))))) {
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 60, (int) 0, (false), (false)));
-			entity.getPersistentData().putDouble("counter1", ((entity.getPersistentData().getDouble("counter1")) + 1));
-			if ((((entity.getPersistentData().getDouble("counter1")) % 25) == 0)) {
-				if (entity instanceof PlayerEntity)
-					((PlayerEntity) entity).giveExperiencePoints((int) 1);
+			{
+				double _setval = (double) (((entity.getCapability(SoeModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+						.orElse(new SoeModVariables.PlayerVariables())).mana) + 0.1);
+				entity.getCapability(SoeModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.mana = _setval;
+					capability.syncPlayerVariables(entity);
+				});
 			}
 		}
 	}

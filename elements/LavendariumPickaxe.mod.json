@@ -6,9 +6,7 @@
     "texture": "lavendariumpickaxe",
     "customModelName": "Normal",
     "name": "Lavendarium Pickaxe",
-    "specialInfo": [
-      "§7Lightweight mining"
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:GMTToolsAndWeapons"
     },

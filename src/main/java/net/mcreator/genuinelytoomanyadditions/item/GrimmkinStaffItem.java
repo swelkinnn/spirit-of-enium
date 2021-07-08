@@ -60,6 +60,7 @@ public class GrimmkinStaffItem extends SoeModElements.ModElement {
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
 			list.add(new StringTextComponent("\u00A74Flames devour and embers swoop..."));
+			list.add(new StringTextComponent("\u00A79Costs: 5 Mana"));
 		}
 
 		@Override

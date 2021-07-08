@@ -4,8 +4,6 @@ package net.mcreator.genuinelytoomanyadditions.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.world.World;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Direction;
 import net.minecraft.util.ActionResultType;
@@ -18,7 +16,6 @@ import net.minecraft.entity.ai.attributes.Attributes;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.entity.ai.attributes.Attribute;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.genuinelytoomanyadditions.procedures.ReinforcedBatteryRightClickedOnBlockProcedure;
@@ -26,7 +23,6 @@ import net.mcreator.genuinelytoomanyadditions.itemgroup.GMTToolsAndWeaponsItemGr
 import net.mcreator.genuinelytoomanyadditions.SoeModElements;
 
 import java.util.Map;
-import java.util.List;
 import java.util.HashMap;
 
 import com.google.common.collect.Multimap;
@@ -61,12 +57,6 @@ public class ReinforcedBatteryItem extends SoeModElements.ModElement {
 			@Override
 			public boolean isRepairable(ItemStack itemstack) {
 				return false;
-			}
-
-			@Override
-			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
-				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("\u00A77Steel is always a good thing to wrap batteries in."));
 			}
 
 			@Override

@@ -6,9 +6,7 @@
     "texture": "steel_sword",
     "customModelName": "Normal",
     "name": "Steel Sword",
-    "specialInfo": [
-      "§7Too heavy to joust with..."
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:GMTToolsAndWeapons"
     },

@@ -6,9 +6,7 @@
     "texture": "enium_excavator",
     "customModelName": "Normal",
     "name": "Enium Excavator",
-    "specialInfo": [
-      "§7How does this thing work if it doesn't have any sharp edges?"
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:GMTToolsAndWeapons"
     },

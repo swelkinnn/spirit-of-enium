@@ -6,9 +6,7 @@
     "texture": "lavendariumsword",
     "customModelName": "Normal",
     "name": "Lavendarium Sword",
-    "specialInfo": [
-      "§7Heavy because of what you had to do to those poor orephans."
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:GMTToolsAndWeapons"
     },

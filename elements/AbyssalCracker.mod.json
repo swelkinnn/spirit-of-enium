@@ -6,9 +6,7 @@
     "texture": "abyssal_cracker_v2",
     "customModelName": "Normal",
     "name": "§aAbyssal Striker",
-    "specialInfo": [
-      "§aPart,fools!"
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:GMTToolsAndWeapons"
     },

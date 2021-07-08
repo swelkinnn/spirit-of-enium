@@ -75,7 +75,7 @@ public class AsmodeusCoreItem extends SoeModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("\u00A7aAnd I shout 'kablasto'..."));
+			list.add(new StringTextComponent("\u00A77And I shout 'kablasto'..."));
 		}
 
 		@Override

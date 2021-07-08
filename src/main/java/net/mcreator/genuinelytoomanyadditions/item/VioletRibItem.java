@@ -81,7 +81,7 @@ public class VioletRibItem extends SoeModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("\u00A75Tier 1^ Boss Drop"));
+			list.add(new StringTextComponent("\u00A79Costs: 10 Mana"));
 		}
 
 		@Override
@@ -97,6 +97,8 @@ public class VioletRibItem extends SoeModElements.ModElement {
 			ItemStack itemstack = context.getItem();
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("itemstack", itemstack);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);

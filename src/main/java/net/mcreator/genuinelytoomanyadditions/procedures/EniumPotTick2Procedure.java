@@ -18,6 +18,7 @@ import net.minecraft.advancements.AdvancementProgress;
 import net.minecraft.advancements.Advancement;
 
 import net.mcreator.genuinelytoomanyadditions.item.NNsGownItem;
+import net.mcreator.genuinelytoomanyadditions.SoeModVariables;
 import net.mcreator.genuinelytoomanyadditions.SoeModElements;
 import net.mcreator.genuinelytoomanyadditions.SoeMod;
 
@@ -39,20 +40,9 @@ public class EniumPotTick2Procedure extends SoeModElements.ModElement {
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if (((((entity instanceof LivingEntity)
-				? ((LivingEntity) entity).getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 0))
-				: ItemStack.EMPTY).getItem() == new ItemStack(NNsGownItem.boots, (int) (1)).getItem())
-				&& ((((entity instanceof LivingEntity)
-						? ((LivingEntity) entity).getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 1))
-						: ItemStack.EMPTY).getItem() == new ItemStack(NNsGownItem.legs, (int) (1)).getItem())
-						&& ((((entity instanceof LivingEntity)
-								? ((LivingEntity) entity)
-										.getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 2))
-								: ItemStack.EMPTY).getItem() == new ItemStack(NNsGownItem.body, (int) (1)).getItem())
-								&& (((entity instanceof LivingEntity)
-										? ((LivingEntity) entity)
-												.getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 3))
-										: ItemStack.EMPTY).getItem() == new ItemStack(NNsGownItem.helmet, (int) (1)).getItem()))))) {
+		if ((((entity instanceof LivingEntity)
+				? ((LivingEntity) entity).getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 2))
+				: ItemStack.EMPTY).getItem() == new ItemStack(NNsGownItem.body, (int) (1)).getItem())) {
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 60, (int) 2, (false), (false)));
 			if (entity instanceof LivingEntity)
@@ -63,6 +53,14 @@ public class EniumPotTick2Procedure extends SoeModElements.ModElement {
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.REGENERATION, (int) 60, (int) 1, (false), (false)));
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.LUCK, (int) 60, (int) 2, (false), (false)));
+			{
+				double _setval = (double) (((entity.getCapability(SoeModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+						.orElse(new SoeModVariables.PlayerVariables())).mana) + 0.3);
+				entity.getCapability(SoeModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.mana = _setval;
+					capability.syncPlayerVariables(entity);
+				});
+			}
 			if (entity instanceof ServerPlayerEntity) {
 				Advancement _adv = ((MinecraftServer) ((ServerPlayerEntity) entity).server).getAdvancementManager()
 						.getAdvancement(new ResourceLocation("soe:palidan_of_tears"));

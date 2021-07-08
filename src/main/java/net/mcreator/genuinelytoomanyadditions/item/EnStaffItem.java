@@ -33,14 +33,11 @@ import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.util.ITooltipFlag;
 
-import net.mcreator.genuinelytoomanyadditions.procedures.EnStaffRangedItemUsedProcedure;
 import net.mcreator.genuinelytoomanyadditions.entity.renderer.EnStaffRenderer;
 import net.mcreator.genuinelytoomanyadditions.SoeModElements;
 
 import java.util.Random;
-import java.util.Map;
 import java.util.List;
-import java.util.HashMap;
 
 @SoeModElements.ModElement.Tag
 public class EnStaffItem extends SoeModElements.ModElement {
@@ -106,16 +103,6 @@ public class EnStaffItem extends SoeModElements.ModElement {
 					ArrowCustomEntity entityarrow = shoot(world, entity, random, 1.5f, 6, 1);
 					itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 					entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.DISALLOWED;
-					{
-						Map<String, Object> $_dependencies = new HashMap<>();
-						$_dependencies.put("entity", entity);
-						$_dependencies.put("itemstack", itemstack);
-						$_dependencies.put("x", x);
-						$_dependencies.put("y", y);
-						$_dependencies.put("z", z);
-						$_dependencies.put("world", world);
-						EnStaffRangedItemUsedProcedure.executeProcedure($_dependencies);
-					}
 					entity.stopActiveHand();
 				}
 			}

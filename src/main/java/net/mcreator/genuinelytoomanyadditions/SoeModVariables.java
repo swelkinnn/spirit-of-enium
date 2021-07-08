@@ -209,6 +209,7 @@ public class SoeModVariables {
 			nbt.putDouble("spawnpointx", instance.spawnpointx);
 			nbt.putDouble("spawnpointy", instance.spawnpointy);
 			nbt.putDouble("spawnpointz", instance.spawnpointz);
+			nbt.putDouble("mana", instance.mana);
 			return nbt;
 		}
 
@@ -221,6 +222,7 @@ public class SoeModVariables {
 			instance.spawnpointx = nbt.getDouble("spawnpointx");
 			instance.spawnpointy = nbt.getDouble("spawnpointy");
 			instance.spawnpointz = nbt.getDouble("spawnpointz");
+			instance.mana = nbt.getDouble("mana");
 		}
 	}
 
@@ -231,6 +233,7 @@ public class SoeModVariables {
 		public double spawnpointx = 0;
 		public double spawnpointy = 0;
 		public double spawnpointz = 0;
+		public double mana = 0;
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayerEntity)
 				SoeMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayerEntity) entity), new PlayerVariablesSyncMessage(this));
@@ -268,6 +271,7 @@ public class SoeModVariables {
 		clone.spawnpointx = original.spawnpointx;
 		clone.spawnpointy = original.spawnpointy;
 		clone.spawnpointz = original.spawnpointz;
+		clone.mana = original.mana;
 		if (!event.isWasDeath()) {
 		}
 	}
@@ -298,6 +302,7 @@ public class SoeModVariables {
 					variables.spawnpointx = message.data.spawnpointx;
 					variables.spawnpointy = message.data.spawnpointy;
 					variables.spawnpointz = message.data.spawnpointz;
+					variables.mana = message.data.mana;
 				}
 			});
 			context.setPacketHandled(true);

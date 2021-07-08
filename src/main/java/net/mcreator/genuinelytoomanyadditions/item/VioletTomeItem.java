@@ -32,7 +32,6 @@ import net.minecraft.inventory.container.Container;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.client.Minecraft;
 import net.minecraft.block.BlockState;
 
@@ -43,8 +42,6 @@ import net.mcreator.genuinelytoomanyadditions.SoeModElements;
 
 import javax.annotation.Nullable;
 import javax.annotation.Nonnull;
-
-import java.util.List;
 
 import io.netty.buffer.Unpooled;
 
@@ -90,12 +87,6 @@ public class VioletTomeItem extends SoeModElements.ModElement {
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
-		}
-
-		@Override
-		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
-			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("\u00A75Ramblings from a group of madmen."));
 		}
 
 		@Override
