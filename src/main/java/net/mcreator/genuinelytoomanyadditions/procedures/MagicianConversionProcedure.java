@@ -4,6 +4,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
+import net.mcreator.genuinelytoomanyadditions.SoeModVariables;
 import net.mcreator.genuinelytoomanyadditions.SoeModElements;
 import net.mcreator.genuinelytoomanyadditions.SoeMod;
 
@@ -30,6 +31,14 @@ public class MagicianConversionProcedure extends SoeModElements.ModElement {
 		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
 		if (entity instanceof PlayerEntity)
 			((PlayerEntity) entity).addExperienceLevel((int) (Math.random() * 5));
+		{
+			double _setval = (double) (((entity.getCapability(SoeModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new SoeModVariables.PlayerVariables())).mana) + (Math.random() * 5));
+			entity.getCapability(SoeModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+				capability.mana = _setval;
+				capability.syncPlayerVariables(entity);
+			});
+		}
 		if (entity instanceof PlayerEntity)
 			((PlayerEntity) entity).getCooldownTracker().setCooldown(((itemstack)).getItem(), (int) 3000);
 	}

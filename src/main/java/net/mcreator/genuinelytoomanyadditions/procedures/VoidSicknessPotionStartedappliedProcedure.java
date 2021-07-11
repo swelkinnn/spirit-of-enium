@@ -12,7 +12,7 @@ import net.minecraft.potion.EffectInstance;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.genuinelytoomanyadditions.potion.ZombificationPotion;
+import net.mcreator.genuinelytoomanyadditions.potion.VoidSicknessPotion;
 import net.mcreator.genuinelytoomanyadditions.SoeModElements;
 import net.mcreator.genuinelytoomanyadditions.SoeMod;
 
@@ -43,7 +43,7 @@ public class VoidSicknessPotionStartedappliedProcedure extends SoeModElements.Mo
 				|| ((entity.world.getDimensionKey()) == (World.THE_END)))) {
 			if ((y < 20)) {
 				if (entity instanceof LivingEntity)
-					((LivingEntity) entity).addPotionEffect(new EffectInstance(ZombificationPotion.potion, (int) 60, (int) 0, (true), (false)));
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(VoidSicknessPotion.potion, (int) 60, (int) 0, (true), (false)));
 			}
 		}
 	}

@@ -67,7 +67,7 @@ public class PlaguedTonicBulletHitsLivingEntityProcedure extends SoeModElements.
 			((World) world).getServer().getCommandManager().handleCommand(
 					new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
 							new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
-					"/summon area_effect_cloud ~ ~ ~ {Age:100,Color:1572608,Effects:[{Id:20b,Amplifier:3b,Duration:60}]}");
+					"summon area_effect_cloud ~ ~ ~ {Radius:2f,Duration:60,Potion:\"minecraft:poison\"}");
 		}
 	}
 }

@@ -28,9 +28,9 @@ public class ManaShrinkProcedure extends SoeModElements.ModElement {
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if ((((entity.getCapability(SoeModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new SoeModVariables.PlayerVariables())).mana) > 100)) {
+		if ((((entity.getCapability(SoeModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new SoeModVariables.PlayerVariables())).mana) > 99)) {
 			{
-				double _setval = (double) 100;
+				double _setval = (double) 99;
 				entity.getCapability(SoeModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 					capability.mana = _setval;
 					capability.syncPlayerVariables(entity);

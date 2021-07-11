@@ -28,10 +28,7 @@ public class ManaDisplayOverlayIngameProcedure extends SoeModElements.ModElement
 			return false;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		return ((((entity.getCapability(SoeModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-				.orElse(new SoeModVariables.PlayerVariables())).mana) <= 100)
-				&& (((entity.getCapability(SoeModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-						.orElse(new SoeModVariables.PlayerVariables())).mana) > 75));
+		return (((entity.getCapability(SoeModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new SoeModVariables.PlayerVariables())).mana) > 75);
 	}
 
 	@SubscribeEvent

@@ -62,14 +62,6 @@ public class PrimeleatherpottickProcedure extends SoeModElements.ModElement {
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.FIRE_RESISTANCE, (int) 60, (int) 0, (false), (false)));
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.WEAKNESS, (int) 60, (int) 0, (false), (false)));
-			{
-				double _setval = (double) (((entity.getCapability(SoeModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-						.orElse(new SoeModVariables.PlayerVariables())).mana) + 0.4);
-				entity.getCapability(SoeModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-					capability.mana = _setval;
-					capability.syncPlayerVariables(entity);
-				});
-			}
 			if (entity instanceof ServerPlayerEntity) {
 				Advancement _adv = ((MinecraftServer) ((ServerPlayerEntity) entity).server).getAdvancementManager()
 						.getAdvancement(new ResourceLocation("soe:twitch_prime"));
@@ -81,6 +73,14 @@ public class PrimeleatherpottickProcedure extends SoeModElements.ModElement {
 						((ServerPlayerEntity) entity).getAdvancements().grantCriterion(_adv, _criterion);
 					}
 				}
+			}
+			{
+				double _setval = (double) (((entity.getCapability(SoeModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+						.orElse(new SoeModVariables.PlayerVariables())).mana) + 1.2);
+				entity.getCapability(SoeModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.mana = _setval;
+					capability.syncPlayerVariables(entity);
+				});
 			}
 		}
 	}

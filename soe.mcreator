@@ -12448,16 +12448,6 @@
       "path": "~/Spirit Of Enium/Procedures"
     },
     {
-      "name": "Mannatest",
-      "type": "command",
-      "sortid": 969,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "mannatest",
-      "path": "~/Spirit Of Enium/Commands"
-    },
-    {
       "name": "ManaDisplayOverlayIngame",
       "type": "procedure",
       "sortid": 970,

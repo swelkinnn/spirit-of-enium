@@ -52,7 +52,7 @@ public class MetallurgyTableGuiGuiWindow extends ContainerScreen<MetallurgyTable
 		int l = (this.height - this.ySize) / 2;
 		this.blit(ms, k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("soe:textures/arrow2.png"));
-		this.blit(ms, this.guiLeft + 78, this.guiTop + 25, 0, 0, 256, 256, 256, 256);
+		this.blit(ms, this.guiLeft + 78, this.guiTop + 25, 0, 0, -1, -1, -1, -1);
 		RenderSystem.disableBlend();
 	}
 

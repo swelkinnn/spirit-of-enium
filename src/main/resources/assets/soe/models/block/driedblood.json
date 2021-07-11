@@ -3,6 +3,6 @@
   "textures": {
     "all": "soe:blocks/blood_2",
     "particle": "soe:blocks/blood_2",
-    "0": "soe:blocks/blood"
+    "0": "soe:blocks/blood_2"
   }
 }

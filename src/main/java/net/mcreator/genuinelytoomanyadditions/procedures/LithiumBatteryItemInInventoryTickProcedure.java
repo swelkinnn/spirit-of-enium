@@ -3,9 +3,10 @@ package net.mcreator.genuinelytoomanyadditions.procedures;
 import net.minecraftforge.items.IItemHandlerModifiable;
 import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.entity.player.PlayerDestroyItemEvent;
+import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.common.MinecraftForge;
 
+import net.minecraft.world.World;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.Entity;
 
@@ -31,7 +32,7 @@ public class LithiumBatteryItemInInventoryTickProcedure extends SoeModElements.M
 			return;
 		}
 		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
-		if (((itemstack).getItem() == new ItemStack(LithiumBatteryItem.block, (int) (1)).getItem())) {
+		if ((((itemstack).getItem() == new ItemStack(LithiumBatteryItem.block, (int) (1)).getItem()) && ((((itemstack)).getDamage()) == 0))) {
 			{
 				ItemStack _isc = (itemstack);
 				final ItemStack _setstack = new ItemStack(BurntOutLithiumBatteryItem.block, (int) (1));
@@ -47,20 +48,21 @@ public class LithiumBatteryItemInInventoryTickProcedure extends SoeModElements.M
 	}
 
 	@SubscribeEvent
-	public void onItemDestroyed(PlayerDestroyItemEvent event) {
+	public void onItemCrafted(PlayerEvent.ItemCraftedEvent event) {
 		Entity entity = event.getPlayer();
+		World world = entity.world;
 		double i = entity.getPosX();
 		double j = entity.getPosY();
 		double k = entity.getPosZ();
-		ItemStack itemstack = event.getOriginal();
+		ItemStack itemStack = event.getCrafting();
 		Map<String, Object> dependencies = new HashMap<>();
 		dependencies.put("x", i);
 		dependencies.put("y", j);
 		dependencies.put("z", k);
-		dependencies.put("world", entity.world);
+		dependencies.put("world", world);
 		dependencies.put("entity", entity);
+		dependencies.put("itemstack", itemStack);
 		dependencies.put("event", event);
-		dependencies.put("itemstack", itemstack);
 		this.executeProcedure(dependencies);
 	}
 }
